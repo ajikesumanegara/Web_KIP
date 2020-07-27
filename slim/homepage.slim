@@ -1,0 +1,177 @@
+html
+  head
+    title PT Kharisma Indotech Pratama
+    
+    / / === Bootstrap ===
+    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap-grid.min.css"
+    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap-reboot.min.css"
+    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap.min.css"
+    / script src="assets/stylesheets/js/bootstrap.bundle.min.js"
+    / scrip src="assets/stylesheets/js/bootstrap.min.js"
+    / / === End Bootstrap ===
+
+    link rel="stylesheet" href="assets/stylesheets/css/homepage-style.css"
+    link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"
+  body
+    header
+      nav
+        .container-full
+          .navbar
+            .wrap-navbar
+              .nav-logo
+                a href="homepage.html"
+                  img src="assets/images/logo-kip.png"
+              .nav-menu
+                ul
+                  li
+                    a.selected href="homepage.html" Home
+                  li
+                    a href="about-us.html" About Us
+                  li
+                    a href="#"
+                      | Our Services
+                      img src="assets/images/dropdown-icon.png"
+                  li
+                    a href="#" Our Experiences
+                  li
+                    a href="#" Contact Us
+      .banner
+        .container-custom
+          .wrap-banner
+            .banner-headline
+              h1
+                | Welcome to
+                br
+                | PT Kharisma Indotech Pratama
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            .banner-image
+              .image
+    section
+      .about-us
+        .container-custom
+          .wrap-about-us-section
+            p.tag-about-us About Us
+            .block
+            h2 Lorem Ipsum Dolor Sit Amet
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            button.read-more onclick="window.location.href='about-us.html'"
+              .wrap-button
+                b Read More
+                img src="assets/images/right-arrow.png"
+      .our-services
+        .container-custom
+          .wrap-our-services-section
+            .title
+              h2 Our Services
+            .list-services
+              .wrap-services
+                .service-1
+                  img.icon-service
+                  h3 Network Solution
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  button.learn-more
+                    .wrap-button
+                      b Learn More
+                      img src="assets/images/right-arrow.png"
+                .service-2
+                  img.icon-service
+                  h3 Software Development
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  button.learn-more onclick="window.location.href='our-services.html'"
+                    .wrap-button
+                      b Learn More
+                      img src="assets/images/right-arrow.png"
+                .service-3
+                  img.icon-service
+                  h3 IT Security
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  button.learn-more
+                    .wrap-button
+                      b Learn More
+                      img src="assets/images/right-arrow.png"
+                .service-4
+                  img.icon-service
+                  h3 IT Management
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+                  button.learn-more
+                    .wrap-button
+                      b Learn More
+                      img src="assets/images/right-arrow.png"
+      .our-experiences
+        .container-custom
+          .wrap-our-experiences-section
+            .title
+              h2 Our Experiences
+            .slider-image
+              .wrap-slider-image
+                a.left-arrow href="#"
+                  img src="assets/images/left-arrow.png"
+                .non-selected-image-left
+                .selected-image
+                .non-selected-image-right
+                a.right-arrow href="#"
+                  img src="assets/images/right-arrow.png"
+            .description
+              h3 Lorem Ipsum Dolor Sit Amet
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              button.see-all-experiences
+                .wrap-button
+                  b See All Experiences
+                  img src="assets/images/right-arrow.png"
+    footer
+      .footer
+        .wrap-footer
+          .additional-footer
+              .wrap-left-shape
+                .rectangle
+                .parallelogram
+              .wrap-right-shape
+                .parallelogram
+                .rectangle
+          .main-footer
+            .container-custom
+              .footer-profile
+                  img src="assets/images/logo-kip.png"
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+              .footer-quick-links
+                  p Quick Links
+                  ul
+                    li
+                      a href="about-us.html" About Us
+                    li
+                      a href="our-services.html" Our Services
+                    li
+                      a href="#" Our Experiences
+                    li
+                      a href="#" Terms of Service
+                    li
+                      a href="#" FAQ
+              .footer-contact-us
+                  p Contact Us
+                  ul
+                    li.location
+                      .wrap-location
+                        img
+                        | Jl. Pasang No.22, Bandung
+                    li.phone
+                      .wrap-phone
+                        img
+                        | (+62) 82119160103
+                    li.email
+                      .wrap-email
+                        img
+                        | admin@ptkip.co.id
+              .footer-social-media
+                  p.title Social Media
+                  p.paragraph Follow us on social media to find out the latest updates on our progress.
+                  .wrap-social-media-icon
+                    img.instagram-icon
+                    img.facebook-icon
+                    img.youtube-icon
+          .copyright
+            .container-full
+              .wrap-copyright
+                .line
+                p Copyright 2020 PT Kharisma Indotech Pratama. All Right Reserved.
+
