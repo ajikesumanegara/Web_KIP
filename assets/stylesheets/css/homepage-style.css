@@ -89,32 +89,34 @@ header nav .navbar .wrap-navbar .nav-menu ul li img {
   height: 8px;
   margin-left: 5px;
 }
-header .banner {
+
+.banner {
   padding: 100px 0;
+  height: 100%;
 }
-header .banner .wrap-banner {
+.banner .wrap-banner {
   display: flex;
   align-items: center;
 }
-header .banner .wrap-banner .banner-headline {
+.banner .wrap-banner .banner-headline {
   width: 70%;
 }
-header .banner .wrap-banner .banner-headline h1 {
+.banner .wrap-banner .banner-headline h1 {
   color: white;
   line-height: 56px;
   margin-top: 0;
   margin-bottom: 8px;
 }
-header .banner .wrap-banner .banner-headline p {
+.banner .wrap-banner .banner-headline p {
   color: white;
   margin: 0;
 }
-header .banner .wrap-banner .banner-image {
+.banner .wrap-banner .banner-image {
   width: 50%;
   display: flex;
   justify-content: flex-end;
 }
-header .banner .wrap-banner .banner-image .image {
+.banner .wrap-banner .banner-image .image {
   background-color: #ffc844;
   height: 450px;
   width: 450px;
