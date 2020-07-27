@@ -1,3 +1,3 @@
 # Web_KIP
 
-# Hello World
+Hello World
