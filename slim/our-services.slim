@@ -2,21 +2,19 @@ html
   head
     title Our Services
     
-    / / === Bootstrap ===
-    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap-grid.min.css"
-    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap-reboot.min.css"
-    / link rel="stylesheet" href="assets/stylesheets/css/bootstrap.min.css"
-    / script src="assets/stylesheets/js/bootstrap.bundle.min.js"
-    / scrip src="assets/stylesheets/js/bootstrap.min.js"
-    / / === End Bootstrap ===
-
-    link rel="stylesheet" href="assets/stylesheets/css/our-services-style.css"
+    link rel="stylesheet" href="assets/stylesheets/css/application.css"
+    link rel="stylesheet" href="assets/stylesheets/css/custom_style/our-services-style.css"
     link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
-    link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;700&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    script src="assets/stylesheets/js/bootstrap.bundle.min.js"
+    script src="assets/stylesheets/js/bootstrap.min.js"
+
   body
     header
       nav
-          .container-full
+        .container-fluid
             .navbar
               .wrap-navbar
                 .nav-logo
@@ -36,8 +34,8 @@ html
                       a href="our-experiences.html" Our Experiences
                     li
                       a href="#" Contact Us
-      .banner
-        .container-custom
+      .banner.banner-small
+        .container
           .wrap-banner
             .banner-headline
               h1
@@ -45,7 +43,7 @@ html
               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
     section
       .prolog
-        .container-custom
+        .container
           .prolog-section
             .prolog-headline
               h2 Headline
@@ -60,7 +58,7 @@ html
             .prolog-image
               .image
       .list-apps
-        .container-custom
+        .container
           .wrap-list-apps-section
             h2 Tagline
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -78,7 +76,7 @@ html
                   h3 Headline
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
       .free-consultation
-        .container-custom
+        .container
           .wrap-free-consultation-section
             .wrap-headline
               h2 Lorem ipsum dolor sit amet
@@ -100,7 +98,7 @@ html
                 .parallelogram
                 .rectangle
           .main-footer
-            .container-custom
+            .container.footer-flex
               .footer-profile
                   img src="assets/images/logo-kip.png"
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
@@ -140,7 +138,7 @@ html
                     img.facebook-icon
                     img.youtube-icon
           .copyright
-            .container-full
+            .container-fluid
               .wrap-copyright
                 .line
                 p Copyright 2020 PT Kharisma Indotech Pratama. All Right Reserved.

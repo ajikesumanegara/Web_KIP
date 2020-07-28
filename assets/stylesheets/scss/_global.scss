@@ -1,18 +1,13 @@
-$kip-blue     : #1a73e8;
-$kip-yellow   : #ffc844;
-$kip-black    : #000d1e;
-$section-grey : #f8f8f8;
-
-// === Global Assets ===
+@import 'variable';
 
 body{margin:0;}
 
-.container-full{display: flex;}
+// .container-full{display: flex;}
 
-.container-custom{
-  width: 1200px;
-  margin: 0 auto;
-}
+// .container-custom{
+//   width: 1200px;
+//   margin: 0 auto;
+// }
 
 h1,h2,h3{font-family: spartan,sans-serif;}
 
@@ -39,27 +34,27 @@ p{
   line-height: 24px;
 }
 
-// === End Global Assets ===
-
 header{
   background-color: $kip-blue;
 
   nav{
-    padding:20px 40px 20px 40px;
+    height: 95px;
 
     .navbar{
       display: flex;
+      padding:0;
       flex-grow: 1;
-      align-items: center;
-      height: 65px;
+      padding:20px 40px 0 40px;
 
       .wrap-navbar{
         display: flex;
         flex-grow: 1;
         justify-content: space-between;
 
-        .nav-logo img{height: 65px;}
-
+        .nav-logo{
+          height: 65px;
+          img{height: 100%}
+        }
         .nav-menu{
           display: flex;
           align-items:center;
@@ -99,167 +94,13 @@ header{
   }
 
   .banner{
-    padding:100px 0;
-
-    .wrap-banner{
-
-      .banner-headline{
-        width: 100%;
-        text-align: center;
-
-        h1{
-          color: white;
-          line-height: 56px;
-          margin-top: 0;
-          margin-bottom: 8px;
-        }
-
-        p{
-          color: white;
-          width: 80%;
-          margin:0 auto;
-        }
-      }
-    }
-  }
-}
-
-section{
-
-  .prolog{
-    padding:100px 0;
-
-    .prolog-section{
-      display: flex;
-      align-items:center;
-
-      .prolog-headline{
-        width: 50%;
-
-        h2{
-          margin-top: 0;
-          margin-bottom: 24px;
-        }
-
-        p{
-          margin:0;
-          text-align: justify;
-        }
-      }
-
-      .prolog-image{
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-
-        .image{
-          background-color:$kip-yellow;
-          height: 650px;
-          width: 500px;
-        }
-      }
-    }
+  display: flex;
+  align-items:center;
   }
 
-  .list-apps{
-    padding:100px 0;
-    background-color:$section-grey;
+  .banner-big{height: calc(100% - 95px);}
 
-    .wrap-list-apps-section{
-      text-align: center;
-
-      h2{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
-
-      p{
-        margin:0 auto;
-        width: 80%;
-      }
-
-      .wrap-semua-apps{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 64px;
-
-        .apps-1,.apps-2,.apps-3{
-          width: 30%;
-          text-align:center;
-
-          .image{
-            background-color:$kip-yellow;
-            height: 100px;
-            width: 100px;
-            margin: 0 auto;
-          }
-
-          h3{margin: 32px 0 16px 0;}
-        }
-      }
-    }
-  }
-
-  .free-consultation{
-    padding:100px 0;
-  }
-
-    .wrap-free-consultation-section{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
-
-    .wrap-headline{
-      width: 50%;
-
-      h2{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
-
-      p{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
-
-      button.free-consultation{
-        height: 48px;
-        background-color:$kip-blue;
-        padding:8px 16px;
-        border:none;
-        border-radius: 3px;
-        margin: 0 auto;
-
-        .wrap-button{
-          display: flex;
-          align-items:center;
-
-          b{
-            font-size: 16px;
-            color: white;
-            font-weight: 700;
-            text-transform: uppercase;
-          }
-
-          
-          img{
-            height: 8px;
-            margin-left: 5px;
-            color: white;
-          }
-        }
-      }
-    }
-
-    .wrap-image{
-
-      .image{
-        background-color:$kip-yellow;
-        height: 250px;
-        width: 250px;
-      }
-    }
-  }
+  .banner-small{height: 300px;}
 }
 
 footer{
@@ -318,7 +159,7 @@ footer{
       background-color:$kip-blue;
       padding: 100px 0;
 
-      .container-custom{
+      .footer-flex{
         display: flex;
         align-items:center;
         justify-content: space-between;
@@ -326,7 +167,7 @@ footer{
 
         .footer-profile{
           width: 295px;
-          
+
           img{
             height: 60px;
           }
@@ -448,7 +289,7 @@ footer{
                 }
               }
             }
-          }  
+          }
         }
 
         .footer-social-media{
