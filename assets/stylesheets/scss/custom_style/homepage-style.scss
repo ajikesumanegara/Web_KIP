@@ -101,7 +101,7 @@ section{
       display: flex;
       align-items:flex-start;
 
-      .title{
+      .title-about-us{
         width: 30%;
 
         h2{margin: 0;}
@@ -113,10 +113,11 @@ section{
         .wrap-services{
           display: flex;
           flex-wrap: wrap;
+          justify-content: space-between;
 
-          .service-1,.service-3{margin-right: 84px;}
-
-          .service-1,.service-2{margin-bottom: 64px;}
+          .service-1,.service-2{
+            margin-bottom: 64px;
+          }
 
           .service-1,.service-2,.service-3,.service-4{
             width: 45%;
@@ -141,20 +142,15 @@ section{
               border:1px solid $kip-black;
               border-radius: 3px;
 
-              .wrap-button{
-                display: flex;
-                align-items:center;
+              b{
+                font-size: 16px;
+                color: $kip-black;
+                font-weight: 400;
+              }
 
-                b{
-                  font-size: 16px;
-                  color: $kip-black;
-                  font-weight: 400;
-                }
-
-                img{
-                  height: 8px;
-                  margin-left: 5px;
-                }
+              img{
+                height: 8px;
+                margin-left: 5px;
               }
             }
           }

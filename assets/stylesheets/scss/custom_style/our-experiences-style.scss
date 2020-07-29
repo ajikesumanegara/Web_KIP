@@ -20,3 +20,60 @@
     }
   }
 }
+
+.card-experience{
+  border: 0px solid transparent;
+
+  .card-header{
+    background-color: #fff;
+  }
+
+      .wrap-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .company-profile{
+          display: flex;
+          align-items:center;
+
+          .company-logo img{
+            background-color: $kip-yellow;
+            height: 65px;
+            width: 65px;
+          }
+
+          .company-name{
+            margin-left: 16px;
+
+            h3{
+              color: $kip-black;
+              margin-bottom: 0;
+            }
+
+            p{
+              color: $kip-black;
+              margin-bottom: 0;
+              margin-left: 2px;
+            }
+          }
+        }
+
+        .expand-button{
+
+          h2{color: $kip-black;}
+        }
+      }
+    }
+
+    .card-body{
+      display:flex;
+      justify-content: space-between;
+
+      img{
+        background-color:$kip-yellow;
+        height: 250px;
+        width: 250px;
+        margin-bottom: 32px;
+      }
+    }
