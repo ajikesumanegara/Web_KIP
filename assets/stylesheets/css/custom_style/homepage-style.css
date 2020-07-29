@@ -20,11 +20,6 @@
   display: flex;
   justify-content: flex-end;
 }
-.wrap-banner .banner-image .image {
-  background-color: #ffc844;
-  height: 450px;
-  width: 450px;
-}
 
 section .about-us {
   padding: 100px 0;

@@ -21,9 +21,12 @@
   }
 }
 
-.accordion{
-  padding: 100px 0;
-  padding-bottom: calc(100px - 32px);
+.card-experience{
+  border: 0px solid transparent;
+
+  .card-header{
+    background-color: #fff;
+  }
 
       .wrap-header{
         display: flex;
@@ -42,7 +45,7 @@
 
           .company-name{
             margin-left: 16px;
-            
+
             h3{
               color: $kip-black;
               margin-bottom: 0;
@@ -64,6 +67,8 @@
     }
 
     .card-body{
+      display:flex;
+      justify-content: space-between;
 
       img{
         background-color:$kip-yellow;

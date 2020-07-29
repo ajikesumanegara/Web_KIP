@@ -14,40 +14,46 @@
   margin: 0 auto;
 }
 
-.accordion {
-  padding: 100px 0;
-  padding-bottom: calc(100px - 32px);
+.card-experience {
+  border: 0px solid transparent;
 }
-.accordion .wrap-header {
+.card-experience .card-header {
+  background-color: #fff;
+}
+.card-experience .wrap-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.accordion .wrap-header .company-profile {
+.card-experience .wrap-header .company-profile {
   display: flex;
   align-items: center;
 }
-.accordion .wrap-header .company-profile .company-logo img {
+.card-experience .wrap-header .company-profile .company-logo img {
   background-color: #ffc844;
   height: 65px;
   width: 65px;
 }
-.accordion .wrap-header .company-profile .company-name {
+.card-experience .wrap-header .company-profile .company-name {
   margin-left: 16px;
 }
-.accordion .wrap-header .company-profile .company-name h3 {
+.card-experience .wrap-header .company-profile .company-name h3 {
   color: #000d1e;
   margin-bottom: 0;
 }
-.accordion .wrap-header .company-profile .company-name p {
+.card-experience .wrap-header .company-profile .company-name p {
   color: #000d1e;
   margin-bottom: 0;
   margin-left: 2px;
 }
-.accordion .wrap-header .expand-button h2 {
+.card-experience .wrap-header .expand-button h2 {
   color: #000d1e;
 }
 
+.card-body {
+  display: flex;
+  justify-content: space-between;
+}
 .card-body img {
   background-color: #ffc844;
   height: 250px;

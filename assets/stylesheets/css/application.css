@@ -10032,6 +10032,10 @@ header .banner-small {
   height: 300px;
 }
 
+.wrap-content {
+  padding: 40px 0;
+}
+
 footer {
   bottom: 0;
   width: 100%;
