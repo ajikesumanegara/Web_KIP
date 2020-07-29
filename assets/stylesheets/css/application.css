@@ -9933,6 +9933,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+html {
+  min-height: 100%;
+  position: relative;
+}
+
 body {
   margin: 0;
 }
@@ -10029,6 +10034,12 @@ header .banner-small {
   height: 300px;
 }
 
+footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 0;
+}
 footer .footer .additional-footer {
   display: flex;
   justify-content: space-between;
@@ -10228,4 +10239,10 @@ footer .footer .copyright .wrap-copyright p {
   color: white;
   text-align: center;
   padding: 16px 0;
+  margin-bottom: 0;
+}
+
+.wrap-button {
+  display: flex;
+  align-items: center;
 }
