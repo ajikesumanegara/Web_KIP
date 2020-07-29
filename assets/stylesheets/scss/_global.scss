@@ -80,17 +80,15 @@ header{
                 font-weight: 400;
                 color: white;
                 margin-left: 40px;
-                opacity: 0.75;
               }
 
-              a.selected{
-                font-weight: 600;
-                opacity: 1;
+              .dropdown-style{
+                background-color:transparent;
+                border-color: transparent;
               }
 
-              img{
-                height: 8px;
-                margin-left: 5px;
+              .dropdown-color{
+                color: $kip-black;
               }
             }
           }

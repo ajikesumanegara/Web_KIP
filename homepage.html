@@ -21,13 +21,16 @@
               <div class="nav-menu">
                 <ul>
                   <li>
-                    <a class="selected" href="homepage.html">Home</a>
+                    <a href="homepage.html">Home</a>
                   </li>
                   <li>
                     <a href="about-us.html">About Us</a>
                   </li>
                   <li>
-                    <a href="#">Our Services<img src="assets/images/dropdown-icon.png" /></a>
+                    <a aria-expanded="false" aria-haspopup="true" class="btn btn-secondary dropdown-style dropdown-toggle" data-toggle="dropdown" href="#" id="dropdownMenuLink" role="button">Our Services</a>
+                    <div aria-labelledby="dropdownMenuLink" class="dropdown-menu">
+                      <a class="dropdown-item dropdown-color" href="#"> Network Solution</a><a class="dropdown-item dropdown-color" href="#"> Software Development</a><a class="dropdown-item dropdown-color" href="#"> IT Security</a><a class="dropdown-item dropdown-color" href="#"> IT Management</a>
+                    </div>
                   </li>
                   <li>
                     <a href="our-experiences.html">Our Experiences</a>

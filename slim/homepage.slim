@@ -23,13 +23,17 @@ html
               .nav-menu
                 ul
                   li
-                    a.selected href="homepage.html" Home
+                    a href="homepage.html" Home
                   li
                     a href="about-us.html" About Us
                   li
-                    a href="#"
+                    a#dropdownMenuLink.btn.btn-secondary.dropdown-style.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
                       | Our Services
-                      img src="assets/images/dropdown-icon.png"
+                    .dropdown-menu aria-labelledby="dropdownMenuLink" 
+                      a.dropdown-item.dropdown-color href="#"  Network Solution
+                      a.dropdown-item.dropdown-color href="#"  Software Development
+                      a.dropdown-item.dropdown-color href="#"  IT Security
+                      a.dropdown-item.dropdown-color href="#"  IT Management
                   li
                     a href="our-experiences.html" Our Experiences
                   li

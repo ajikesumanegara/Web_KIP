@@ -10013,15 +10013,13 @@ header nav .navbar .wrap-navbar .nav-menu ul li a {
   font-weight: 400;
   color: white;
   margin-left: 40px;
-  opacity: 0.75;
 }
-header nav .navbar .wrap-navbar .nav-menu ul li a.selected {
-  font-weight: 600;
-  opacity: 1;
+header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-style {
+  background-color: transparent;
+  border-color: transparent;
 }
-header nav .navbar .wrap-navbar .nav-menu ul li img {
-  height: 8px;
-  margin-left: 5px;
+header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-color {
+  color: #000d1e;
 }
 header .banner {
   display: flex;
