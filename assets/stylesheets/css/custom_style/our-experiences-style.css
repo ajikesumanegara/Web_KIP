@@ -18,52 +18,37 @@
   padding: 100px 0;
   padding-bottom: calc(100px - 32px);
 }
-.accordion .card {
-  border: none;
-  border-radius: 0;
-}
-.accordion .card .card-header {
-  border: none;
-  background-color: transparent;
-  padding: 0;
-  margin-bottom: 32px;
-}
-.accordion .card .card-header .wrap-header {
+.accordion .wrap-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.accordion .card .card-header .wrap-header .company-profile {
+.accordion .wrap-header .company-profile {
   display: flex;
   align-items: center;
 }
-.accordion .card .card-header .wrap-header .company-profile .company-logo img {
+.accordion .wrap-header .company-profile .company-logo img {
   background-color: #ffc844;
   height: 65px;
   width: 65px;
 }
-.accordion .card .card-header .wrap-header .company-profile .company-name {
+.accordion .wrap-header .company-profile .company-name {
   margin-left: 16px;
 }
-.accordion .card .card-header .wrap-header .company-profile .company-name h3 {
+.accordion .wrap-header .company-profile .company-name h3 {
   color: #000d1e;
   margin-bottom: 0;
 }
-.accordion .card .card-header .wrap-header .company-profile .company-name p {
+.accordion .wrap-header .company-profile .company-name p {
   color: #000d1e;
   margin-bottom: 0;
   margin-left: 2px;
 }
-.accordion .card .card-header .wrap-header .expand-button h2 {
+.accordion .wrap-header .expand-button h2 {
   color: #000d1e;
 }
-.accordion .card .card-body {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 0;
-}
-.accordion .card .card-body img {
+
+.card-body img {
   background-color: #ffc844;
   height: 250px;
   width: 250px;
