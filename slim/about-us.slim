@@ -27,9 +27,14 @@ html
                   li
                     a href="#" About Us
                   li
-                    a href="#"
-                      | Our Services
-                      img src="assets/images/dropdown-icon.png"
+                    .dropdown
+                      a#dropdownMenuLink.btn.btn-secondary.dropdown-setting.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
+                        | Our Services
+                      .dropdown-menu.item-setting aria-labelledby="dropdownMenuLink" 
+                        a.dropdown-item href="#"  Network Solution
+                        a.dropdown-item href="our-services.html"  Software Development
+                        a.dropdown-item href="#"  IT Security
+                        a.dropdown-item href="#"  IT Management
                   li
                     a href="our-experiences.html" Our Experiences
                   li

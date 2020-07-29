@@ -82,13 +82,22 @@ header{
                 margin-left: 40px;
               }
 
-              .dropdown-style{
+              .dropdown-setting{
                 background-color:transparent;
-                border-color: transparent;
+                border:0 transparent;
+
+                &:focus{
+                  background-color:#0053c1;
+                  box-shadow: none;
+                }
               }
 
-              .dropdown-color{
-                color: $kip-black;
+              .item-setting{
+                
+                a{
+                  margin-left: 0;
+                  color:$kip-black;
+                }
               }
             }
           }

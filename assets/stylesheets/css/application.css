@@ -10014,11 +10014,16 @@ header nav .navbar .wrap-navbar .nav-menu ul li a {
   color: white;
   margin-left: 40px;
 }
-header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-style {
+header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-setting {
   background-color: transparent;
-  border-color: transparent;
+  border: 0 transparent;
 }
-header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-color {
+header nav .navbar .wrap-navbar .nav-menu ul li .dropdown-setting:focus {
+  background-color: #0053c1;
+  box-shadow: none;
+}
+header nav .navbar .wrap-navbar .nav-menu ul li .item-setting a {
+  margin-left: 0;
   color: #000d1e;
 }
 header .banner {
