@@ -72,6 +72,11 @@ section .about-us .wrap-about-us-section button.read-more .wrap-button b {
 section .about-us .wrap-about-us-section button.read-more .wrap-button img {
   height: 8px;
   margin-left: 5px;
+  position: relative;
+}
+section .about-us .wrap-about-us-section button.read-more .wrap-button img:before {
+  position: absolute;
+  left: 50px;
 }
 section .our-services {
   background-color: #f8f8f8;

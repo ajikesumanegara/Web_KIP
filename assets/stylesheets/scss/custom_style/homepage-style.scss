@@ -87,6 +87,12 @@ section{
           img{
             height: 8px;
             margin-left: 5px;
+            position: relative;
+
+            &:before{
+              position: absolute;
+              left: 50px;
+            }
           }
         }
       }

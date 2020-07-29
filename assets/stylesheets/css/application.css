@@ -10253,3 +10253,46 @@ footer .footer .copyright .wrap-copyright p {
   display: flex;
   align-items: center;
 }
+
+.btn-custom {
+  background-color: #fff;
+  border: 1px solid #000d1e;
+  padding: 10px 20px;
+}
+.btn-custom::after {
+  margin-left: 8px;
+  display: inline-block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-image: url("../../images/right-arrow.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.btn-custom:hover {
+  border: 1px solid #1a73e8;
+  color: #1a73e8;
+}
+.btn-custom:hover::after {
+  transition: 0.3s;
+  filter: hue-rotate(180deg);
+  filter: brightness(8);
+  animation-name: arrow-move;
+  animation-duration: 0.4s;
+}
+
+@keyframes arrow-move {
+  0% {
+    background-position-x: 0px;
+  }
+  33% {
+    background-position-x: 10px;
+  }
+  66% {
+    background-position-x: -10px;
+  }
+  100% {
+    background-position-x: 0px;
+  }
+}
