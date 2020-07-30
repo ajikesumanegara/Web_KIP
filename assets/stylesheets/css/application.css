@@ -10032,13 +10032,14 @@ header .banner {
 }
 header .banner-big {
   height: calc(100% - 95px);
+  min-height: 768px;
 }
 header .banner-small {
   height: 300px;
 }
 
-.wrap-content {
-  padding: 40px 0;
+.wrap-section {
+  padding: 100px 0;
 }
 
 footer {
@@ -10255,7 +10256,7 @@ footer .footer .copyright .wrap-copyright p {
 }
 
 .btn-custom {
-  background-color: #fff;
+  background-color: transparent;
   border: 1px solid #000d1e;
   padding: 10px 20px;
 }
@@ -10291,8 +10292,10 @@ footer .footer .copyright .wrap-copyright p {
   }
   66% {
     background-position-x: -10px;
+    opacity: 0;
   }
   100% {
     background-position-x: 0px;
+    opacity: 1;
   }
 }

@@ -111,13 +111,13 @@ header{
   align-items:center;
   }
 
-  .banner-big{height: calc(100% - 95px);}
+  .banner-big{height: calc(100% - 95px);min-height: 768px;}
 
   .banner-small{height: 300px;}
 }
 
-.wrap-content{
-  padding: 40px 0;
+.wrap-section{
+  padding: 100px 0;
 }
 
 footer{
@@ -388,7 +388,7 @@ footer{
 }
 
 .btn-custom{
-  background-color: #fff;
+  background-color: transparent;
   border:1px solid $kip-black;
   padding:10px 20px;
 
@@ -421,6 +421,6 @@ footer{
 @keyframes arrow-move{
   0%    {background-position-x: 0px;}
   33%   {background-position-x: 10px;}
-  66%   {background-position-x:-10px;}
-  100%  {background-position-x: 0px;}
+  66%   {background-position-x:-10px;opacity: 0;}
+  100%  {background-position-x: 0px;opacity: 1;}
 }

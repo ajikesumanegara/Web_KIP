@@ -21,31 +21,28 @@
   justify-content: flex-end;
 }
 
-section .about-us {
-  padding: 100px 0;
-}
-section .about-us .wrap-about-us-section {
+.wrap-about-us-section {
   text-align: center;
 }
-section .about-us .wrap-about-us-section p.tag-about-us {
+.wrap-about-us-section p.tag-about-us {
   color: #000d1e;
   text-transform: uppercase;
   text-align: center;
   margin-top: 0;
   margin-bottom: 8px;
 }
-section .about-us .wrap-about-us-section .block {
+.wrap-about-us-section .block {
   background-color: #000d1e;
   height: 1px;
   max-width: 50px;
   margin: 0 auto;
 }
-section .about-us .wrap-about-us-section h2 {
+.wrap-about-us-section h2 {
   color: #000d1e;
   text-align: center;
   margin: 32px 0 16px 0;
 }
-section .about-us .wrap-about-us-section p {
+.wrap-about-us-section p {
   color: #000d1e;
   line-height: 32px;
   margin-top: 0;
@@ -53,132 +50,117 @@ section .about-us .wrap-about-us-section p {
   padding: 0;
   margin-bottom: 16px;
 }
-section .about-us .wrap-about-us-section button.read-more {
+.wrap-about-us-section button.read-more {
   height: 48px;
   background-color: white;
   padding: 8px 16px;
   border: 1px solid #000d1e;
   border-radius: 3px;
 }
-section .about-us .wrap-about-us-section button.read-more .wrap-button {
+.wrap-about-us-section button.read-more .wrap-button {
   display: flex;
   align-items: center;
 }
-section .about-us .wrap-about-us-section button.read-more .wrap-button b {
+.wrap-about-us-section button.read-more .wrap-button b {
   font-size: 16px;
   color: #000d1e;
   font-weight: 400;
 }
-section .about-us .wrap-about-us-section button.read-more .wrap-button img {
+.wrap-about-us-section button.read-more .wrap-button img {
   height: 8px;
   margin-left: 5px;
   position: relative;
 }
-section .about-us .wrap-about-us-section button.read-more .wrap-button img:before {
+.wrap-about-us-section button.read-more .wrap-button img:before {
   position: absolute;
   left: 50px;
 }
-section .our-services {
+
+.our-services {
   background-color: #f8f8f8;
   padding: 100px 0;
 }
-section .our-services .wrap-our-services-section {
+.our-services .wrap-our-services-section {
   display: flex;
   align-items: flex-start;
 }
-section .our-services .wrap-our-services-section .title-about-us {
+.our-services .wrap-our-services-section .title-about-us {
   width: 30%;
 }
-section .our-services .wrap-our-services-section .title-about-us h2 {
+.our-services .wrap-our-services-section .title-about-us h2 {
   margin: 0;
 }
-section .our-services .wrap-our-services-section .list-services {
+.our-services .wrap-our-services-section .list-services {
   width: 70%;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services {
+.our-services .wrap-our-services-section .list-services .wrap-services {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 {
+.our-services .wrap-our-services-section .list-services .wrap-services .network-solution, .our-services .wrap-our-services-section .list-services .wrap-services .software-development {
   margin-bottom: 64px;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 {
+.our-services .wrap-our-services-section .list-services .wrap-services .services {
   width: 45%;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 img.icon-service, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 img.icon-service, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 img.icon-service, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 img.icon-service {
-  background-color: #ffc844;
+.our-services .wrap-our-services-section .list-services .wrap-services .services .icon-service {
   height: 75px;
   width: 75px;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 h3, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 h3, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 h3, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 h3 {
+.our-services .wrap-our-services-section .list-services .wrap-services .services h3 {
   margin: 32px 0 16px 0;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 p, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 p, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 p, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 p {
+.our-services .wrap-our-services-section .list-services .wrap-services .services p {
   margin-bottom: 16px;
   text-align: justify;
 }
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 button.learn-more, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 button.learn-more, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 button.learn-more, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 button.learn-more {
-  height: 48px;
-  background-color: #f8f8f8;
-  padding: 8px 16px;
-  border: 1px solid #000d1e;
-  border-radius: 3px;
-}
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 button.learn-more b, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 button.learn-more b, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 button.learn-more b, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 button.learn-more b {
-  font-size: 16px;
-  color: #000d1e;
-  font-weight: 400;
-}
-section .our-services .wrap-our-services-section .list-services .wrap-services .service-1 button.learn-more img, section .our-services .wrap-our-services-section .list-services .wrap-services .service-2 button.learn-more img, section .our-services .wrap-our-services-section .list-services .wrap-services .service-3 button.learn-more img, section .our-services .wrap-our-services-section .list-services .wrap-services .service-4 button.learn-more img {
-  height: 8px;
-  margin-left: 5px;
-}
-section .our-experiences {
+
+.our-experiences {
   padding: 100px 0;
 }
-section .our-experiences .wrap-our-experiences-section h2 {
+.our-experiences .wrap-our-experiences-section h2 {
   text-align: center;
   margin-top: 0;
   margin-bottom: 64px;
 }
-section .our-experiences .wrap-our-experiences-section .wrap-slider-image {
+.our-experiences .wrap-our-experiences-section .wrap-slider-image {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-section .our-experiences .wrap-our-experiences-section .wrap-slider-image a img {
+.our-experiences .wrap-our-experiences-section .wrap-slider-image a img {
   width: 25px;
 }
-section .our-experiences .wrap-our-experiences-section .wrap-slider-image .non-selected-image-left {
+.our-experiences .wrap-our-experiences-section .wrap-slider-image .non-selected-image-left {
   background-color: #ffc844;
   height: 175px;
   width: 250px;
 }
-section .our-experiences .wrap-our-experiences-section .wrap-slider-image .selected-image {
+.our-experiences .wrap-our-experiences-section .wrap-slider-image .selected-image {
   background-color: #ffc844;
   height: 350px;
   width: 500px;
 }
-section .our-experiences .wrap-our-experiences-section .wrap-slider-image .non-selected-image-right {
+.our-experiences .wrap-our-experiences-section .wrap-slider-image .non-selected-image-right {
   background-color: #ffc844;
   height: 175px;
   width: 250px;
 }
-section .our-experiences .wrap-our-experiences-section .description {
+.our-experiences .wrap-our-experiences-section .description {
   width: 500px;
   text-align: center;
   margin: 0 auto;
 }
-section .our-experiences .wrap-our-experiences-section .description h3 {
+.our-experiences .wrap-our-experiences-section .description h3 {
   margin-top: 32px;
   margin-bottom: 8px;
 }
-section .our-experiences .wrap-our-experiences-section .description p {
+.our-experiences .wrap-our-experiences-section .description p {
   margin-top: 0px;
   margin-bottom: 16px;
 }
-section .our-experiences .wrap-our-experiences-section .description button.see-all-experiences {
+.our-experiences .wrap-our-experiences-section .description button.see-all-experiences {
   height: 48px;
   background-color: white;
   padding: 8px 16px;
@@ -186,16 +168,16 @@ section .our-experiences .wrap-our-experiences-section .description button.see-a
   border-radius: 3px;
   margin: 0 auto;
 }
-section .our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button {
+.our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button {
   display: flex;
   align-items: center;
 }
-section .our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button b {
+.our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button b {
   font-size: 16px;
   color: #000d1e;
   font-weight: 400;
 }
-section .our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button img {
+.our-experiences .wrap-our-experiences-section .description button.see-all-experiences .wrap-button img {
   height: 8px;
   margin-left: 5px;
 }

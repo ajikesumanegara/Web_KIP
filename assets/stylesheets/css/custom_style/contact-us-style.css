@@ -1,0 +1,15 @@
+.wrap-banner .banner-headline {
+  width: 100%;
+  text-align: center;
+}
+.wrap-banner .banner-headline h1 {
+  color: white;
+  line-height: 56px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.wrap-banner .banner-headline p {
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
