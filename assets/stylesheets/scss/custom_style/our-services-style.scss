@@ -21,12 +21,9 @@
   }
 }
 
-section{
+.prolog{
 
-  .prolog{
-    padding:100px 0;
-
-    .prolog-section{
+    .wrap-prolog{
       display: flex;
       align-items:center;
 
@@ -56,13 +53,12 @@ section{
         }
       }
     }
-  }
+}
 
-  .list-apps{
-    padding:100px 0;
+.list-apps{
     background-color:$section-grey;
 
-    .wrap-list-apps-section{
+    .wrap-list-apps{
       text-align: center;
 
       h2{
@@ -95,13 +91,11 @@ section{
         }
       }
     }
-  }
+}
 
-  .free-consultation{
-    padding:100px 0;
-  }
+.free-consultation{
 
-    .wrap-free-consultation-section{
+  .wrap-free-consultation{
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -150,11 +144,7 @@ section{
 
     .wrap-image{
 
-      .image{
-        background-color:$kip-yellow;
-        height: 250px;
-        width: 250px;
-      }
+      img{height: 250px;}
     }
   }
 }
