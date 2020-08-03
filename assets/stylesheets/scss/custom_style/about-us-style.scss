@@ -20,129 +20,115 @@
   }
 }
 
+.wrap-visi-misi{
+    display: flex;
+    align-items:center;
 
-section{
+    .visi-misi-headline{
+      width: 50%;
 
-  .visi-misi{
-    padding:100px 0;
-
-    .wrap-visi-misi-section{
-      display: flex;
-      align-items:center;
-
-      .visi-misi-headline{
-        width: 50%;
-
-        h2{margin-bottom: 16px;}
-
-        p{margin-bottom: 32px;}
-
-        ul{
-          padding-left: 16px;
-          margin-bottom: 0;
-        }
-      }
-
-      .visi-misi-image{
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-
-        .image{
-          background-color:$kip-yellow;
-          height: 650px;
-          width: 500px;
-        }
-      }
-    }
-  }
-
-  .keunggulan{
-    padding:100px 0;
-    background-color:$section-grey;
-
-    .wrap-keunggulan-section{
-      text-align: center;
-
-      h2{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
-
-      .wrap-semua-keunggulan{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 64px;
-
-        .keunggulan-1,.keunggulan-2,.keunggulan-3{
-          width: 30%;
-          text-align:center;
-
-          .image{
-            background-color:$kip-yellow;
-            height: 100px;
-            width: 100px;
-            margin: 0 auto;
-          }
-
-          h3{margin: 32px 0 16px 0;}
-        }
-      }
-    }
-  }
-
-  .newsletter{
-    padding:100px 0;
-
-    .wrap-newsletter-section{
-      text-align: center;
-
-      .image{
-        background-color:$kip-yellow;
-        height: 100px;
-        width: 100px;
-        margin: 0 auto;
-      }
-
-      h2{margin:32px 0 16px 0;}
+      h2{margin-bottom: 16px;}
 
       p{
-        margin:0 auto;
-        margin-bottom: 16px;
-        width: 800px;
+        text-align: justify;
+        margin-bottom: 32px;
       }
 
-      .subscribe-submit{
-
-        .wrap-subscribe-submit{
-
-          input{
-            height: 48px;
-            padding: 8px 16px;
-            border-radius:3px;
-          }
-
-          input.email{
-            width: 350px;
-            margin-right: 16px;
-            border:1px solid #000d1e;
-            font-family: nunito,sans-serif;
-            font-size: 16px;
-          }
-
-          input.submit{
-            background-color:$kip-blue;
-            width: 150px;
-            font-family: nunito,sans-serif;
-            font-weight: 700;
-            border:none;
-            font-size:16px;
-            color: white;
-            text-align: center;
-          }
-        }
+      ul{
+        text-align: justify;
+        padding-left: 16px;
+        margin-bottom: 0;
       }
     }
 
+    .visi-misi-image{
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+
+      img{
+        height: 650px;
+        width: 500px;
+      }
+    }
+}
+
+.keunggulan{
+  background-color:$section-grey;
+
+  .wrap-keunggulan-section{
+    text-align: center;
+
+    h2{
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+
+    .wrap-semua-keunggulan{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 64px;
+
+      .keunggulan-1,.keunggulan-2,.keunggulan-3{
+        width: 30%;
+        text-align:center;
+
+        img{
+          height: 100px;
+          margin: 0 auto;
+        }
+
+        h3{margin: 32px 0 16px 0;}
+      }
+    }
   }
+}
+
+.wrap-newsletter{
+    text-align: center;
+
+    .newsletter-image{
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    h2{margin:32px 0 16px 0;}
+
+    p{
+      margin:0 auto;
+      margin-bottom: 16px;
+      width: 800px;
+    }
+
+    .subscribe-submit{
+
+      .wrap-subscribe-submit{
+
+        input{
+          height: 48px;
+          padding: 8px 16px;
+          border-radius:3px;
+        }
+
+        input.email{
+          width: 350px;
+          margin-right: 16px;
+          border:1px solid #000d1e;
+          font-family: nunito,sans-serif;
+          font-size: 16px;
+        }
+
+        input.submit{
+          background-color:$kip-blue;
+          width: 150px;
+          font-family: nunito,sans-serif;
+          font-weight: 700;
+          border:none;
+          font-size:16px;
+          color: white;
+          text-align: center;
+        }
+      }
+    }
 }
