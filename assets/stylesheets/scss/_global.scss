@@ -251,63 +251,18 @@ footer{
               color: white;
             }
 
-            li.location{
-
-              .wrap-location{
-                margin-bottom: 16px;
-                font-family: nunito,sans-serif;
-                font-size: 16px;
-                font-weight: 300;
-                display: flex;
-                align-items:center;
+            .wrap-contact-us{
+              margin-bottom: 16px;
+              font-family: nunito,sans-serif;
+              font-size: 16px;
+              font-weight: 300;
+              display: flex;
+              align-items:center;
 
 
-                img{
-                  background-color:$kip-yellow;
-                  width: 25px;
-                  height: 25px;
-                  margin-right: 16px;
-                }
-              }
-            }
-
-            li.phone{
-
-              .wrap-phone{
-                margin-bottom: 16px;
-                font-family: nunito,sans-serif;
-                font-size: 16px;
-                font-weight: 300;
-                display: flex;
-                align-items:center;
-
-
-                img{
-                  background-color:$kip-yellow;
-                  width: 25px;
-                  height: 25px;
-                  margin-right: 16px;
-                }
-              }
-            }
-
-            li.email{
-
-              .wrap-email{
-                margin-bottom: 16px;
-                font-family: nunito,sans-serif;
-                font-size: 16px;
-                font-weight: 300;
-                display: flex;
-                align-items:center;
-
-
-                img{
-                  background-color:$kip-yellow;
-                  width: 25px;
-                  height: 25px;
-                  margin-right: 16px;
-                }
+              img{
+                width: 25px;
+                margin-right: 16px;
               }
             }
           }
@@ -331,26 +286,11 @@ footer{
             margin-bottom: 16px;
           }
 
-          .wrap-social-media-icon{
+          .wrap-social-media{
 
-            img.instagram-icon{
-              background-color:$kip-yellow;
+            img{
               height: 25px;
-              width: 25px;
               margin-right: 16px;
-            }
-
-            img.facebook-icon{
-              background-color:$kip-yellow;
-              height: 25px;
-              width: 25px;
-              margin-right: 16px;
-            }
-
-            img.youtube-icon{
-              background-color:$kip-yellow;
-              height: 25px;
-              width: 25px;
             }
           }
         }

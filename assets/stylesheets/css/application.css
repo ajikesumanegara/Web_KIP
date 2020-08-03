@@ -10155,7 +10155,7 @@ footer .footer .main-footer .footer-flex .footer-contact-us ul li {
   font-size: 16px;
   color: white;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.location .wrap-location {
+footer .footer .main-footer .footer-flex .footer-contact-us ul .wrap-contact-us {
   margin-bottom: 16px;
   font-family: nunito, sans-serif;
   font-size: 16px;
@@ -10163,38 +10163,8 @@ footer .footer .main-footer .footer-flex .footer-contact-us ul li.location .wrap
   display: flex;
   align-items: center;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.location .wrap-location img {
-  background-color: #ffc844;
+footer .footer .main-footer .footer-flex .footer-contact-us ul .wrap-contact-us img {
   width: 25px;
-  height: 25px;
-  margin-right: 16px;
-}
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.phone .wrap-phone {
-  margin-bottom: 16px;
-  font-family: nunito, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-}
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.phone .wrap-phone img {
-  background-color: #ffc844;
-  width: 25px;
-  height: 25px;
-  margin-right: 16px;
-}
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.email .wrap-email {
-  margin-bottom: 16px;
-  font-family: nunito, sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  display: flex;
-  align-items: center;
-}
-footer .footer .main-footer .footer-flex .footer-contact-us ul li.email .wrap-email img {
-  background-color: #ffc844;
-  width: 25px;
-  height: 25px;
   margin-right: 16px;
 }
 footer .footer .main-footer .footer-flex .footer-social-media {
@@ -10213,22 +10183,9 @@ footer .footer .main-footer .footer-flex .footer-social-media p.paragraph {
   margin-top: 0;
   margin-bottom: 16px;
 }
-footer .footer .main-footer .footer-flex .footer-social-media .wrap-social-media-icon img.instagram-icon {
-  background-color: #ffc844;
+footer .footer .main-footer .footer-flex .footer-social-media .wrap-social-media img {
   height: 25px;
-  width: 25px;
   margin-right: 16px;
-}
-footer .footer .main-footer .footer-flex .footer-social-media .wrap-social-media-icon img.facebook-icon {
-  background-color: #ffc844;
-  height: 25px;
-  width: 25px;
-  margin-right: 16px;
-}
-footer .footer .main-footer .footer-flex .footer-social-media .wrap-social-media-icon img.youtube-icon {
-  background-color: #ffc844;
-  height: 25px;
-  width: 25px;
 }
 footer .footer .copyright {
   background-color: #1a73e8;
