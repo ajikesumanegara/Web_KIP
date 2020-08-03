@@ -94,7 +94,6 @@
 
 .our-services{
     background-color:$section-grey;
-    padding:100px 0;
 
     .wrap-our-services-section{
       display: flex;
@@ -138,87 +137,74 @@
     }
 }
 
-.our-experiences{
-    padding:100px 0;
+.wrap-our-experiences-section{
 
-    .wrap-our-experiences-section{
+    h2{
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 64px;
+    }
 
-        h2{
-          text-align: center;
-          margin-top: 0;
-          margin-bottom: 64px;
-        }
+    .wrap-slider-image{
+      display: flex;
+      justify-content: space-between;
+      align-items:center;
 
-        .wrap-slider-image{
-          display: flex;
-          justify-content: space-between;
-          align-items:center;
+      a{
 
-          a{
-
-            img{width: 25px;}
-          }
+        img{width: 25px;}
+      }
 
 
-          .non-selected-image-left{
-            background-color:$kip-yellow;
-            height: 175px;
-            width: 250px;
-          }
+      img.non-selected{
+        height: 175px;
+        width: 250px;
+      }
 
-          .selected-image{
-            background-color:$kip-yellow;
-            height: 350px;
-            width: 500px;
-          }
-
-          .non-selected-image-right{
-            background-color:$kip-yellow;
-            height: 175px;
-            width: 250px;
-          }
-        }
-
-      .description{
+      img.selected{
+        height: 350px;
         width: 500px;
-        text-align: center;
+      }
+    }
+
+    .description{
+      width: 500px;
+      text-align: center;
+      margin: 0 auto;
+
+      h3{
+        margin-top: 32px;
+        margin-bottom: 8px;
+      }
+
+      p{
+        margin-top: 0px;
+        margin-bottom: 16px;
+      }
+
+      button.see-all-experiences{
+        height: 48px;
+        background-color:white;
+        padding:8px 16px;
+        border:1px solid $kip-black;
+        border-radius: 3px;
         margin: 0 auto;
 
-        h3{
-          margin-top: 32px;
-          margin-bottom: 8px;
-        }
+        .wrap-button{
+          display: flex;
+          align-items:center;
 
-        p{
-          margin-top: 0px;
-          margin-bottom: 16px;
-        }
+          b{
+            font-size: 16px;
+            color: $kip-black;
+            font-weight: 400;
+          }
 
-        button.see-all-experiences{
-          height: 48px;
-          background-color:white;
-          padding:8px 16px;
-          border:1px solid $kip-black;
-          border-radius: 3px;
-          margin: 0 auto;
-
-          .wrap-button{
-            display: flex;
-            align-items:center;
-
-            b{
-              font-size: 16px;
-              color: $kip-black;
-              font-weight: 400;
-            }
-
-            img{
-              height: 8px;
-              margin-left: 5px;
-            }
+          img{
+            height: 8px;
+            margin-left: 5px;
           }
         }
       }
     }
 }
-
