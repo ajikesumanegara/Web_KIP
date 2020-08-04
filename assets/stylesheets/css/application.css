@@ -10089,31 +10089,24 @@ footer .footer .additional-footer .wrap-right-shape .rectangle {
   width: 25%;
   height: 32px;
 }
-footer .footer .main-footer {
+footer .footer .wrap-content-footer {
   background-color: #1a73e8;
-  padding: 100px 0;
 }
-footer .footer .main-footer .footer-flex {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-items: flex-start;
+footer .footer .wrap-content-footer .footer-profile {
+  width: 285px;
 }
-footer .footer .main-footer .footer-flex .footer-profile {
-  width: 295px;
-}
-footer .footer .main-footer .footer-flex .footer-profile img {
+footer .footer .wrap-content-footer .footer-profile img {
   height: 60px;
 }
-footer .footer .main-footer .footer-flex .footer-profile p {
+footer .footer .wrap-content-footer .footer-profile p {
   color: white;
   margin-top: 24px;
   margin-bottom: 0;
 }
-footer .footer .main-footer .footer-flex .footer-quick-links {
+footer .footer .wrap-content-footer .footer-quick-links {
   width: 120px;
 }
-footer .footer .main-footer .footer-flex .footer-quick-links p {
+footer .footer .wrap-content-footer .footer-quick-links p {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10121,23 +10114,23 @@ footer .footer .main-footer .footer-flex .footer-quick-links p {
   margin-top: 0;
   margin-bottom: 24px;
 }
-footer .footer .main-footer .footer-flex .footer-quick-links ul {
+footer .footer .wrap-content-footer .footer-quick-links ul {
   padding-left: 0;
   margin: 0;
 }
-footer .footer .main-footer .footer-flex .footer-quick-links ul li {
+footer .footer .wrap-content-footer .footer-quick-links ul li {
   list-style-type: none;
   font-size: 16px;
   margin-bottom: 16px;
 }
-footer .footer .main-footer .footer-flex .footer-quick-links ul li a {
+footer .footer .wrap-content-footer .footer-quick-links ul li a {
   text-decoration: none;
   color: white;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us {
+footer .footer .wrap-content-footer .footer-contact-us {
   width: 230px;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us p {
+footer .footer .wrap-content-footer .footer-contact-us p {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10145,17 +10138,17 @@ footer .footer .main-footer .footer-flex .footer-contact-us p {
   margin-top: 0;
   margin-bottom: 24px;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul {
+footer .footer .wrap-content-footer .footer-contact-us ul {
   padding-left: 0;
   margin-top: 24px;
   margin-bottom: 0;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul li {
+footer .footer .wrap-content-footer .footer-contact-us ul li {
   list-style-type: none;
   font-size: 16px;
   color: white;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul .wrap-contact-us {
+footer .footer .wrap-content-footer .footer-contact-us ul .wrap-contact-us {
   margin-bottom: 16px;
   font-family: nunito, sans-serif;
   font-size: 16px;
@@ -10163,14 +10156,14 @@ footer .footer .main-footer .footer-flex .footer-contact-us ul .wrap-contact-us 
   display: flex;
   align-items: center;
 }
-footer .footer .main-footer .footer-flex .footer-contact-us ul .wrap-contact-us img {
+footer .footer .wrap-content-footer .footer-contact-us ul .wrap-contact-us img {
   width: 25px;
   margin-right: 16px;
 }
-footer .footer .main-footer .footer-flex .footer-social-media {
+footer .footer .wrap-content-footer .footer-social-media {
   width: 270px;
 }
-footer .footer .main-footer .footer-flex .footer-social-media p.title {
+footer .footer .wrap-content-footer .footer-social-media p.title {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10178,12 +10171,12 @@ footer .footer .main-footer .footer-flex .footer-social-media p.title {
   margin-top: 0;
   margin-bottom: 20px;
 }
-footer .footer .main-footer .footer-flex .footer-social-media p.paragraph {
+footer .footer .wrap-content-footer .footer-social-media p.paragraph {
   color: white;
   margin-top: 0;
   margin-bottom: 16px;
 }
-footer .footer .main-footer .footer-flex .footer-social-media .wrap-social-media img {
+footer .footer .wrap-content-footer .footer-social-media .wrap-social-media img {
   height: 25px;
   margin-right: 16px;
 }

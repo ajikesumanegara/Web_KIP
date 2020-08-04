@@ -2,6 +2,8 @@ html
   head
     title PT Kharisma Indotech Pratama
 
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
     link rel="stylesheet" href="assets/stylesheets/css/application.css"
     link rel="stylesheet" href="assets/stylesheets/css/custom_style/homepage-style.css"
     link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
@@ -42,15 +44,17 @@ html
                     a href="contact-us.html" Contact Us
       .banner.banner-big
         .container
-          .wrap-banner
-            .banner-headline
-              h1
-                | Welcome to
-                br
-                | PT Kharisma Indotech Pratama
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-            .banner-image
-              img src="assets/images/banner-illust.png"
+          .row.justify-content-center.align-items-center
+            .col-12.col-sm
+              .banner-headline
+                h1
+                  | Welcome to
+                  br
+                  | PT Kharisma Indotech Pratama
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            .col-12.col-sm
+              .banner-image
+                img.banner-image-custom src="assets/images/banner-illust.png"
     section.about-us
       .wrap-section
         .container
@@ -64,30 +68,30 @@ html
     section.our-services
       .wrap-section
         .container
-          .wrap-our-services-section
-            .title-about-us
+          .row.justify-content-center
+            .col-12.col-sm-4.text-center.text-sm-
               h2 Our Services
-            .list-services
-              .wrap-services
-                .services.network-solution
+            .col-12.col-sm-8
+              .row.row-cols-2.justify-content-center
+                .col-12.col-sm-6.text-center.text-sm-left
                   img.icon-service src="assets/images/net-solution-icon.png"
                   h3 Network Solution
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                   button.btn.btn-custom onclick="window.location.href='our-services.html'"
                     | Learn More
-                .services.software-development
+                .col-12.col-sm-6.text-center.text-sm-left
                   img.icon-service src="assets/images/software-development-icon.png"
                   h3 Software Development
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                   button.btn.btn-custom onclick="window.location.href='our-services.html'"
                     | Learn More
-                .services.it-security
+                .col-12.col-sm-6.text-center.text-sm-left
                   img.icon-service src="assets/images/it-security-icon.png"
                   h3 IT Security
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                   button.btn.btn-custom onclick="window.location.href='our-services.html'"
                     | Learn More
-                .services.it-management
+                .col-12.col-sm-6.text-center.text-sm-left
                   img.icon-service src="assets/images/it-management-icon.png"
                   h3 IT Management
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -96,26 +100,53 @@ html
     section.our-experiences
       .wrap-section
         .container
-          .wrap-our-experiences-section
-            .title
-              h2 Our Experiences
-            .slider-image
-              .wrap-slider-image
-                a.left-arrow href="#"
-                  img src="assets/images/left-arrow.png"
-                .image-experiences
-                  img.non-selected src="assets/images/image-experiences.jpg"
-                .image-experiences
-                  img.selected src="assets/images/image-experiences.jpg"
-                .image-experiences
-                  img.non-selected src="assets/images/image-experiences.jpg"
-                a.right-arrow href="#"
-                  img src="assets/images/right-arrow.png"
-            .description
-              h3 Lorem Ipsum Dolor Sit Amet
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              button.btn.btn-custom onclick="window.location.href='our-experiences.html'"
-                    | See All Experiences
+          #carouselExampleCaptions.carousel.slide data-ride="carousel" 
+            ol.carousel-indicators
+              li.active data-slide-to="0" data-target="#carouselExampleCaptions" 
+              li data-slide-to="1" data-target="#carouselExampleCaptions" 
+              li data-slide-to="2" data-target="#carouselExampleCaptions" 
+            .carousel-inner
+              .carousel-item.active
+                img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
+                .carousel-caption.d-none.d-md-block
+                  h5 First slide label
+                  p Nulla vitae elit libero, a pharetra augue mollis interdum.
+              .carousel-item
+                img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
+                .carousel-caption.d-none.d-md-block
+                  h5 Second slide label
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              .carousel-item
+                img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
+                .carousel-caption.d-none.d-md-block
+                  h5 Third slide label
+                  p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            a.carousel-control-prev data-slide="prev" href="#carouselExampleCaptions" role="button" 
+              span.carousel-control-prev-icon aria-hidden="true" 
+              span.sr-only Previous
+            a.carousel-control-next data-slide="next" href="#carouselExampleCaptions" role="button" 
+              span.carousel-control-next-icon aria-hidden="true" 
+              span.sr-only Next
+          / .wrap-our-experiences-section
+          /   .title
+          /     h2 Our Experiences
+          /   .slider-image
+          /     .wrap-slider-image
+          /       a.left-arrow href="#"
+          /         img src="assets/images/left-arrow.png"
+          /       .image-experiences
+          /         img.non-selected src="assets/images/image-experiences.jpg"
+          /       .image-experiences
+          /         img.selected src="assets/images/image-experiences.jpg"
+          /       .image-experiences
+          /         img.non-selected src="assets/images/image-experiences.jpg"
+          /       a.right-arrow href="#"
+          /         img src="assets/images/right-arrow.png"
+          /   .description
+          /     h3 Lorem Ipsum Dolor Sit Amet
+          /     p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          /     button.btn.btn-custom onclick="window.location.href='our-experiences.html'"
+          /           | See All Experiences
     footer
       .footer
         .wrap-footer
@@ -126,49 +157,54 @@ html
               .wrap-right-shape
                 .parallelogram
                 .rectangle
-          .main-footer
-            .container.footer-flex
-              .footer-profile
-                  img src="assets/images/logo-kip.png"
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-              .footer-quick-links
-                  p Quick Links
-                  ul
-                    li
-                      a href="about-us.html" About Us
-                    li
-                      a href="our-services.html" Our Services
-                    li
-                      a href="#" Our Experiences
-                    li
-                      a href="#" Terms of Service
-                    li
-                      a href="#" FAQ
-              .footer-contact-us
-                  p Contact Us
-                  ul
-                    li.location
-                      .wrap-contact-us
-                        img src="assets/images/icon-location.png"
-                        | Jl. Pasang No.22, Bandung
-                    li.phone
-                      .wrap-contact-us
-                        img src="assets/images/icon-phone.png"
-                        | (+62) 821-1916-0103
-                    li.email
-                      .wrap-contact-us
-                        img src="assets/images/icon-email.png"
-                        | admin@ptkip.co.id
-              .footer-social-media
-                  p.title Social Media
-                  p.paragraph Follow us on social media to find out the latest updates on our progress.
-                  .wrap-social-media
-                    a href="https://instagram.com/helloptkip"
-                      img.instagram src="assets/images/instagram.png"
-                    a
-                      img.facebook src="assets/images/facebook.png"
-                    a
-                      img.linkedin src="assets/images/linkedin.png"
+          .wrap-section.wrap-content-footer
+            .container
+              .row.justify-content-between
+                .col-12.col-sm-12.col.md-12.col-lg-auto
+                  .footer-profile
+                    img src="assets/images/logo-kip.png"
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                .col-12.col-sm-4.col.md-4.col-lg-auto
+                  .footer-quick-links
+                    p Quick Links
+                    ul
+                      li
+                        a href="about-us.html" About Us
+                      li
+                        a href="our-services.html" Our Services
+                      li
+                        a href="#" Our Experiences
+                      li
+                        a href="#" Terms of Service
+                      li
+                        a href="#" FAQ
+                .col-12.col-sm-4.col.md-4.col-lg-auto
+                  .footer-contact-us
+                    p Contact Us
+                    ul
+                      li.location
+                        .wrap-contact-us
+                          img src="assets/images/icon-location.png"
+                          | Jl. Pasang No.22, Bandung
+                      li.phone
+                        .wrap-contact-us
+                          img src="assets/images/icon-phone.png"
+                          | (+62) 821-1916-0103
+                      li.email
+                        .wrap-contact-us
+                          img src="assets/images/icon-email.png"
+                          | admin@ptkip.co.id
+                .col-12.col-sm-4.col.md-4.col-lg-auto
+                  .footer-social-media
+                    p.title Social Media
+                    p.paragraph Follow us on social media to find out the latest updates on our progress.
+                    .wrap-social-media
+                      a href="https://instagram.com/helloptkip"
+                        img.instagram src="assets/images/instagram.png"
+                      a
+                        img.facebook src="assets/images/facebook.png"
+                      a
+                        img.linkedin src="assets/images/linkedin.png"
           .copyright
             .container-fluid
               .wrap-copyright

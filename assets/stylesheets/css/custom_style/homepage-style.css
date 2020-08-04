@@ -1,24 +1,16 @@
-.wrap-banner {
-  display: flex;
-  align-items: center;
-}
-.wrap-banner .banner-headline {
-  width: 70%;
-}
-.wrap-banner .banner-headline h1 {
+.banner-headline h1 {
   color: white;
   line-height: 56px;
   margin-top: 0;
   margin-bottom: 8px;
 }
-.wrap-banner .banner-headline p {
+.banner-headline p {
   color: white;
   margin: 0;
 }
-.wrap-banner .banner-image {
-  width: 50%;
-  display: flex;
-  justify-content: flex-end;
+
+.banner-image-custom {
+  width: 100%;
 }
 
 .wrap-about-us-section {
@@ -79,40 +71,9 @@
 .our-services {
   background-color: #f8f8f8;
 }
-.our-services .wrap-our-services-section {
-  display: flex;
-  align-items: flex-start;
-}
-.our-services .wrap-our-services-section .title-about-us {
-  width: 30%;
-}
-.our-services .wrap-our-services-section .title-about-us h2 {
-  margin: 0;
-}
-.our-services .wrap-our-services-section .list-services {
-  width: 70%;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services .network-solution, .our-services .wrap-our-services-section .list-services .wrap-services .software-development {
-  margin-bottom: 64px;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services .services {
-  width: 45%;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services .services .icon-service {
+
+.icon-service {
   height: 75px;
-  width: 75px;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services .services h3 {
-  margin: 32px 0 16px 0;
-}
-.our-services .wrap-our-services-section .list-services .wrap-services .services p {
-  margin-bottom: 16px;
-  text-align: justify;
 }
 
 .wrap-our-experiences-section h2 {
