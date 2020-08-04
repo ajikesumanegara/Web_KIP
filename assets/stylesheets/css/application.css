@@ -10256,3 +10256,8 @@ footer .footer .copyright .wrap-copyright p {
     opacity: 1;
   }
 }
+.input-custom {
+  height: 48px;
+  padding: 8px 16px;
+  border-radius: 3px;
+}

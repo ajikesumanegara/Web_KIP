@@ -105,13 +105,7 @@
 
       .wrap-subscribe-submit{
 
-        input{
-          height: 48px;
-          padding: 8px 16px;
-          border-radius:3px;
-        }
-
-        input.email{
+        .email{
           width: 350px;
           margin-right: 16px;
           border:1px solid #000d1e;
@@ -119,7 +113,7 @@
           font-size: 16px;
         }
 
-        input.submit{
+        .submit{
           background-color:$kip-blue;
           width: 150px;
           font-family: nunito,sans-serif;

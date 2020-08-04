@@ -85,19 +85,14 @@
   margin-bottom: 16px;
   width: 800px;
 }
-.wrap-newsletter .subscribe-submit .wrap-subscribe-submit input {
-  height: 48px;
-  padding: 8px 16px;
-  border-radius: 3px;
-}
-.wrap-newsletter .subscribe-submit .wrap-subscribe-submit input.email {
+.wrap-newsletter .subscribe-submit .wrap-subscribe-submit .email {
   width: 350px;
   margin-right: 16px;
   border: 1px solid #000d1e;
   font-family: nunito, sans-serif;
   font-size: 16px;
 }
-.wrap-newsletter .subscribe-submit .wrap-subscribe-submit input.submit {
+.wrap-newsletter .subscribe-submit .wrap-subscribe-submit .submit {
   background-color: #1a73e8;
   width: 150px;
   font-family: nunito, sans-serif;
