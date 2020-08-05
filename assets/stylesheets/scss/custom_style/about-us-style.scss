@@ -20,37 +20,34 @@
   }
 }
 
-.wrap-visi-misi{
-    display: flex;
-    align-items:center;
+.wrap-visi-misi-content{
 
-    .visi-misi-headline{
-      width: 50%;
+  h2{margin-bottom: 16px;}
 
-      h2{margin-bottom: 16px;}
+  p{text-align: justify;}
 
-      p{
-        text-align: justify;
-        margin-bottom: 32px;
-      }
+  ul{padding-left: 16px;}
 
-      ul{
-        text-align: justify;
-        padding-left: 16px;
-        margin-bottom: 0;
-      }
+  .wrap-visi{margin-bottom: 32px;}
+}
+
+.wrap-visi-misi-image{
+
+  img{width: 100%;}
+
+  .visi-misi-image-portrait{
+
+    @media(max-width: 768px){
+      display: none;
     }
+  }
 
-    .visi-misi-image{
-      width: 50%;
-      display: flex;
-      justify-content: flex-end;
+  .visi-misi-image-landscape{
 
-      img{
-        height: 650px;
-        width: 500px;
-      }
+    @media(min-width: 768px){
+      display: none;
     }
+  }
 }
 
 .keunggulan{
