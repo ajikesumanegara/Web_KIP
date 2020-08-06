@@ -15,30 +15,30 @@ html
 
   body
     header
-      nav.navbar.navbar-expand-lg.navbar-dark
+      nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom
         a.navbar-brand.navbar-brand-custom href="homepage.html"
           img.nav-logo src="assets/images/logo-kip.png"
         button.navbar-toggler aria-controls="navbarNavDropdown" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNavDropdown" data-toggle="collapse" type="button" 
           span.navbar-toggler-icon.navbar-dark
         #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
           ul.navbar-nav
-            li.nav-item.text-center
+            li.nav-item.text-center.mr-lg-2
               a.nav-link.nav-link-custom href="homepage.html" 
                 | Home
                 span.sr-only (current)
-            li.nav-item.active.text-center
+            li.nav-item.active.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="about-us.html" About Us
-            li.nav-item.dropdown.text-center
+            li.nav-item.dropdown.text-center.mx-lg-2
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
                 | Our Services
-              .dropdown-menu aria-labelledby="navbarDropdownMenuLink" 
+              .dropdown-menu.text-center aria-labelledby="navbarDropdownMenuLink" 
                 a.dropdown-item href="our-services.html" Network Solution
                 a.dropdown-item href="our-services.html" Software Development
                 a.dropdown-item href="our-services.html" IT Security
                 a.dropdown-item href="our-services.html" IT Management
-            li.nav-item.text-center
+            li.nav-item.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
-            li.nav-item.text-center
+            li.nav-item.text-center.ml-lg-2
               a.nav-link.nav-link-custom href="contact-us.html" Contact Us
       .banner.banner-small
         .container
@@ -118,55 +118,56 @@ html
               .wrap-right-shape
                 .parallelogram
                 .rectangle
-          .wrap-section.content-footer
+          .content-footer
             .container
-              .col
-                .row.justify-content-between
-                  .col-12.col-sm-12.col-lg-auto.mb-sm-5.text-center
-                    .footer-profile
-                      img.footer-logo src="assets/images/logo-kip.png"
-                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-                  .col-12.col-sm-6.col-lg-auto.text-center
-                    .footer-quick-links
-                      p Quick Links
-                      ul
-                        li
-                          a href="about-us.html" About Us
-                        li
-                          a href="our-services.html" Our Services
-                        li
-                          a href="our-experiences.html" Our Experiences
-                        li
-                          a href="#" Terms of Service
-                        li
-                          a href="#" FAQ
-                  .col-12.col-sm-6.col-lg-auto.text-center
-                    .footer-contact-us
-                      p Contact Us
-                      ul
-                        li.location
-                          .wrap-contact-us
-                            img.footer-contact-us-icon src="assets/images/icon-location.png"
+              .wrap-section
+                .col
+                  .row.justify-content-between
+                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5
+                      .wrap-footer-profile
+                        img.footer-logo src="assets/images/logo-kip.png"
+                        p.footer-profile-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    .col-auto.col-sm-auto.col-lg-auto.mb-4
+                      .wrap-footer-quick-links
+                        | Quick Links
+                        ul.quick-link-item
+                          li
+                            a href="about-us.html" About Us
+                          li
+                            a href="our-services.html" Our Services
+                          li
+                            a href="our-experiences.html" Our Experiences
+                          li
+                            a href="#" Terms of Service
+                          li
+                            a href="#" FAQ
+                    .col-auto.col-sm-auto.col-lg-auto.
+                      .wrap-footer-contact-us
+                        | Contact Us
+                        ul.contact-us-item
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-location.png"
                             | Jl. Pasang No.22, Bandung
-                        li.phone
-                          .wrap-contact-us
-                            img.footer-contact-us-icon src="assets/images/icon-phone.png"
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-phone.png"
                             | (+62) 821-1916-0103
-                        li.email
-                          .wrap-contact-us
-                            img.footer-contact-us-icon src="assets/images/icon-email.png"
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-email.png"
                             | admin@ptkip.co.id
-                  .col-12.col-sm-12.col-lg-auto.mt-sm-4.text-center
-                    .footer-social-media
-                      p.title Social Media
-                      p.paragraph Follow us on social media to find out the latest updates on our progress.
-                      .wrap-social-media
-                        a href="https://instagram.com/helloptkip"
-                          img.instagram src="assets/images/instagram.png"
-                        a
-                          img.facebook src="assets/images/facebook.png"
-                        a
-                          img.linkedin src="assets/images/linkedin.png"
+                    .col-12.col-sm-4.col-lg-3
+                      .wrap-footer-social-media
+                        | Social Media
+                        p.footer-social-media-paragraph Follow us on social media to find out the latest updates on our progress.
+                        .row.justify-content-start
+                          .col-auto
+                            a href="https://instagram.com/helloptkip"
+                              img.social-media-icon src="assets/images/instagram.png"
+                          .col-auto
+                            a
+                              img.social-media-icon src="assets/images/facebook.png"
+                          .col-auto
+                            a
+                              img.social-media-icon src="assets/images/linkedin.png"
           .copyright
             .container-fluid
               .wrap-copyright
