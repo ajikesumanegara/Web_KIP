@@ -8,9 +8,41 @@
   margin-top: 0;
   margin-bottom: 8px;
 }
+@media (min-width: 576px) and (max-width: 992px) {
+  .wrap-banner .banner-headline h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 576px) {
+  .wrap-banner .banner-headline h1 {
+    font-size: 22px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
+}
 .wrap-banner .banner-headline p {
   color: white;
   margin: 0;
+}
+@media (max-width: 576px) {
+  .wrap-banner .banner-headline p {
+    font-size: 14px;
+  }
+}
+
+.wrap-visi-misi-image img {
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .wrap-visi-misi-image .visi-misi-image-portrait {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .wrap-visi-misi-image .visi-misi-image-landscape {
+    display: none;
+  }
 }
 
 .wrap-visi-misi-content h2 {
@@ -22,22 +54,11 @@
 .wrap-visi-misi-content ul {
   padding-left: 16px;
 }
+.wrap-visi-misi-content ul li {
+  margin-bottom: 16px;
+}
 .wrap-visi-misi-content .wrap-visi {
   margin-bottom: 32px;
-}
-
-.wrap-visi-misi-image img {
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .wrap-visi-misi-image .visi-misi-image-portrait {
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .wrap-visi-misi-image .visi-misi-image-landscape {
-    display: none;
-  }
 }
 
 .keunggulan {

@@ -22,13 +22,13 @@ html
           span.navbar-toggler-icon.navbar-dark
         #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
           ul.navbar-nav
-            li.nav-item.text-right
+            li.nav-item.text-center
               a.nav-link.nav-link-custom href="homepage.html" 
                 | Home
                 span.sr-only (current)
-            li.nav-item.active.text-right
+            li.nav-item.active.text-center
               a.nav-link.nav-link-custom href="about-us.html" About Us
-            li.nav-item.dropdown.text-right
+            li.nav-item.dropdown.text-center
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
                 | Our Services
               .dropdown-menu aria-labelledby="navbarDropdownMenuLink" 
@@ -36,9 +36,9 @@ html
                 a.dropdown-item href="our-services.html" Software Development
                 a.dropdown-item href="our-services.html" IT Security
                 a.dropdown-item href="our-services.html" IT Management
-            li.nav-item.text-right
+            li.nav-item.text-center
               a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
-            li.nav-item.text-right
+            li.nav-item.text-center
               a.nav-link.nav-link-custom href="contact-us.html" Contact Us
       / nav
       /   .container-fluid
@@ -79,7 +79,11 @@ html
       .wrap-section
         .container
           .row.align-items-center
-            .col-12.col-sm-12.col-lg.order-2.order-sm-2.order-lg-1
+            .col-12.col-sm.col-lg
+              .wrap-visi-misi-image
+                img.visi-misi-image-portrait src="assets/images/visi-misi-image.jpg"
+                img.visi-misi-image-landscape src="assets/images/visi-misi-image-landscape.jpg"
+            .col-12.col-sm.col-lg
               .wrap-visi-misi-content
                 .col-12.col-sm.col-lg
                   .wrap-visi
@@ -94,11 +98,7 @@ html
                       li Mengembangkan teknologi informasi dengan kualitas terbaik dan handal bagi masyarakat.
                       li Menerapkan nilai profesionalisme dalam bisnis dan manajemen perusahaan.
                       li Melakukan pengembangan dan riset di bidang teknologi informasi.
-                      li Memberikan kesejahteraan bagi anggota organisasi PT. Kharisma Indotech Pratama.
-            .wrap-visi-misi-image
-              .col-12.col-sm-12.col-lg.order-1.order-sm-1.order-lg-2
-                img.visi-misi-image-portrait src="assets/images/visi-misi-image.jpg"
-                img.visi-misi-image-landscape src="assets/images/visi-misi-image-landscape.jpg"
+
     section.keunggulan
       .wrap-section
         .container
@@ -118,17 +118,17 @@ html
                 img src="assets/images/excellent-service.png"
                 h3 Excellent Service
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-    section.newsletter
-      .wrap-section
-        .container
-          .wrap-newsletter
-            img.newsletter-image src="assets/images/newsletter-icon.png"
-            h2 Subscribe for Newsletter
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-            .subscribe-submit
-              .wrap-subscribe-submit
-                input.input-custom.email type="email" placeholder="example@gmail.com"
-                input.input-custom.submit type="submit" value="SUBSCRIBE"
+    / section.newsletter
+    /   .wrap-section
+    /     .container
+    /       .wrap-newsletter
+    /         img.newsletter-image src="assets/images/newsletter-icon.png"
+    /         h2 Subscribe for Newsletter
+    /         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+    /         .subscribe-submit
+    /           .wrap-subscribe-submit
+    /             input.input-custom.email type="email" placeholder="example@gmail.com"
+    /             input.input-custom.submit type="submit" value="SUBSCRIBE"
     footer
       .footer
         .wrap-footer

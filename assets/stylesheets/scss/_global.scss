@@ -22,6 +22,17 @@ p,li,a,b,span{font-family: nunito,sans-serif;}
 h1{
   font-weight: 700;
   font-size: 40px;
+
+  @media (min-width: $custom-sm) and (max-width: $custom-lg){
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  @media (max-width: $custom-sm){
+    font-size: 22px;
+    line-height: 38px;
+    margin-bottom: 0;
+  }
 }
 
 h2{
@@ -108,6 +119,10 @@ header{
 
   .nav-logo{
     height: 65px;
+
+    @media(max-width: $custom-sm){
+      height: 50px;
+    }
   }
 
   .nav-link-custom{
