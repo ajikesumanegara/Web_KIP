@@ -40,56 +40,33 @@ html
               a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
             li.nav-item.text-center
               a.nav-link.nav-link-custom href="contact-us.html" Contact Us
-      / nav
-      /   .container-fluid
-      /     .navbar
-      /       .wrap-navbar
-      /         .nav-logo
-      /           a href="homepage.html"
-      /             img src="assets/images/logo-kip.png"
-      /         .nav-menu
-      /           ul
-      /             li
-      /               a href="homepage.html" Home
-      /             li
-      /               a href="#" About Us
-      /             li
-      /               .dropdown
-      /                 a#dropdownMenuLink.btn.btn-secondary.dropdown-setting.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" role="button" 
-      /                   | Our Services
-      /                 .dropdown-menu.item-setting aria-labelledby="dropdownMenuLink" 
-      /                   a.dropdown-item href="#"  Network Solution
-      /                   a.dropdown-item href="our-services.html"  Software Development
-      /                   a.dropdown-item href="#"  IT Security
-      /                   a.dropdown-item href="#"  IT Management
-      /             li
-      /               a href="our-experiences.html" Our Experiences
-      /             li
-      /               a href="contact-us.html" Contact Us
       .banner.banner-small
         .container
           .wrap-banner
             .banner-headline
-              h1
-                | About
-                br
-                | PT Kharisma Indotech Pratama
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+              .col
+                h1
+                  | About
+                  br
+                  | PT Kharisma Indotech Pratama
+              .col
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
     section.visi-misi
       .wrap-section
         .container
-          .row.align-items-center
-            .col-12.col-sm.col-lg
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm.col-lg.order-sm-2.order-lg-1
               .wrap-visi-misi-image
-                img.visi-misi-image-portrait src="assets/images/visi-misi-image.jpg"
-                img.visi-misi-image-landscape src="assets/images/visi-misi-image-landscape.jpg"
-            .col-12.col-sm.col-lg
+                .col
+                  img.visi-misi-image-portrait src="assets/images/visi-misi-image.jpg"
+                  img.visi-misi-image-landscape src="assets/images/visi-misi-image-landscape.jpg"
+            .col-12.col-sm.col-lg.order-sm-1.order-lg-2
               .wrap-visi-misi-content
-                .col-12.col-sm.col-lg
+                .col-12.col-sm.col-lg-auto
                   .wrap-visi
                     h2.heading-visi Our Vision
                     p Perbaikan dalam aktivitas anda adalah sasaran dan tanggungjawab kami. Karena kami memang mendambakan kerjasama yang SALING MENGUNTUNGKAN sesuai dengan motto kami, “Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi“.
-                .col-12.col-sm.col-lg
+                .col-12.col-sm.col-lg-auto
                   .wrap-misi
                     h2.heading-misi Our Mission
                     ul.list-misi
@@ -98,37 +75,39 @@ html
                       li Mengembangkan teknologi informasi dengan kualitas terbaik dan handal bagi masyarakat.
                       li Menerapkan nilai profesionalisme dalam bisnis dan manajemen perusahaan.
                       li Melakukan pengembangan dan riset di bidang teknologi informasi.
-
     section.keunggulan
       .wrap-section
         .container
-          .wrap-keunggulan-section
-            h2 Quality is  Our Priority
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            .wrap-semua-keunggulan
-              .keunggulan-1
-                img src="assets/images/provide-solution.png"
-                h3 Provide Solution
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-              .keunggulan-2
-                img src="assets/images/full-support.png"
-                h3 Full Support
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-              .keunggulan-3
-                img src="assets/images/excellent-service.png"
-                h3 Excellent Service
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-    / section.newsletter
-    /   .wrap-section
-    /     .container
-    /       .wrap-newsletter
-    /         img.newsletter-image src="assets/images/newsletter-icon.png"
-    /         h2 Subscribe for Newsletter
-    /         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-    /         .subscribe-submit
-    /           .wrap-subscribe-submit
-    /             input.input-custom.email type="email" placeholder="example@gmail.com"
-    /             input.input-custom.submit type="submit" value="SUBSCRIBE"
+          .wrap-headline-keunggulan
+            .col
+              h2 Quality is  Our Priority
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .wrap-semua-keunggulan
+            .col
+              .row.text-center
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/provide-solution.png"
+                  h3 Provide Solution
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/full-support.png"
+                  h3 Full Support
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/excellent-service.png"
+                  h3 Excellent Service
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+    section.newsletter
+      .wrap-section
+        .container
+          .wrap-newsletter
+            img.newsletter-image src="assets/images/newsletter-icon.png"
+            h2 Subscribe for Newsletter
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+            .subscribe-submit
+              .wrap-subscribe-submit
+                input.input-custom.input-newsletter-email type="email" placeholder="example@gmail.com"
+                input.input-custom.input-newsletter-submit type="submit" value="SUBSCRIBE"
     footer
       .footer
         .wrap-footer
@@ -139,54 +118,55 @@ html
               .wrap-right-shape
                 .parallelogram
                 .rectangle
-          .wrap-section.wrap-content-footer
+          .wrap-section.content-footer
             .container
-              .row.justify-content-between
-                .col-12.col-sm-12.col-lg-auto
-                  .footer-profile
-                    img src="assets/images/logo-kip.png"
-                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-                .col-12.col-sm-4.col-lg-auto
-                  .footer-quick-links
-                    p Quick Links
-                    ul
-                      li
-                        a href="about-us.html" About Us
-                      li
-                        a href="our-services.html" Our Services
-                      li
-                        a href="our-experiences.html" Our Experiences
-                      li
-                        a href="#" Terms of Service
-                      li
-                        a href="#" FAQ
-                .col-12.col-sm-4.col-lg-auto
-                  .footer-contact-us
-                    p Contact Us
-                    ul
-                      li.location
-                        .wrap-contact-us
-                          img src="assets/images/icon-location.png"
-                          | Jl. Pasang No.22, Bandung
-                      li.phone
-                        .wrap-contact-us
-                          img src="assets/images/icon-phone.png"
-                          | (+62) 821-1916-0103
-                      li.email
-                        .wrap-contact-us
-                          img src="assets/images/icon-email.png"
-                          | admin@ptkip.co.id
-                .col-12.col-sm-4.col-lg-auto
-                  .footer-social-media
-                    p.title Social Media
-                    p.paragraph Follow us on social media to find out the latest updates on our progress.
-                    .wrap-social-media
-                      a href="https://instagram.com/helloptkip"
-                        img.instagram src="assets/images/instagram.png"
-                      a
-                        img.facebook src="assets/images/facebook.png"
-                      a
-                        img.linkedin src="assets/images/linkedin.png"
+              .col
+                .row.justify-content-between
+                  .col-12.col-sm-12.col-lg-auto.mb-sm-5.text-center
+                    .footer-profile
+                      img.footer-logo src="assets/images/logo-kip.png"
+                      p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                  .col-12.col-sm-6.col-lg-auto.text-center
+                    .footer-quick-links
+                      p Quick Links
+                      ul
+                        li
+                          a href="about-us.html" About Us
+                        li
+                          a href="our-services.html" Our Services
+                        li
+                          a href="our-experiences.html" Our Experiences
+                        li
+                          a href="#" Terms of Service
+                        li
+                          a href="#" FAQ
+                  .col-12.col-sm-6.col-lg-auto.text-center
+                    .footer-contact-us
+                      p Contact Us
+                      ul
+                        li.location
+                          .wrap-contact-us
+                            img.footer-contact-us-icon src="assets/images/icon-location.png"
+                            | Jl. Pasang No.22, Bandung
+                        li.phone
+                          .wrap-contact-us
+                            img.footer-contact-us-icon src="assets/images/icon-phone.png"
+                            | (+62) 821-1916-0103
+                        li.email
+                          .wrap-contact-us
+                            img.footer-contact-us-icon src="assets/images/icon-email.png"
+                            | admin@ptkip.co.id
+                  .col-12.col-sm-12.col-lg-auto.mt-sm-4.text-center
+                    .footer-social-media
+                      p.title Social Media
+                      p.paragraph Follow us on social media to find out the latest updates on our progress.
+                      .wrap-social-media
+                        a href="https://instagram.com/helloptkip"
+                          img.instagram src="assets/images/instagram.png"
+                        a
+                          img.facebook src="assets/images/facebook.png"
+                        a
+                          img.linkedin src="assets/images/linkedin.png"
           .copyright
             .container-fluid
               .wrap-copyright

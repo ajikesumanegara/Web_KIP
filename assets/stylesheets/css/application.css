@@ -9953,6 +9953,7 @@ p, li, a, b, span {
 h1 {
   font-weight: 700;
   font-size: 40px;
+  line-height: 56px;
 }
 @media (min-width: 576px) and (max-width: 992px) {
   h1 {
@@ -9962,8 +9963,8 @@ h1 {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 22px;
-    line-height: 38px;
+    font-size: 24px;
+    line-height: 40px;
     margin-bottom: 0;
   }
 }
@@ -9972,16 +9973,59 @@ h2 {
   font-weight: 700;
   font-size: 32px;
 }
+@media (min-width: 576px) and (max-width: 992px) {
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 0;
+  }
+}
 
 h3 {
   font-weight: 600;
   font-size: 24px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  h3 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 576px) {
+  h3 {
+    font-size: 16px;
+    line-height: 32px;
+  }
 }
 
 p {
   font-weight: 300;
   font-size: 16px;
   line-height: 24px;
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+li {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+@media (max-width: 576px) {
+  li {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }
 
 header {
@@ -10013,6 +10057,16 @@ header .banner-small {
 
 .wrap-section {
   padding: 100px 0;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .wrap-section {
+    padding: 75px 0;
+  }
+}
+@media (max-width: 576px) {
+  .wrap-section {
+    padding: 50px 0;
+  }
 }
 
 footer {
@@ -10062,24 +10116,18 @@ footer .footer .additional-footer .wrap-right-shape .rectangle {
   width: 25%;
   height: 32px;
 }
-footer .footer .wrap-content-footer {
+footer .footer .content-footer {
   background-color: #1a73e8;
 }
-footer .footer .wrap-content-footer .footer-profile {
-  width: 285px;
-}
-footer .footer .wrap-content-footer .footer-profile img {
+footer .footer .content-footer .footer-profile .footer-logo {
   height: 60px;
 }
-footer .footer .wrap-content-footer .footer-profile p {
+footer .footer .content-footer .footer-profile p {
   color: white;
   margin-top: 24px;
   margin-bottom: 0;
 }
-footer .footer .wrap-content-footer .footer-quick-links {
-  width: 120px;
-}
-footer .footer .wrap-content-footer .footer-quick-links p {
+footer .footer .content-footer .footer-quick-links p {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10087,23 +10135,20 @@ footer .footer .wrap-content-footer .footer-quick-links p {
   margin-top: 0;
   margin-bottom: 24px;
 }
-footer .footer .wrap-content-footer .footer-quick-links ul {
+footer .footer .content-footer .footer-quick-links ul {
   padding-left: 0;
   margin: 0;
 }
-footer .footer .wrap-content-footer .footer-quick-links ul li {
+footer .footer .content-footer .footer-quick-links ul li {
   list-style-type: none;
   font-size: 16px;
   margin-bottom: 16px;
 }
-footer .footer .wrap-content-footer .footer-quick-links ul li a {
+footer .footer .content-footer .footer-quick-links ul li a {
   text-decoration: none;
   color: white;
 }
-footer .footer .wrap-content-footer .footer-contact-us {
-  width: 230px;
-}
-footer .footer .wrap-content-footer .footer-contact-us p {
+footer .footer .content-footer .footer-contact-us p {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10111,17 +10156,17 @@ footer .footer .wrap-content-footer .footer-contact-us p {
   margin-top: 0;
   margin-bottom: 24px;
 }
-footer .footer .wrap-content-footer .footer-contact-us ul {
+footer .footer .content-footer .footer-contact-us ul {
   padding-left: 0;
   margin-top: 24px;
   margin-bottom: 0;
 }
-footer .footer .wrap-content-footer .footer-contact-us ul li {
+footer .footer .content-footer .footer-contact-us ul li {
   list-style-type: none;
   font-size: 16px;
   color: white;
 }
-footer .footer .wrap-content-footer .footer-contact-us ul .wrap-contact-us {
+footer .footer .content-footer .footer-contact-us ul .wrap-contact-us {
   margin-bottom: 16px;
   font-family: nunito, sans-serif;
   font-size: 16px;
@@ -10129,14 +10174,11 @@ footer .footer .wrap-content-footer .footer-contact-us ul .wrap-contact-us {
   display: flex;
   align-items: center;
 }
-footer .footer .wrap-content-footer .footer-contact-us ul .wrap-contact-us img {
+footer .footer .content-footer .footer-contact-us ul .wrap-contact-us .footer-contact-us-icon {
   width: 25px;
   margin-right: 16px;
 }
-footer .footer .wrap-content-footer .footer-social-media {
-  width: 270px;
-}
-footer .footer .wrap-content-footer .footer-social-media p.title {
+footer .footer .content-footer .footer-social-media p.title {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
@@ -10144,12 +10186,12 @@ footer .footer .wrap-content-footer .footer-social-media p.title {
   margin-top: 0;
   margin-bottom: 20px;
 }
-footer .footer .wrap-content-footer .footer-social-media p.paragraph {
+footer .footer .content-footer .footer-social-media p.paragraph {
   color: white;
   margin-top: 0;
   margin-bottom: 16px;
 }
-footer .footer .wrap-content-footer .footer-social-media .wrap-social-media img {
+footer .footer .content-footer .footer-social-media .wrap-social-media img {
   height: 25px;
   margin-right: 16px;
 }

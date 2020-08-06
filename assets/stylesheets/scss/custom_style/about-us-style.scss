@@ -8,20 +8,8 @@
 
     h1{
       color: white;
-      line-height: 56px;
       margin-top: 0;
       margin-bottom: 8px;
-
-      @media (min-width: $custom-sm) and (max-width: $custom-lg){
-        font-size: 32px;
-        line-height: 48px;
-      }
-
-      @media (max-width: $custom-sm){
-        font-size: 22px;
-        line-height: 38px;
-        margin-bottom: 0;
-      }
     }
 
     p{
@@ -51,94 +39,177 @@
     @media(min-width: $custom-sm){
       display: none;
     }
+
+    @media(max-width: $custom-sm){
+      margin-bottom: 24px;
+    }
   }
+
+  // @media(max-width: $custom-sm){
+  //   padding:0 15px;
+  // }
 }
 
 .wrap-visi-misi-content{
 
-  h2{margin-bottom: 16px;}
+  h2{
+    margin-bottom: 16px;
 
-  p{text-align: justify;}
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: $custom-sm){
+      margin-bottom: 8px;
+    }
+  }
 
   ul{
     padding-left: 16px;
 
-    li{margin-bottom: 16px;}
+    li{
+      line-height: 24px;
+      margin-bottom: 16px;
+
+      @media (min-width: $custom-sm) and (max-width: $custom-lg){
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: $custom-sm){
+        margin-bottom: 4px;
+      }
+    }
   }
 
-  .wrap-visi{margin-bottom: 32px;}
+  .wrap-visi{
+    margin-bottom: 32px;
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-bottom: 32px;
+    }
+
+    @media (max-width: $custom-sm){
+      margin-bottom: 24px;
+    }
+  }
+
+  // @media (max-width: $custom-sm){
+  //   text-align: center;
+  // }
 }
 
 .keunggulan{
   background-color:$section-grey;
 
-  .wrap-keunggulan-section{
-    text-align: center;
+  .wrap-headline-keunggulan{
+    text-align:center;
 
     h2{
       margin-top: 0;
       margin-bottom: 16px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        margin-bottom: 8px;
+      }
+
+      @media(max-width: $custom-sm){
+        margin-bottom: 8px;
+      }
     }
 
-    .wrap-semua-keunggulan{
-      display: flex;
-      justify-content: space-between;
-      margin-top: 64px;
+    p{margin-bottom: 0;}
+  }
 
-      .keunggulan-1,.keunggulan-2,.keunggulan-3{
-        width: 30%;
-        text-align:center;
+  .wrap-semua-keunggulan{
+    margin-top: 40px;
 
-        img{
-          height: 100px;
-          margin: 0 auto;
-        }
+    .icon-keunggulan{
+      height: 100px;
 
-        h3{margin: 32px 0 16px 0;}
+      @media(max-width: $custom-sm){
+        height: 75px;
       }
+    }
+
+    h3{
+      margin-top: 32px;
+      margin-bottom: 16px;
+
+      @media (min-width: $custom-sm) and (max-width: $custom-lg){
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: $custom-sm){
+        margin-top: 16px;
+        margin-bottom: 0;
+      }
+    }
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-top: 32px;
+    }
+
+    @media (max-width: $custom-sm){
+      margin-top: 32px;
     }
   }
 }
 
 .wrap-newsletter{
-    text-align: center;
+  text-align: center;
 
-    .newsletter-image{
-      height: 100px;
-      width: 100px;
-      margin: 0 auto;
+  .newsletter-image{
+    width: 100px;
+    margin: 0 auto;
+
+    @media(max-width: $custom-sm){
+      width: 75px;
+    }
+  }
+
+  h2{
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+    @media(min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-top: 24px;
+      margin-bottom: 12px;
     }
 
-    h2{margin:32px 0 16px 0;}
-
-    p{
-      margin:0 auto;
-      margin-bottom: 16px;
-      width: 800px;
+    @media(max-width: $custom-sm){
+      margin-top: 16px;
+      margin-bottom: 8px;
     }
+  }
 
-    .subscribe-submit{
+  p{
+    margin:0 auto;
+    margin-bottom: 16px;
+  }
 
-      .wrap-subscribe-submit{
+  .subscribe-submit{
 
-        .email{
-          width: 350px;
-          margin-right: 16px;
-          border:1px solid #000d1e;
-          font-family: nunito,sans-serif;
-          font-size: 16px;
-        }
+    .wrap-subscribe-submit{
 
-        .submit{
-          background-color:$kip-blue;
-          width: 150px;
-          font-family: nunito,sans-serif;
-          font-weight: 700;
-          border:none;
-          font-size:16px;
-          color: white;
-          text-align: center;
-        }
+      .input-newsletter-email{
+        width: 350px;
+        margin-right: 16px;
+        border:1px solid #000d1e;
+        font-family: nunito,sans-serif;
+        font-size: 16px;
+      }
+
+      .input-newsletter-submit{
+        background-color:$kip-blue;
+        width: 150px;
+        font-family: nunito,sans-serif;
+        font-weight: 700;
+        border:none;
+        font-size:16px;
+        color: white;
+        text-align: center;
       }
     }
+  }
 }
