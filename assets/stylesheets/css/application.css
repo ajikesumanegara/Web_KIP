@@ -10052,7 +10052,12 @@ header .banner {
 }
 header .banner-big {
   height: calc(100% - 95px);
-  min-height: 768px;
+  min-height: 576px;
+}
+@media (max-width: 576px) {
+  header .banner-big {
+    height: calc(100% - 80px);
+  }
 }
 header .banner-small {
   height: 300px;

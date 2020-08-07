@@ -177,7 +177,14 @@ header{
   align-items:center;
   }
 
-  .banner-big{height: calc(100% - 95px);min-height: 768px;}
+  .banner-big{
+    height: calc(100% - 95px);
+    min-height: 576px;
+
+    @media(max-width: $custom-sm){
+      height: calc(100% - 80px)
+    }
+  }
 
   .banner-small{height: 300px;}
 }

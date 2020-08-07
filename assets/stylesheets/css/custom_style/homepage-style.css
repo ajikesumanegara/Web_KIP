@@ -4,6 +4,11 @@
   margin-top: 0;
   margin-bottom: 8px;
 }
+@media (max-width: 576px) {
+  .banner-headline h1 {
+    line-height: 40px;
+  }
+}
 .banner-headline p {
   color: white;
   margin: 0;
@@ -13,59 +18,28 @@
   width: 100%;
 }
 
-.wrap-about-us-section {
-  text-align: center;
-}
-.wrap-about-us-section p.tag-about-us {
+.wrap-about-us-content {
   color: #000d1e;
   text-transform: uppercase;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 8px;
 }
-.wrap-about-us-section .block {
+.wrap-about-us-content .block {
   background-color: #000d1e;
   height: 1px;
   max-width: 50px;
   margin: 0 auto;
 }
-.wrap-about-us-section h2 {
-  color: #000d1e;
-  text-align: center;
-  margin: 32px 0 16px 0;
+.wrap-about-us-content h2 {
+  margin: 16px 0;
+  text-transform: none;
 }
-.wrap-about-us-section p {
-  color: #000d1e;
+.wrap-about-us-content p {
+  text-transform: none;
   line-height: 32px;
-  margin-top: 0;
-  text-align: center;
+  margin-top: 16px;
   padding: 0;
   margin-bottom: 16px;
-}
-.wrap-about-us-section button.read-more {
-  height: 48px;
-  background-color: white;
-  padding: 8px 16px;
-  border: 1px solid #000d1e;
-  border-radius: 3px;
-}
-.wrap-about-us-section button.read-more .wrap-button {
-  display: flex;
-  align-items: center;
-}
-.wrap-about-us-section button.read-more .wrap-button b {
-  font-size: 16px;
-  color: #000d1e;
-  font-weight: 400;
-}
-.wrap-about-us-section button.read-more .wrap-button img {
-  height: 8px;
-  margin-left: 5px;
-  position: relative;
-}
-.wrap-about-us-section button.read-more .wrap-button img:before {
-  position: absolute;
-  left: 50px;
 }
 
 .our-services {

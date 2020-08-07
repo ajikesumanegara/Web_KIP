@@ -7,6 +7,10 @@
     line-height: 56px;
     margin-top: 0;
     margin-bottom: 8px;
+
+    @media(max-width: $custom-sm){
+      line-height: 40px;
+    }
   }
 
   p{
@@ -19,69 +23,31 @@
   width: 100%;
 }
 
-.wrap-about-us-section{
-      text-align: center;
+.wrap-about-us-content{
+    color:$kip-black;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 8px;
 
-      p.tag-about-us{
-        color:$kip-black;
-        text-transform: uppercase;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 8px;
-      }
+  .block{
+    background-color:$kip-black;
+    height: 1px;
+    max-width: 50px;
+    margin:0 auto;
+  }
 
-      .block{
-        background-color:$kip-black;
-        height: 1px;
-        max-width: 50px;
-        margin:0 auto;
-      }
+  h2{
+    margin:16px 0;
+    text-transform: none;
+  }
 
-      h2{
-        color: $kip-black;
-        text-align: center;
-        margin:32px 0 16px 0;
-      }
-
-      p{
-        color: $kip-black;
-        line-height: 32px;
-        margin-top: 0;
-        text-align:center;
-        padding:0;
-        margin-bottom: 16px;
-      }
-
-      button.read-more{
-        height: 48px;
-        background-color:white;
-        padding:8px 16px;
-        border:1px solid $kip-black;
-        border-radius: 3px;
-
-        .wrap-button{
-          display: flex;
-          align-items:center;
-
-          b{
-            font-size: 16px;
-            color: $kip-black;
-            font-weight: 400;
-          }
-
-
-          img{
-            height: 8px;
-            margin-left: 5px;
-            position: relative;
-
-            &:before{
-              position: absolute;
-              left: 50px;
-            }
-          }
-        }
-      }
+  p{
+    text-transform: none;
+    line-height: 32px;
+    margin-top: 16px;
+    padding:0;
+    margin-bottom: 16px;
+  }
 }
 
 .our-services{
