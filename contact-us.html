@@ -19,7 +19,7 @@
             <li class="nav-item text-center mr-lg-2">
               <a class="nav-link nav-link-custom" href="homepage.html">Home<span class="sr-only" current=""></span></a>
             </li>
-            <li class="nav-item active text-center mx-lg-2">
+            <li class="nav-item text-center mx-lg-2">
               <a class="nav-link nav-link-custom" href="about-us.html">About Us</a>
             </li>
             <li class="nav-item dropdown text-center mx-lg-2">
@@ -31,7 +31,7 @@
             <li class="nav-item text-center mx-lg-2">
               <a class="nav-link nav-link-custom" href="our-experiences.html">Our Experiences</a>
             </li>
-            <li class="nav-item text-center ml-lg-2">
+            <li class="nav-item active text-center ml-lg-2">
               <a class="nav-link nav-link-custom" href="contact-us.html">Contact Us</a>
             </li>
           </ul>
@@ -41,12 +41,16 @@
         <div class="container">
           <div class="wrap-banner">
             <div class="banner-headline">
-              <h1>
-                Get In Touch
-              </h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-              </p>
+              <div class="col">
+                <h1>
+                  Get In Touch
+                </h1>
+              </div>
+              <div class="col">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -55,14 +59,43 @@
     <section class="contact-us">
       <div class="wrap-section">
         <div class="container">
-          <div class="wrap-contact-us-section">
-            <div class="google-maps-image">
-              <img class="google-maps" src="assets/images/maps-image.jpg" />
+          <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-sm-auto col-lg-auto">
+              <div class="wrap-image-google-maps">
+                <div class="col">
+                  <img class="image-google-maps-portrait" src="assets/images/maps-image.jpg" />
+                </div>
+                <div class="col">
+                  <img class="image-google-maps-landscape" src="assets/images/maps-image-landscape.jpg" />
+                </div>
+              </div>
             </div>
-            <div class="form">
+            <div class="col-12 mt-3 col-sm-5 col-lg-4">
               <div class="wrap-input">
-                <form>
-                  <input class="input-custom input-contact-us" placeholder="Enter your name" type="text" /><br /><input class="input-custom input-contact-us" placeholder="Enter your email address" type="text" /><br /><input class="input-custom input-contact-us" placeholder="812 3456 7890" type="tel" /><br /><textarea class="input-message input-contact-us" placeholder="Type your message here"></textarea><br /><input class="input-custom submit-contact-us" type="submit" value="SUBMIT" />
+                <form class="form-custom">
+                  <div class="col">
+                    <div class="form-group">
+                      <input class="input-custom form-control" id="InputName" placeholder="Enter your name" type="text" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <input aria-describedby="emailHelp" class="input-custom form-control" id="InputEmail" placeholder="Enter your email address" type="email" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <input class="input-custom form-control" id="InputPhone" placeholder="Enter your phone number" type="number" />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="form-group">
+                      <textarea class="input-custom input-message-custom form-control" id="InputMessage" placeholder="Type your message here"></textarea>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-primary btn-contact-us-custom" type="submit">Submit</button>
+                  </div>
                 </form>
               </div>
             </div>

@@ -456,12 +456,7 @@ footer{
 }
 
 .input-custom{
-  height: 48px;
-  padding: 8px 16px;
-  border-radius:3px;
-
-  @media(max-width: $custom-sm){
-    height: 46px;
-    padding:6px 14px;
-  }
+  width: 100%;
+  font-family: nunito,sans-serif;
+  font-size: 16px;
 }

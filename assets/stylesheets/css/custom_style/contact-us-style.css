@@ -4,45 +4,74 @@
 }
 .wrap-banner .banner-headline h1 {
   color: white;
-  line-height: 56px;
   margin-top: 0;
   margin-bottom: 8px;
 }
 .wrap-banner .banner-headline p {
   color: white;
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
+}
+@media (max-width: 576px) {
+  .wrap-banner .banner-headline p {
+    font-size: 14px;
+  }
 }
 
-.wrap-contact-us-section {
-  display: flex;
-  justify-content: center;
+.image-google-maps-portrait {
+  width: 450px;
+  height: 450px;
 }
-.wrap-contact-us-section .google-maps {
-  height: 456px;
-  width: 456px;
-  margin-right: 32px;
-  border-radius: 3px;
+@media (max-width: 576px) {
+  .image-google-maps-portrait {
+    display: none;
+  }
 }
-.wrap-contact-us-section .input-contact-us {
-  border: 1px solid #000d1e;
-  width: 400px;
-  margin-bottom: 16px;
+@media (min-width: 576px) and (max-width: 992px) {
+  .image-google-maps-portrait {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.image-google-maps-landscape {
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .image-google-maps-landscape {
+    display: none;
+  }
+}
+
+.form-custom {
+  margin-bottom: 0;
+}
+
+.input-custom {
+  width: 100%;
   font-family: nunito, sans-serif;
   font-size: 16px;
 }
-.wrap-contact-us-section .input-message {
+@media (max-width: 576px) {
+  .input-custom {
+    font-size: 14px;
+  }
+}
+
+.input-message-custom {
   min-height: 200px;
   max-height: 200px;
-  padding: 8px 16px;
-  border-radius: 3px;
 }
-.wrap-contact-us-section .submit-contact-us {
-  border: none;
-  background-color: #1a73e8;
-  width: 400px;
+
+.btn-contact-us-custom {
+  width: 100%;
   font-family: nunito, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1;
+}
+@media (max-width: 576px) {
+  .btn-contact-us-custom {
+    font-size: 14px;
+  }
 }

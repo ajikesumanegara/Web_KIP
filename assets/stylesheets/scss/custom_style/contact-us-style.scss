@@ -8,52 +8,70 @@
 
     h1{
       color: white;
-      line-height: 56px;
       margin-top: 0;
       margin-bottom: 8px;
     }
 
     p{
       color: white;
-      width: 80%;
-      margin:0 auto;
+      margin:0;
+
+      @media (max-width: $custom-sm){
+        font-size: 14px;
+      }
     }
   }
 }
 
-.wrap-contact-us-section{
-  display: flex;
-  justify-content: center;
 
-  .google-maps{
-    height: 456px;
-    width: 456px;
-    margin-right: 32px;
-    border-radius: 3px;
+.image-google-maps-portrait{
+  width: 450px;
+  height: 450px;
+
+  @media(max-width: $custom-sm){
+    display: none;
   }
 
-  .input-contact-us{
-    border:1px solid #000d1e;
-    width: 400px;
-    margin-bottom: 16px;
-    font-family: nunito,sans-serif;
-    font-size: 16px;
+  @media(min-width: $custom-sm)and(max-width: $custom-lg){
+    width: 350px;
+    height: 350px;
   }
+}
 
-  .input-message{
-    min-height: 200px;
-    max-height: 200px;
-    padding: 8px 16px;
-    border-radius:3px;
+.image-google-maps-landscape{
+  width: 100%;
+
+  @media(min-width: $custom-sm){
+    display: none;
   }
+}
 
-  .submit-contact-us{
-    border:none;
-    background-color:$kip-blue;
-    width: 400px;
-    font-family: nunito,sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    color:white;
+.form-custom{margin-bottom: 0;}
+
+.input-custom{
+  width: 100%;
+  font-family: nunito,sans-serif;
+  font-size: 16px;
+
+  @media(max-width: $custom-sm){
+    font-size: 14px;
+  }
+}
+
+.input-message-custom{
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.btn-contact-us-custom{
+  width: 100%;
+  font-family: nunito,sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1;
+
+  @media(max-width: $custom-sm){
+    font-size: 14px;
   }
 }

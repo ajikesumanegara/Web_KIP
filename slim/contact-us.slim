@@ -26,7 +26,7 @@ html
               a.nav-link.nav-link-custom href="homepage.html" 
                 | Home
                 span.sr-only (current)
-            li.nav-item.active.text-center.mx-lg-2
+            li.nav-item.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="about-us.html" About Us
             li.nav-item.dropdown.text-center.mx-lg-2
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
@@ -38,33 +38,54 @@ html
                 a.dropdown-item href="our-services.html" IT Management
             li.nav-item.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
-            li.nav-item.text-center.ml-lg-2
+            li.nav-item.active.text-center.ml-lg-2
               a.nav-link.nav-link-custom href="contact-us.html" Contact Us
       .banner.banner-small
         .container
           .wrap-banner
             .banner-headline
-              h1
-                | Get In Touch
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+              .col
+                h1 Get In Touch
+              .col
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
     section.contact-us
       .wrap-section
         .container
-          .wrap-contact-us-section
-            .google-maps-image
-              img.google-maps src="assets/images/maps-image.jpg"
-            .form
+          .row.justify-content-center.align-items-center
+            .col-12.col-sm-auto.col-lg-auto
+              .wrap-image-google-maps
+                .col
+                  img.image-google-maps-portrait src="assets/images/maps-image.jpg"
+                .col
+                  img.image-google-maps-landscape src="assets/images/maps-image-landscape.jpg"
+            .col-12.mt-3.col-sm-5.col-lg-4
               .wrap-input
-                form
-                  input.input-custom.input-contact-us type="text" placeholder="Enter your name"
-                  br
-                  input.input-custom.input-contact-us type="text" placeholder="Enter your email address"
-                  br
-                  input.input-custom.input-contact-us type="tel" placeholder="812 3456 7890"
-                  br
-                  textarea.input-message.input-contact-us placeholder="Type your message here"
-                  br
-                  input.input-custom.submit-contact-us type="submit" value="SUBMIT"
+                form.form-custom
+                  .col
+                    .form-group
+                      input#InputName.input-custom.form-control placeholder="Enter your name" type="text"
+                  .col
+                    .form-group
+                      input#InputEmail.input-custom.form-control aria-describedby="emailHelp" placeholder=("Enter your email address") type="email"
+                      / small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+                  .col
+                    .form-group
+                      input#InputPhone.input-custom.form-control placeholder="Enter your phone number" type="number"
+                  .col
+                    .form-group
+                      textarea#InputMessage.input-custom.input-message-custom.form-control placeholder="Type your message here"
+                  .col
+                    button.btn.btn-primary.btn-contact-us-custom type="submit" Submit
+                / form
+                /   input.input-custom.input-contact-us type="text" placeholder="Enter your name"
+                /   br
+                /   input.input-custom.input-contact-us type="text" placeholder="Enter your email address"
+                /   br
+                /   input.input-custom.input-contact-us type="tel" placeholder="812 3456 7890"
+                /   br
+                /   textarea.input-message.input-contact-us placeholder="Type your message here"
+                /   br
+                /   input.input-custom.submit-contact-us type="submit" value="SUBMIT"
     footer
       .footer
         .wrap-footer
