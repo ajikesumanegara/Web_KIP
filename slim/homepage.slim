@@ -22,11 +22,11 @@ html
           span.navbar-toggler-icon.navbar-dark
         #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
           ul.navbar-nav
-            li.nav-item.text-center.mr-lg-2
+            li.nav-item.active.text-center.mr-lg-2
               a.nav-link.nav-link-custom href="homepage.html" 
                 | Home
                 span.sr-only (current)
-            li.nav-item.active.text-center.mx-lg-2
+            li.nav-item.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="about-us.html" About Us
             li.nav-item.dropdown.text-center.mx-lg-2
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
@@ -45,14 +45,17 @@ html
           .row.justify-content-center.align-items-center
             .col-12.col-sm
               .banner-headline
-                h1
-                  | Welcome to
-                  br
-                  | PT Kharisma Indotech Pratama
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                .col
+                  h1
+                    | Welcome to
+                    br
+                    | PT Kharisma Indotech Pratama
+                .col
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
             .col-12.col-sm
               .banner-image
-                img.banner-image-custom src="assets/images/banner-illust.png"
+                .col
+                  img.banner-image-custom src="assets/images/banner-illust.png"
     section.about-us
       .wrap-section
         .container
@@ -67,17 +70,17 @@ html
       .wrap-section
         .container
           .row.justify-content-center
-            .col-12.col-sm-4.text-center.text-sm-
+            .col-12.col-sm-4.text-left
               h2 Our Services
             .col-12.col-sm-8
               .row.row-cols-2.justify-content-center
-                .col-12.col-sm-6.text-center.text-sm-left
+                .col-12.col-sm-6.text-center.text-sm-left.mb-5
                   img.icon-service src="assets/images/net-solution-icon.png"
                   h3 Network Solution
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
                   button.btn.btn-custom onclick="window.location.href='our-services.html'"
                     | Learn More
-                .col-12.col-sm-6.text-center.text-sm-left
+                .col-12.col-sm-6.text-center.text-sm-left.mb-5
                   img.icon-service src="assets/images/software-development-icon.png"
                   h3 Software Development
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.

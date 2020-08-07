@@ -71,8 +71,11 @@
 .our-services {
   background-color: #f8f8f8;
 }
-
-.icon-service {
+.our-services h3 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.our-services .icon-service {
   height: 75px;
 }
 

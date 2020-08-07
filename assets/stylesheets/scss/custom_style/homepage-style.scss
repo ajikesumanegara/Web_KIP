@@ -84,10 +84,17 @@
       }
 }
 
-.our-services{background-color:$section-grey;}
+.our-services{
+  background-color:$section-grey;
 
-.icon-service{
-  height: 75px;
+  h3{
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+
+  .icon-service{
+    height: 75px;
+  }
 }
 
 
