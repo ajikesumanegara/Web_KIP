@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&amp;display=swap" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/stylesheets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/stylesheets/js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
@@ -169,10 +168,11 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
             </p>
-            <div class="subscribe-submit">
-              <div class="wrap-subscribe-submit">
-                <input class="input-custom input-newsletter-email" placeholder="example@gmail.com" type="email" /><input class="input-custom input-newsletter-submit" type="submit" value="SUBSCRIBE" />
+            <div class="wrap-subscribe-submit">
+              <div class="form-group justify-content-center">
+                <input aria-describedby="emailHelp" class="input-custom input-subscribe-custom form-control" id="InputEmail" placeholder="example@gmail.com" type="email" />
               </div>
+              <button class="btn btn-primary btn-subscribe-custom" type="submit">SUBSCRIBE</button>
             </div>
           </div>
         </div>

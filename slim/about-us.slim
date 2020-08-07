@@ -11,8 +11,7 @@ html
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     script src="assets/stylesheets/js/bootstrap.bundle.min.js"
-    script src="assets/stylesheets/js/bootstrap.min.js"
-
+    
   body
     header
       nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom
@@ -104,10 +103,10 @@ html
             img.newsletter-image src="assets/images/newsletter-icon.png"
             h2 Subscribe for Newsletter
             p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-            .subscribe-submit
-              .wrap-subscribe-submit
-                input.input-custom.input-newsletter-email type="email" placeholder="example@gmail.com"
-                input.input-custom.input-newsletter-submit type="submit" value="SUBSCRIBE"
+            .wrap-subscribe-submit
+              .form-group.justify-content-center
+                input#InputEmail.input-custom.input-subscribe-custom.form-control aria-describedby="emailHelp" placeholder=("example@gmail.com") type="email"
+              button.btn.btn-primary.btn-subscribe-custom type="submit" SUBSCRIBE
     footer
       .footer
         .wrap-footer

@@ -180,39 +180,18 @@
     margin-bottom: 16px;
   }
 
-  .subscribe-submit{
+  .wrap-subscribe-submit{
 
-    .wrap-subscribe-submit{
+    .input-subscribe-custom{
+      display: inline-block;
+      width: 75%;
+    }
 
-      .input-newsletter-email{
-        width: 350px;
-        margin-right: 16px;
-        border:1px solid #000d1e;
-        font-family: nunito,sans-serif;
-        font-size: 16px;
-
-        @media(max-width: $custom-sm){
-          width: 250px;
-          font-size:14px;
-          margin-right: 0px;
-          margin-bottom: 16px;
-        }
-      }
-
-      .input-newsletter-submit{
-        background-color:$kip-blue;
-        width: 150px;
-        font-family: nunito,sans-serif;
-        font-weight: 700;
-        border:none;
-        font-size:16px;
-        color: white;
-        text-align: center;
-
-        @media(max-width: $custom-sm){
-          font-size: 14px;
-        }
-      }
+    .btn-subscribe-custom{
+      font-family: nunito,sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 1;
     }
   }
 }
