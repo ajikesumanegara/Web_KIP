@@ -26,9 +26,9 @@ html
               a.nav-link.nav-link-custom href="homepage.html" 
                 | Home
                 span.sr-only (current)
-            li.nav-item.active.text-center.mx-lg-2
+            li.nav-item.text-center.mx-lg-2
               a.nav-link.nav-link-custom href="about-us.html" About Us
-            li.nav-item.dropdown.text-center.mx-lg-2
+            li.nav-item.active.dropdown.text-center.mx-lg-2
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
                 | Our Services
               .dropdown-menu.text-center aria-labelledby="navbarDropdownMenuLink" 
@@ -44,49 +44,63 @@ html
         .container
           .wrap-banner
             .banner-headline
-              h1
-                | Software Development
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+              .col
+                h1
+                  | Software Development
+              .col
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
     section.prolog
       .wrap-section
         .container
-          .wrap-prolog
-            .prolog-headline
-              h2 Software Development
-              p
-                | Application System adalah layanan pembuatan dan pengembangan aplikasi yang sistematis yang dapat mendukung pemenuhan kebutuhan pelanggan dalam menjalankan bisnis proses dari operasionalnya. Application System yang sudah di deploy diantaranya : SIM UKM, SIM RS, SIM Klinik, SIM Akademik, SIM Apotek, SIM Peternakan, SIM Resto, selain itu KIP dapat membuat rekomendasi sistem yang lain sesuai kebutuhan pelanggan saat ini.
-            .prolog-image
-              img src="assets/images/software-development-image.jpg"
-    section.list-apps
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm.col-lg.order-sm-1.order-lg-1
+              .wrap-prolog-image
+                .col
+                  img.prolog-image-portrait src="assets/images/software-development-image.jpg"
+                  img.prolog-image-landscape src="assets/images/software-development-image-landscape.jpg"
+            .col-12.col-sm.col-lg.order-sm-2.order-lg-2
+              .wrap-prolog-content
+                .col
+                  .wrap-prolog-headline
+                    h2.heading-prolog Software Development
+                    p Application System adalah layanan pembuatan dan pengembangan aplikasi yang sistematis yang dapat mendukung pemenuhan kebutuhan pelanggan dalam menjalankan bisnis proses dari operasionalnya. Application System yang sudah di deploy diantaranya : SIM UKM, SIM RS, SIM Klinik, SIM Akademik, SIM Apotek, SIM Peternakan, SIM Resto, selain itu KIP dapat membuat rekomendasi sistem yang lain sesuai kebutuhan pelanggan saat ini.
+    section.keunggulan
       .wrap-section
         .container
-          .wrap-list-apps
-            h2 Tagline
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-            .wrap-semua-apps
-              .apps-1
-                  .image
-                  h3 Headline
+          .wrap-headline-keunggulan
+            .col
+              h2 Let Us Development Your Project
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .wrap-semua-keunggulan
+            .col
+              .row.text-center
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/provide-solution.png"
+                  h3 Provide Solution
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-              .apps-2
-                  .image
-                  h3 Headline
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/full-support.png"
+                  h3 Full Support
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
-              .apps-3
-                  .image
-                  h3 Headline
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/excellent-service.png"
+                  h3 Excellent Service
                   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
     section.free-consultation
       .wrap-section
         .container
-          .wrap-free-consultation
-            .wrap-headline
-              h2 Lorem ipsum dolor sit amet
-              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-              button.btn.btn-custom onclick="window.location.href='contact-us.html'"
-                | Free Consultation Now
-            .wrap-image
-              img src="assets/images/free-consultation.png"
+          .row.align-items-center.justify-content-between
+            .col-6.col-sm-6.col-lg-7
+              .wrap-free-consultation-headline
+                .col
+                  h2 Lorem ipsum dolor sit amet
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                  button.btn.btn-custom onclick="window.location.href='contact-us.html'"
+                    | Free Consultation Now
+            .col-6.col-sm-auto.col-lg-auto
+              .wrap-free-consultation-image
+                .col
+                  img.free-consultation-image src="assets/images/free-consultation.png"
     footer
       .footer
         .wrap-footer

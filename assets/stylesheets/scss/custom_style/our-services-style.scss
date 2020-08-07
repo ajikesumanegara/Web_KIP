@@ -8,143 +8,162 @@
 
     h1{
       color: white;
-      line-height: 56px;
       margin-top: 0;
       margin-bottom: 8px;
     }
 
     p{
       color: white;
-      width: 80%;
-      margin:0 auto;
+      margin:0;
+
+      @media (max-width: $custom-sm){
+        font-size: 14px;
+      }
     }
   }
 }
 
-.prolog{
+.wrap-prolog-image{
 
-    .wrap-prolog{
-      display: flex;
-      align-items:center;
+  img{width: 100%;}
 
-      .prolog-headline{
-        width: 50%;
+  .prolog-image-portrait{
 
-        h2{
-          margin-top: 0;
-          margin-bottom: 24px;
-        }
-
-        p{
-          margin:0;
-          text-align: justify;
-        }
-      }
-
-      .prolog-image{
-        width: 50%;
-        display: flex;
-        justify-content: flex-end;
-
-        .image{
-          background-color:$kip-yellow;
-          height: 650px;
-          width: 500px;
-        }
-      }
+    @media(max-width: $custom-sm){
+      display: none;
     }
+  }
+
+  .prolog-image-landscape{
+
+    @media(min-width: $custom-sm){
+      display: none;
+    }
+
+    @media(max-width: $custom-sm){
+      margin-bottom: 24px;
+    }
+  }
 }
 
-.list-apps{
-    background-color:$section-grey;
+.wrap-prolog-content{
 
-    .wrap-list-apps{
-      text-align: center;
+  h2{
+    margin-bottom: 16px;
 
-      h2{
-        margin-top: 0;
-        margin-bottom: 16px;
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: $custom-sm){
+      margin-bottom: 8px;
+    }
+  }
+}
+
+.keunggulan{
+  background-color:$section-grey;
+
+  .wrap-headline-keunggulan{
+    text-align:center;
+
+    h2{
+      margin-top: 0;
+      margin-bottom: 16px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        margin-bottom: 8px;
       }
 
-      p{
-        margin:0 auto;
-        width: 80%;
-      }
-
-      .wrap-semua-apps{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 64px;
-
-        .apps-1,.apps-2,.apps-3{
-          width: 30%;
-          text-align:center;
-
-          .image{
-            background-color:$kip-yellow;
-            height: 100px;
-            width: 100px;
-            margin: 0 auto;
-          }
-
-          h3{margin: 32px 0 16px 0;}
-        }
+      @media(max-width: $custom-sm){
+        margin-bottom: 8px;
       }
     }
+
+    p{margin-bottom: 0;}
+  }
+
+  .wrap-semua-keunggulan{
+    margin-top: 40px;
+
+    .icon-keunggulan{
+      height: 100px;
+
+      @media(max-width: $custom-sm){
+        height: 75px;
+      }
+    }
+
+    h3{
+      margin-top: 32px;
+      margin-bottom: 16px;
+
+      @media (min-width: $custom-sm) and (max-width: $custom-lg){
+        margin-top: 24px;
+        margin-bottom: 8px;
+      }
+
+      @media (max-width: $custom-sm){
+        margin-top: 16px;
+        margin-bottom: 0;
+      }
+    }
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-top: 32px;
+    }
+
+    @media (max-width: $custom-sm){
+      margin-top: 32px;
+    }
+  }
 }
 
 .free-consultation{
 
-  .wrap-free-consultation{
-    display: flex;
-    align-items:center;
-    justify-content: space-between;
+  .wrap-free-consultation-headline{
 
-    .wrap-headline{
-      width: 50%;
+    h2{
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
 
-      h2{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
+    p{
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
 
-      p{
-        margin-top: 0;
-        margin-bottom: 16px;
-      }
+    button.free-consultation{
+      height: 48px;
+      background-color:$kip-blue;
+      padding:8px 16px;
+      border:none;
+      border-radius: 3px;
+      margin: 0 auto;
 
-      button.free-consultation{
-        height: 48px;
-        background-color:$kip-blue;
-        padding:8px 16px;
-        border:none;
-        border-radius: 3px;
-        margin: 0 auto;
+      .wrap-button{
+        display: flex;
+        align-items:center;
 
-        .wrap-button{
-          display: flex;
-          align-items:center;
+        b{
+          font-size: 16px;
+          color: white;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
 
-          b{
-            font-size: 16px;
-            color: white;
-            font-weight: 700;
-            text-transform: uppercase;
-          }
-
-          
-          img{
-            height: 8px;
-            margin-left: 5px;
-            color: white;
-          }
+        
+        img{
+          height: 8px;
+          margin-left: 5px;
+          color: white;
         }
       }
     }
+  }
 
-    .wrap-image{
+  .wrap-free-consultation-image{
 
-      img{height: 250px;}
-    }
+    img{height: 250px;}
   }
 }
