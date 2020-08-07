@@ -126,44 +126,31 @@
     h2{
       margin-top: 0;
       margin-bottom: 16px;
+
+      @media(max-width: $custom-sm){
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
     }
 
     p{
       margin-top: 0;
       margin-bottom: 16px;
     }
-
-    button.free-consultation{
-      height: 48px;
-      background-color:$kip-blue;
-      padding:8px 16px;
-      border:none;
-      border-radius: 3px;
-      margin: 0 auto;
-
-      .wrap-button{
-        display: flex;
-        align-items:center;
-
-        b{
-          font-size: 16px;
-          color: white;
-          font-weight: 700;
-          text-transform: uppercase;
-        }
-
-        
-        img{
-          height: 8px;
-          margin-left: 5px;
-          color: white;
-        }
-      }
-    }
   }
 
   .wrap-free-consultation-image{
 
-    img{height: 250px;}
+    img{
+      height: 250px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        height: 150px;
+      }
+
+      @media(max-width: $custom-sm){
+        height: 100px;
+      }
+    }
   }
 }
