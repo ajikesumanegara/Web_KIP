@@ -4,14 +4,17 @@
 }
 .wrap-banner .banner-headline h1 {
   color: white;
-  line-height: 56px;
   margin-top: 0;
   margin-bottom: 8px;
 }
 .wrap-banner .banner-headline p {
   color: white;
-  width: 80%;
-  margin: 0 auto;
+  margin: 0;
+}
+@media (max-width: 576px) {
+  .wrap-banner .banner-headline p {
+    font-size: 14px;
+  }
 }
 
 .card-experience {
@@ -20,43 +23,61 @@
 .card-experience .card-header {
   background-color: #fff;
 }
-.card-experience .wrap-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.card-experience .wrap-header .company-profile {
-  display: flex;
-  align-items: center;
-}
-.card-experience .wrap-header .company-profile .company-logo img {
-  background-color: #ffc844;
+.card-experience .wrap-card-header .logo-instansi {
   height: 65px;
-  width: 65px;
 }
-.card-experience .wrap-header .company-profile .company-name {
-  margin-left: 16px;
+@media (max-width: 576px) {
+  .card-experience .wrap-card-header .logo-instansi {
+    height: 50px;
+  }
 }
-.card-experience .wrap-header .company-profile .company-name h3 {
-  color: #000d1e;
+.card-experience .wrap-card-header h3 {
+  margin-bottom: 4px;
+}
+@media (max-width: 576px) {
+  .card-experience .wrap-card-header h3 {
+    line-height: 24px;
+  }
+}
+.card-experience .wrap-card-header p {
   margin-bottom: 0;
 }
-.card-experience .wrap-header .company-profile .company-name p {
+.card-experience .expand-button {
   color: #000d1e;
-  margin-bottom: 0;
-  margin-left: 2px;
+  font-size: 32px;
 }
-.card-experience .wrap-header .expand-button h2 {
-  color: #000d1e;
+@media (max-width: 576px) {
+  .card-experience .expand-button {
+    font-size: 24px;
+  }
 }
 
-.card-body {
-  display: flex;
-  justify-content: space-between;
+.card-body .wrap-card-body {
+  margin-bottom: 32px;
 }
-.card-body img {
-  background-color: #ffc844;
+@media (min-width: 576px) and (max-width: 992px) {
+  .card-body .wrap-card-body {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 576px) {
+  .card-body .wrap-card-body {
+    margin-bottom: 8px;
+  }
+}
+.card-body .wrap-card-body .image-documentation {
   height: 250px;
   width: 250px;
-  margin-bottom: 32px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .card-body .wrap-card-body .image-documentation {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .card-body .wrap-card-body .image-documentation {
+    height: 175px;
+    width: 175px;
+  }
 }

@@ -8,15 +8,17 @@
 
     h1{
       color: white;
-      line-height: 56px;
       margin-top: 0;
       margin-bottom: 8px;
     }
 
     p{
       color: white;
-      width: 80%;
-      margin:0 auto;
+      margin:0;
+
+      @media (max-width: $custom-sm){
+        font-size: 14px;
+      }
     }
   }
 }
@@ -28,52 +30,63 @@
     background-color: #fff;
   }
 
-      .wrap-header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .wrap-card-header{
 
-        .company-profile{
-          display: flex;
-          align-items:center;
+      .logo-instansi{
+        height: 65px;
 
-          .company-logo img{
-            background-color: $kip-yellow;
-            height: 65px;
-            width: 65px;
-          }
-
-          .company-name{
-            margin-left: 16px;
-
-            h3{
-              color: $kip-black;
-              margin-bottom: 0;
-            }
-
-            p{
-              color: $kip-black;
-              margin-bottom: 0;
-              margin-left: 2px;
-            }
-          }
+        @media(max-width: $custom-sm){
+          height: 50px;
         }
+      }
 
-        .expand-button{
+      h3{
+        margin-bottom: 4px;
 
-          h2{color: $kip-black;}
+        @media(max-width: $custom-sm){
+          line-height: 24px;
+        }
+      }
+
+      p{margin-bottom: 0;}
+      }
+
+      .expand-button{
+        color: $kip-black;
+        font-size: 32px;
+
+        @media(max-width: $custom-sm){
+          font-size: 24px;
         }
       }
     }
 
     .card-body{
-      display:flex;
-      justify-content: space-between;
 
-      img{
-        background-color:$kip-yellow;
-        height: 250px;
-        width: 250px;
+      .wrap-card-body{
         margin-bottom: 32px;
+
+        @media(min-width: $custom-sm) and (max-width: $custom-lg){
+          margin-bottom: 16px;
+        }
+
+        @media(max-width: $custom-sm){
+          margin-bottom: 8px;
+        }
+
+        .image-documentation{
+          height: 250px;
+          width: 250px;
+
+          @media(min-width: $custom-sm) and (max-width: $custom-lg){
+            height: 150px;
+            width: 150px;
+          }
+
+          @media(max-width: $custom-sm){
+            height: 175px;
+            width: 175px;
+          }
+        }
       }
     }
