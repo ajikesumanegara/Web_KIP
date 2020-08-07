@@ -198,6 +198,13 @@
         border:1px solid #000d1e;
         font-family: nunito,sans-serif;
         font-size: 16px;
+
+        @media(max-width: $custom-sm){
+          width: 250px;
+          font-size:14px;
+          margin-right: 0px;
+          margin-bottom: 16px;
+        }
       }
 
       .input-newsletter-submit{
@@ -209,6 +216,10 @@
         font-size:16px;
         color: white;
         text-align: center;
+
+        @media(max-width: $custom-sm){
+          font-size: 14px;
+        }
       }
     }
   }
