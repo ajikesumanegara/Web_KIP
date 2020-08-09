@@ -62,34 +62,35 @@
             <div class="col-12 col-sm-auto col-lg-auto">
               <div class="wrap-image-google-maps">
                 <div class="col">
-                  <img class="image-google-maps-portrait" src="assets/images/maps-image.jpg" />
-                </div>
-                <div class="col">
-                  <img class="image-google-maps-landscape" src="assets/images/maps-image-landscape.jpg" />
+                  <div class="mapouter">
+                    <div class="gmap_canvas">
+                      <iframe frameborder="0" id="gmap_canvas" src="https://maps.google.com/maps?q=pasang%20no.%2022&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-12 mt-3 col-sm-5 col-lg-4">
+            <div class="col-12 mt-3 col-sm-8 col-lg-4">
               <div class="wrap-input">
-                <form class="form-custom">
+                <form action="mailto:sightraster@gmail.com" class="form-custom" enctype="text/plain" method="post">
                   <div class="col">
                     <div class="form-group">
-                      <input class="input-custom form-control" id="InputName" placeholder="Enter your name" type="text" />
+                      <input class="input-custom form-control" id="InputName" name="name" placeholder="Enter your name" type="text" />
                     </div>
                   </div>
                   <div class="col">
                     <div class="form-group">
-                      <input aria-describedby="emailHelp" class="input-custom form-control" id="InputEmail" placeholder="Enter your email address" type="email" />
+                      <input aria-describedby="emailHelp" class="input-custom form-control" id="InputEmail" name="mail" placeholder="Enter your email address" type="email" />
                     </div>
                   </div>
                   <div class="col">
                     <div class="form-group">
-                      <input class="input-custom form-control" id="InputPhone" placeholder="Enter your phone number" type="number" />
+                      <input class="input-custom form-control" id="InputPhone" name="phone" placeholder="Enter your phone number" type="number" />
                     </div>
                   </div>
                   <div class="col">
                     <div class="form-group">
-                      <textarea class="input-custom input-message-custom form-control" id="InputMessage" placeholder="Type your message here"></textarea>
+                      <textarea class="input-custom input-message-custom form-control" id="InputMessage" name="comment" placeholder="Type your message here"></textarea>
                     </div>
                   </div>
                   <div class="col">
@@ -99,6 +100,7 @@
               </div>
             </div>
           </div>
+          <div class="row"></div>
         </div>
       </div>
     </section>

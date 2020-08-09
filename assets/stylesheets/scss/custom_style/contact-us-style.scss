@@ -74,3 +74,17 @@
     font-size: 14px;
   }
 }
+
+.gmap_canvas{
+  display:flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  #gmap_canvas{
+    width: 450px;
+    height: 450px;
+  }
+  @media (max-width:768px){
+    justify-content:center;
+  }
+}

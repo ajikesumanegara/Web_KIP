@@ -54,25 +54,27 @@ html
             .col-12.col-sm-auto.col-lg-auto
               .wrap-image-google-maps
                 .col
-                  img.image-google-maps-portrait src="assets/images/maps-image.jpg"
-                .col
-                  img.image-google-maps-landscape src="assets/images/maps-image-landscape.jpg"
-            .col-12.mt-3.col-sm-5.col-lg-4
+                  .mapouter
+                    .gmap_canvas
+                      iframe#gmap_canvas frameborder="0" src="https://maps.google.com/maps?q=pasang%20no.%2022&t=&z=13&ie=UTF8&iwloc=&output=embed"
+
+            .col-12.mt-3.col-sm-8.col-lg-4
               .wrap-input
-                form.form-custom
+
+                form.form-custom action="mailto:sightraster@gmail.com" method="post" enctype="text/plain"
                   .col
                     .form-group
-                      input#InputName.input-custom.form-control placeholder="Enter your name" type="text"
+                      input#InputName.input-custom.form-control placeholder="Enter your name" type="text" name="name"
                   .col
                     .form-group
-                      input#InputEmail.input-custom.form-control aria-describedby="emailHelp" placeholder=("Enter your email address") type="email"
+                      input#InputEmail.input-custom.form-control aria-describedby="emailHelp" placeholder=("Enter your email address") type="email" name="mail"
                       / small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
                   .col
                     .form-group
-                      input#InputPhone.input-custom.form-control placeholder="Enter your phone number" type="number"
+                      input#InputPhone.input-custom.form-control placeholder="Enter your phone number" type="number" name="phone"
                   .col
                     .form-group
-                      textarea#InputMessage.input-custom.input-message-custom.form-control placeholder="Type your message here"
+                      textarea#InputMessage.input-custom.input-message-custom.form-control placeholder="Type your message here" name="comment"
                   .col
                     button.btn.btn-primary.btn-contact-us-custom type="submit" Submit
                 / form
@@ -85,6 +87,8 @@ html
                 /   textarea.input-message.input-contact-us placeholder="Type your message here"
                 /   br
                 /   input.input-custom.submit-contact-us type="submit" value="SUBMIT"
+          .row
+
     footer
       .footer
         .wrap-footer
