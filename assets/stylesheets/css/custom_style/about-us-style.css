@@ -175,7 +175,21 @@
 }
 .wrap-newsletter .wrap-subscribe-submit .input-subscribe-custom {
   display: inline-block;
-  width: 75%;
+  width: 25%;
+  margin-right: 16px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .wrap-newsletter .wrap-subscribe-submit .input-subscribe-custom {
+    width: 40%;
+  }
+}
+@media (max-width: 576px) {
+  .wrap-newsletter .wrap-subscribe-submit .input-subscribe-custom {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
 }
 .wrap-newsletter .wrap-subscribe-submit .btn-subscribe-custom {
   font-family: nunito, sans-serif;

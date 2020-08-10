@@ -184,7 +184,19 @@
 
     .input-subscribe-custom{
       display: inline-block;
-      width: 75%;
+      width: 25%;
+      margin-right: 16px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        width: 40%;
+      }
+
+      @media(max-width: $custom-sm){
+        display: block;
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 16px;
+      }
     }
 
     .btn-subscribe-custom{
