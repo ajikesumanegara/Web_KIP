@@ -46,7 +46,7 @@ html
               .banner-headline
                 .col
                   h1
-                    | Welcome to
+                    | Selamat Datang di
                     br
                     | PT Kharisma Indotech Pratama
                 .col
@@ -75,34 +75,43 @@ html
       .wrap-section
         .container
           .row.justify-content-center
-            .col-12.col-sm-4.text-center.text-sm-left.mb-5.mb-sm-0
+            .col-12.col-sm-12.col-lg-4.text-center.text-lg-left.mb-5.mb-lg-0
               h2 Our Services
-            .col-12.col-sm-8
-              .row.row-cols-2.justify-content-center
-                .col-12.col-sm-6.text-center.text-sm-left.mb-5
-                  img.icon-service src="assets/images/net-solution-icon.png"
-                  h3 Network Solution
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                  button.btn.btn-custom onclick="window.location.href='our-services.html'"
-                    | Learn More
-                .col-12.col-sm-6.text-center.text-sm-left.mb-5
-                  img.icon-service src="assets/images/software-development-icon.png"
-                  h3 Software Development
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                  button.btn.btn-custom onclick="window.location.href='our-services.html'"
-                    | Learn More
-                .col-12.col-sm-6.text-center.text-sm-left.mb-5.mb-sm-0
-                  img.icon-service src="assets/images/it-security-icon.png"
-                  h3 IT Security
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                  button.btn.btn-custom onclick="window.location.href='our-services.html'"
-                    | Learn More
-                .col-12.col-sm-6.text-center.text-sm-left.mb-5.mb-sm-0
-                  img.icon-service src="assets/images/it-management-icon.png"
-                  h3 IT Management
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                  button.btn.btn-custom onclick="window.location.href='our-services.html'"
-                    | Learn More
+            .col-12.col-sm-12.col-lg-8
+              .card-deck
+                .card.card-custom.mb-5.text-center.text-lg-left
+                  img.card-img-top.img-services-custom src="assets/images/net-solution-icon.png"
+                  .card-body.card-body-custom
+                    h3 Network Solution
+                    p Menganalisis dan memberikan solusi rekomendasi berdasarkan infrastuktur yang ada dan kebutuhan pelanggan.
+                  .card-footer.card-footer-custom
+                    button.btn.btn-custom onclick="window.location.href='network-solution.html'"
+                      | Learn More
+                .card.card-custom.mb-5.text-center.text-lg-left
+                  img.card-img-top.img-services-custom src="assets/images/software-development-icon.png"
+                  .card-body.card-body-custom
+                    h3 Software Development
+                    p Membuat dan mengembangankan aplikasi yang sistematis yang dapat mendukung pemenuhan kebutuhan pelanggan dalam menjalankan bisnisnya.
+                  .card-footer.card-footer-custom
+                    button.btn.btn-custom onclick="window.location.href='software-development.html'"
+                      | Learn More
+              .card-deck
+                .card.card-custom.mb-5.mb-sm-0.text-center.text-lg-left
+                  img.card-img-top.img-services-custom src="assets/images/it-security-icon.png"
+                  .card-body.card-body-custom
+                    h3 IT Security
+                    p Menjaga keamanan data operasional perusahaan baik dari internal maupun eksternal.
+                  .card-footer.card-footer-custom
+                    button.btn.btn-custom onclick="window.location.href='it-security.html'"
+                      | Learn More
+                .card.card-custom.mb-5.mb-sm-0.text-center.text-lg-left
+                  img.card-img-top.img-services-custom src="assets/images/it-management-icon.png"
+                  .card-body.card-body-custom
+                    h3 IT Management
+                    p Mengelola kebutuhan operational IT pelanggan, mulai dari analisa kebutuhan sampai maintenance.
+                  .card-footer.card-footer-custom
+                    button.btn.btn-custom onclick="window.location.href='it-management.html'"
+                      | Learn More
     section.our-experiences
       .wrap-section
         .container
@@ -115,18 +124,18 @@ html
               .carousel-item.active
                 img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
                 .carousel-caption.d-none.d-md-block
-                  h5 First slide label
-                  p Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  / h5 First slide label
+                  / p Nulla vitae elit libero, a pharetra augue mollis interdum.
               .carousel-item
                 img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
                 .carousel-caption.d-none.d-md-block
-                  h5 Second slide label
-                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  / h5 Second slide label
+                  / p Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               .carousel-item
                 img.d-block.w-100 alt="..." src="assets/images/image-experiences.jpg" /
                 .carousel-caption.d-none.d-md-block
-                  h5 Third slide label
-                  p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                  / h5 Third slide label
+                  / p Praesent commodo cursus magna, vel scelerisque nisl consectetur.
             a.carousel-control-prev data-slide="prev" href="#carouselExampleCaptions" role="button"
               span.carousel-control-prev-icon aria-hidden="true"
               span.sr-only Previous
@@ -148,51 +157,51 @@ html
               .wrap-section
                 .col
                   .row.justify-content-between
-                  .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5
-                    .wrap-footer-profile
-                      img.footer-logo src="assets/images/logo-kip.png"
-                      p.footer-profile-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
-                  .col-auto.col-sm-auto.col-lg-auto.mb-4
-                    .wrap-footer-quick-links
-                      | Quick Links
-                      ul.quick-link-item
-                        li
-                          a href="about-us.html" About Us
-                        li
-                          a href=".our-services" Our Services
-                        li
-                          a href="our-experiences.html" Our Experiences
-                        li
-                          a href="#" Terms of Service
-                        li
-                          a href="#" FAQ
-                  .col-auto.col-sm-auto.col-lg-auto.
-                    .wrap-footer-contact-us
-                      | Contact Us
-                      ul.contact-us-item
-                        li
-                          img.contact-us-item-icon src="assets/images/icon-location.png"
-                          | Jl. Pasang No.22, Bandung
-                        li
-                          img.contact-us-item-icon src="assets/images/icon-phone.png"
-                          | (+62) 821-1916-0103
-                        li
-                          img.contact-us-item-icon src="assets/images/icon-email.png"
-                          | admin@ptkip.co.id
-                  .col-12.col-sm-4.col-lg-3
-                      .wrap-footer-social-media
-                        | Social Media
-                        p.footer-social-media-paragraph Follow us on social media to find out the latest updates on our progress.
-                        .row.justify-content-start
-                          .col-auto
-                            a href="https://instagram.com/helloptkip"
-                              img.social-media-icon src="assets/images/instagram.png"
-                          .col-auto
-                            a
-                              img.social-media-icon src="assets/images/facebook.png"
-                          .col-auto
-                            a
-                              img.social-media-icon src="assets/images/linkedin.png"
+                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5
+                      .wrap-footer-profile
+                        img.footer-logo src="assets/images/logo-kip.png"
+                        p.footer-profile-paragraph Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi.
+                    .col-auto.col-sm-auto.col-lg-auto.mb-4
+                      .wrap-footer-quick-links
+                        | Quick Links
+                        ul.quick-link-item
+                          li
+                            a href="about-us.html" About Us
+                          li
+                            a href=".our-services" Our Services
+                          li
+                            a href="our-experiences.html" Our Experiences
+                          li
+                            a href="#" Terms of Service
+                          li
+                            a href="#" FAQ
+                    .col-auto.col-sm-auto.col-lg-auto.
+                      .wrap-footer-contact-us
+                        | Contact Us
+                        ul.contact-us-item
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-location.png"
+                            | Jl. Pasang No.22, Bandung
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-phone.png"
+                            | (+62) 821-1916-0103
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-email.png"
+                            | admin@ptkip.co.id
+                    .col-12.col-sm-4.col-lg-3
+                        .wrap-footer-social-media
+                          | Social Media
+                          p.footer-social-media-paragraph Follow us on social media to find out the latest updates on our progress.
+                          .row.justify-content-start
+                            .col-auto
+                              a href="https://instagram.com/helloptkip"
+                                img.social-media-icon src="assets/images/instagram.png"
+                            .col-auto
+                              a
+                                img.social-media-icon src="assets/images/facebook.png"
+                            / .col-auto
+                            /   a
+                            /     img.social-media-icon src="assets/images/linkedin.png"
           .copyright
             .container-fluid
               .wrap-copyright

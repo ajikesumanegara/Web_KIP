@@ -9957,8 +9957,8 @@ h1 {
 }
 @media (min-width: 576px) and (max-width: 992px) {
   h1 {
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 24px;
+    line-height: 40px;
   }
 }
 @media (max-width: 576px) {

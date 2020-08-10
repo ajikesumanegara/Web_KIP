@@ -1,0 +1,167 @@
+html
+  head
+    title Our Services - Software Development
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+    link rel="stylesheet" href="assets/stylesheets/css/application.css"
+    link rel="stylesheet" href="assets/stylesheets/css/custom_style/our-services-style.css"
+    link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    script src="assets/stylesheets/js/bootstrap.bundle.min.js"
+
+  body
+    header
+      nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom
+        a.navbar-brand.navbar-brand-custom href="index.html"
+          img.nav-logo src="assets/images/logo-kip.png"
+        button.navbar-toggler aria-controls="navbarNavDropdown" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNavDropdown" data-toggle="collapse" type="button"
+          span.navbar-toggler-icon.navbar-dark
+        #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
+          ul.navbar-nav
+            li.nav-item.text-center.mr-lg-2
+              a.nav-link.nav-link-custom href="index.html"
+                | Home
+                span.sr-only (current)
+            li.nav-item.text-center.mx-lg-2
+              a.nav-link.nav-link-custom href="about-us.html" About Us
+            li.nav-item.active.dropdown.text-center.mx-lg-2
+              a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#" 
+                | Our Services
+              .dropdown-menu.text-center aria-labelledby="navbarDropdownMenuLink"
+                a.dropdown-item href="our-services.html" Network Solution
+                a.dropdown-item href="our-services.html" Software Development
+                a.dropdown-item href="our-services.html" IT Security
+                a.dropdown-item href="our-services.html" IT Management
+            li.nav-item.text-center.mx-lg-2
+              a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
+            li.nav-item.text-center.ml-lg-2
+              a.nav-link.nav-link-custom href="contact-us.html" Contact Us
+      .banner.banner-small
+        .container
+          .wrap-banner
+            .banner-headline
+              .col
+                h1
+                  | Software Development
+              .col
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    section.prolog
+      .wrap-section
+        .container
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm.col-lg.order-sm-1.order-lg-1
+              .wrap-prolog-image
+                .col
+                  img.prolog-image-portrait src="assets/images/software-development-image.jpg"
+                  img.prolog-image-landscape src="assets/images/software-development-image-landscape.jpg"
+            .col-12.col-sm.col-lg.order-sm-2.order-lg-2
+              .wrap-prolog-content
+                .col
+                  .wrap-prolog-headline
+                    h2.heading-prolog Software Development
+                    p Application System adalah layanan pembuatan dan pengembangan aplikasi yang sistematis yang dapat mendukung pemenuhan kebutuhan pelanggan dalam menjalankan bisnis proses dari operasionalnya. Application System yang sudah di deploy diantaranya : SIM UKM, SIM RS, SIM Klinik, SIM Akademik, SIM Apotek, SIM Peternakan, SIM Resto, selain itu KIP dapat membuat rekomendasi sistem yang lain sesuai kebutuhan pelanggan saat ini.
+    section.keunggulan
+      .wrap-section
+        .container
+          .wrap-headline-keunggulan
+            .col
+              h2 Let Us Development Your Project
+              p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          .wrap-semua-keunggulan
+            .col
+              .row.text-center
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/provide-solution.png"
+                  h3 Provide Solution
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/full-support.png"
+                  h3 Full Support
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+                .col-12.col-sm-4.col-lg-4
+                  img.icon-keunggulan src="assets/images/excellent-service.png"
+                  h3 Excellent Service
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+    section.free-consultation
+      .wrap-section
+        .container
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm-8.col-lg-7.order-2.order-sm-1.order-lg-1.text-center.text-sm-left
+              .wrap-free-consultation-headline
+                .col
+                  h2 Lorem ipsum dolor sit amet
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                  button.btn.btn-custom onclick="window.location.href='contact-us.html'"
+                    | Free Consultation Now
+            .col-12.col-sm-auto.col-lg-auto.order-1.order-sm-2.order-lg-2.text-center.text-sm-left
+              .wrap-free-consultation-image
+                .col
+                  img.free-consultation-image src="assets/images/free-consultation.png"
+    footer
+      .footer
+        .wrap-footer
+          .additional-footer
+              .wrap-left-shape
+                .rectangle
+                .parallelogram
+              .wrap-right-shape
+                .parallelogram
+                .rectangle
+          .content-footer
+            .container
+              .wrap-section
+                .col
+                  .row.justify-content-between
+                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5
+                      .wrap-footer-profile
+                        img.footer-logo src="assets/images/logo-kip.png"
+                        p.footer-profile-paragraph Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                    .col-auto.col-sm-auto.col-lg-auto.mb-4
+                      .wrap-footer-quick-links
+                        | Quick Links
+                        ul.quick-link-item
+                          li
+                            a href="about-us.html" About Us
+                          li
+                            a href="our-services.html" Our Services
+                          li
+                            a href="our-experiences.html" Our Experiences
+                          li
+                            a href="#" Terms of Service
+                          li
+                            a href="#" FAQ
+                    .col-auto.col-sm-auto.col-lg-auto.
+                      .wrap-footer-contact-us
+                        | Contact Us
+                        ul.contact-us-item
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-location.png"
+                            | Jl. Pasang No.22, Bandung
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-phone.png"
+                            | (+62) 821-1916-0103
+                          li
+                            img.contact-us-item-icon src="assets/images/icon-email.png"
+                            | admin@ptkip.co.id
+                    .col-12.col-sm-4.col-lg-3
+                      .wrap-footer-social-media
+                        | Social Media
+                        p.footer-social-media-paragraph Follow us on social media to find out the latest updates on our progress.
+                        .row.justify-content-start
+                          .col-auto
+                            a href="https://instagram.com/helloptkip"
+                              img.social-media-icon src="assets/images/instagram.png"
+                          .col-auto
+                            a
+                              img.social-media-icon src="assets/images/facebook.png"
+                          .col-auto
+                            a
+                              img.social-media-icon src="assets/images/linkedin.png"
+          .copyright
+            .container-fluid
+              .wrap-copyright
+                .line
+                p Copyright 2020 PT Kharisma Indotech Pratama. All Right Reserved.

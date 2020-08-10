@@ -4,7 +4,6 @@
 
   h1{
     color: white;
-    line-height: 56px;
     margin-top: 0;
     margin-bottom: 8px;
 
@@ -24,10 +23,10 @@
 }
 
 .wrap-about-us-content{
-    color:$kip-black;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 8px;
+  color:$kip-black;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 8px;
 
   .block{
     background-color:$kip-black;
@@ -53,13 +52,38 @@
 .our-services{
   background-color:$section-grey;
 
+  .card-custom{
+    border:none;
+    background-color:transparent;
+  }
+
+  .card-body-custom{
+    padding:0.5rem;
+  }
+
+  .card-footer-custom{
+    border:none;
+    background-color:transparent;
+    padding:0 0.5rem;
+  }
+
+
   h3{
     margin-top: 24px;
     margin-bottom: 8px;
   }
+    
+  .img-services-custom{
+    width: 75px;
+    margin:0 0.5rem;
 
-  .icon-service{
-    height: 75px;
+    @media(min-width: $custom-sm) and (max-width: $custom-lg){
+      margin:0 auto;
+    }
+
+    @media(max-width: $custom-sm){
+      margin:0 auto;
+    }
   }
 }
 
