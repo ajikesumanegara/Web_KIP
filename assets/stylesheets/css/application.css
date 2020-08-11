@@ -10034,6 +10034,9 @@ li {
 
 header {
   background-color: #1a73e8;
+  background: url("../../images/QdGoEc.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 header .navbar-custom {
   padding: 20px 30px 0 30px;
@@ -10047,7 +10050,7 @@ header .nav-logo {
   }
 }
 header .nav-link-custom {
-  color: white;
+  color: #fdcb9e !important;
   font-size: 16px;
 }
 header .banner {
