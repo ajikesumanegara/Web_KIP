@@ -1,9 +1,13 @@
 @import '../variable';
 
+.nav-link-custom{
+  color: #fdcb9e !important;
+}
+
 .banner-headline{
 
   h1{
-    color: white;
+    color: #85d9dd;
     margin-top: 0;
     margin-bottom: 8px;
 
@@ -87,74 +91,7 @@
   }
 }
 
-.wrap-our-experiences-section{
-
-    h2{
-      text-align: center;
-      margin-top: 0;
-      margin-bottom: 64px;
-    }
-
-    .wrap-slider-image{
-      display: flex;
-      justify-content: space-between;
-      align-items:center;
-
-      a{
-
-        img{width: 25px;}
-      }
-
-
-      img.non-selected{
-        height: 175px;
-        width: 250px;
-      }
-
-      img.selected{
-        height: 350px;
-        width: 500px;
-      }
-    }
-
-    .description{
-      width: 500px;
-      text-align: center;
-      margin: 0 auto;
-
-      h3{
-        margin-top: 32px;
-        margin-bottom: 8px;
-      }
-
-      p{
-        margin-top: 0px;
-        margin-bottom: 16px;
-      }
-
-      button.see-all-experiences{
-        height: 48px;
-        background-color:white;
-        padding:8px 16px;
-        border:1px solid $kip-black;
-        border-radius: 3px;
-        margin: 0 auto;
-
-        .wrap-button{
-          display: flex;
-          align-items:center;
-
-          b{
-            font-size: 16px;
-            color: $kip-black;
-            font-weight: 400;
-          }
-
-          img{
-            height: 8px;
-            margin-left: 5px;
-          }
-        }
-      }
-    }
+.carousel-custom{
+  h3{text-shadow: 0 3px 6px black;}
+  p{text-shadow: 0 3px 6px black;}
 }

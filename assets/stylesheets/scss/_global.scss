@@ -15,9 +15,9 @@ body{margin:0;}
 //   margin: 0 auto;
 // }
 
-h1,h2,h3{font-family: spartan,sans-serif;}
+h1,h2,h3,h4{font-family: mulish,sans-serif;}
 
-p,li,a,b,span{font-family: nunito,sans-serif;}
+p,li,a,b,span{font-family: mulish,sans-serif;}
 
 h1{
   font-weight: 700;
@@ -55,6 +55,21 @@ h2{
 h3{
   font-weight: 600;
   font-size: 24px;
+
+  @media (min-width: $custom-sm) and (max-width: $custom-lg){
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  @media (max-width: $custom-sm){
+    font-size: 16px;
+    line-height: 32px;
+  }
+}
+
+h4{
+  font-weight: 600;
+  font-size: 20px;
 
   @media (min-width: $custom-sm) and (max-width: $custom-lg){
     font-size: 20px;
@@ -214,10 +229,14 @@ footer{
   position:absolute;
   height: 0;
 
+
   .footer{
+    background: url('../../images/banner/QdGoEc.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 
     .additional-footer{
-      display: flex;
+      display: none;
       justify-content: space-between;
 
       .wrap-left-shape{
@@ -226,18 +245,20 @@ footer{
         width: 100%;
 
         .rectangle{
-          background-color:$kip-blue;
-          width: 25%;
+          background-color:white;
+          width: 50%;
           height: 32px;
+          margin:0 auto;
+          perspective: 100px;
         }
 
         .parallelogram{
-          background-color:$kip-blue;
+          background-color:white;
           width: 25%;
           height: 32px;
           border-top-right-radius: 3px;
           transform: skew(30deg);
-          margin-left: -10px;
+          margin: 0 auto;
         }
       }
 
@@ -265,7 +286,6 @@ footer{
     }
 
     .content-footer{
-      background-color:$kip-blue;
 
       .wrap-footer-profile{
 
@@ -285,11 +305,11 @@ footer{
       }
 
       .wrap-footer-quick-links{
-        color: white;
-        font-family: nunito,sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1;
+
+        h4{
+          color: #fdcb9e;
+          text-transform: uppercase;
+        }
 
         .quick-link-item{
           padding-left: 0;
@@ -324,11 +344,11 @@ footer{
       }
 
       .wrap-footer-contact-us{
-        color: white;
-        font-family: nunito,sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1;
+        
+        h4{
+          color: #fdcb9e;
+          text-transform: uppercase;
+        }
 
         .contact-us-item{
           padding-left: 0;
@@ -344,6 +364,7 @@ footer{
             text-transform: none;
             letter-spacing: 0;
             margin-bottom: 16px;
+            color:white;
 
             @media(max-width: $custom-sm){
               font-size: 14px;
@@ -366,11 +387,11 @@ footer{
       }
 
       .wrap-footer-social-media{
-        color: white;
-        font-family: nunito,sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1;
+
+        h4{
+          color: #fdcb9e;
+          text-transform: uppercase;
+        }
 
         .footer-social-media-paragraph{
           color: white;
@@ -402,7 +423,6 @@ footer{
     }
 
     .copyright{
-      background-color:$kip-blue;
       padding:0 40px;
 
       .wrap-copyright{

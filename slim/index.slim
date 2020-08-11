@@ -8,6 +8,7 @@ html
     link rel="stylesheet" href="assets/stylesheets/css/custom_style/homepage-style.css"
     link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
     link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600&display=swap" rel="stylesheet"
 
     script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
     script src="assets/stylesheets/js/bootstrap.bundle.min.js"
@@ -115,7 +116,7 @@ html
     section.our-experiences
       .wrap-section
         .container
-          #carouselExampleCaptions.carousel.slide data-ride="carousel"
+          #carouselExampleCaptions.carousel.carousel-custom.slide data-ride="carousel"
             ol.carousel-indicators
               li.active data-slide-to="0" data-target="#carouselExampleCaptions"
               li data-slide-to="1" data-target="#carouselExampleCaptions"
@@ -146,24 +147,24 @@ html
       .footer
         .wrap-footer
           .additional-footer
-              .wrap-left-shape
-                .rectangle
-                .parallelogram
-              .wrap-right-shape
-                .parallelogram
-                .rectangle
+            .wrap-left-shape
+              .rectangle
+              / .parallelogram
+              / .wrap-right-shape
+              /   .parallelogram
+              /   .rectangle
           .content-footer
             .container
               .wrap-section
                 .col
                   .row.justify-content-between
-                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5
+                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5.mb-lg-0
                       .wrap-footer-profile
                         img.footer-logo src="assets/images/company-logo/logo-kip.png"
                         p.footer-profile-paragraph Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi.
-                    .col-auto.col-sm-auto.col-lg-auto.mb-4
+                    .col-auto.col-sm-auto.col-lg-auto.mb-4.mb-sm-0
                       .wrap-footer-quick-links
-                        | Quick Links
+                        h4 Quick Links
                         ul.quick-link-item
                           li
                             a href="about-us.html" About Us
@@ -175,9 +176,9 @@ html
                             a href="#" Terms of Service
                           li
                             a href="#" FAQ
-                    .col-auto.col-sm-auto.col-lg-auto.
+                    .col-auto.col-sm-auto.col-lg-auto
                       .wrap-footer-contact-us
-                        | Contact Us
+                        h4 Contact Us
                         ul.contact-us-item
                           li
                             img.contact-us-item-icon src="assets/images/icon/icon-location.png"
@@ -190,7 +191,7 @@ html
                             | admin@ptkip.co.id
                     .col-12.col-sm-4.col-lg-3
                         .wrap-footer-social-media
-                          | Social Media
+                          h4 Social Media
                           p.footer-social-media-paragraph Ikuti sosial media kami untuk mengetahui informasi terbaru tentang kemajuan kami.
                           .row.justify-content-start
                             .col-auto

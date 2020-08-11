@@ -1,5 +1,9 @@
+.nav-link-custom {
+  color: #fdcb9e !important;
+}
+
 .banner-headline h1 {
-  color: white;
+  color: #85d9dd;
   margin-top: 0;
   margin-bottom: 8px;
 }
@@ -75,58 +79,9 @@
   }
 }
 
-.wrap-our-experiences-section h2 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 64px;
+.carousel-custom h3 {
+  text-shadow: 0 3px 6px black;
 }
-.wrap-our-experiences-section .wrap-slider-image {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.wrap-our-experiences-section .wrap-slider-image a img {
-  width: 25px;
-}
-.wrap-our-experiences-section .wrap-slider-image img.non-selected {
-  height: 175px;
-  width: 250px;
-}
-.wrap-our-experiences-section .wrap-slider-image img.selected {
-  height: 350px;
-  width: 500px;
-}
-.wrap-our-experiences-section .description {
-  width: 500px;
-  text-align: center;
-  margin: 0 auto;
-}
-.wrap-our-experiences-section .description h3 {
-  margin-top: 32px;
-  margin-bottom: 8px;
-}
-.wrap-our-experiences-section .description p {
-  margin-top: 0px;
-  margin-bottom: 16px;
-}
-.wrap-our-experiences-section .description button.see-all-experiences {
-  height: 48px;
-  background-color: white;
-  padding: 8px 16px;
-  border: 1px solid #000d1e;
-  border-radius: 3px;
-  margin: 0 auto;
-}
-.wrap-our-experiences-section .description button.see-all-experiences .wrap-button {
-  display: flex;
-  align-items: center;
-}
-.wrap-our-experiences-section .description button.see-all-experiences .wrap-button b {
-  font-size: 16px;
-  color: #000d1e;
-  font-weight: 400;
-}
-.wrap-our-experiences-section .description button.see-all-experiences .wrap-button img {
-  height: 8px;
-  margin-left: 5px;
+.carousel-custom p {
+  text-shadow: 0 3px 6px black;
 }
