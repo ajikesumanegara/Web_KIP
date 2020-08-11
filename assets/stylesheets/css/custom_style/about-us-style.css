@@ -80,63 +80,61 @@
   }
 }
 
-.keunggulan {
-  background-color: #f8f8f8;
-}
-.keunggulan .wrap-headline-keunggulan {
+.wrap-headline-keunggulan {
   text-align: center;
 }
-.keunggulan .wrap-headline-keunggulan h2 {
+.wrap-headline-keunggulan h2 {
   margin-top: 0;
   margin-bottom: 16px;
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .keunggulan .wrap-headline-keunggulan h2 {
+  .wrap-headline-keunggulan h2 {
     margin-bottom: 8px;
   }
 }
 @media (max-width: 576px) {
-  .keunggulan .wrap-headline-keunggulan h2 {
+  .wrap-headline-keunggulan h2 {
     margin-bottom: 8px;
   }
 }
-.keunggulan .wrap-headline-keunggulan p {
+.wrap-headline-keunggulan p {
   margin-bottom: 0;
 }
-.keunggulan .wrap-semua-keunggulan {
+
+.wrap-semua-keunggulan {
   margin-top: 40px;
 }
-.keunggulan .wrap-semua-keunggulan .icon-keunggulan {
+.wrap-semua-keunggulan .icon-keunggulan {
   height: 100px;
 }
 @media (max-width: 576px) {
-  .keunggulan .wrap-semua-keunggulan .icon-keunggulan {
+  .wrap-semua-keunggulan .icon-keunggulan {
     height: 75px;
   }
 }
-.keunggulan .wrap-semua-keunggulan h3 {
+.wrap-semua-keunggulan h3 {
   margin-top: 32px;
   margin-bottom: 16px;
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .keunggulan .wrap-semua-keunggulan h3 {
+  .wrap-semua-keunggulan h3 {
     margin-top: 24px;
     margin-bottom: 8px;
   }
 }
 @media (max-width: 576px) {
-  .keunggulan .wrap-semua-keunggulan h3 {
+  .wrap-semua-keunggulan h3 {
     margin-top: 16px;
     margin-bottom: 0;
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .keunggulan .wrap-semua-keunggulan {
+  .wrap-semua-keunggulan {
     margin-top: 32px;
   }
 }
 @media (max-width: 576px) {
-  .keunggulan .wrap-semua-keunggulan {
+  .wrap-semua-keunggulan {
     margin-top: 32px;
   }
 }

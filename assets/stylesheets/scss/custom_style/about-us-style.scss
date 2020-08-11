@@ -90,61 +90,57 @@
   }
 }
 
-.keunggulan{
-  background-color:$section-grey;
+.wrap-headline-keunggulan{
+  text-align:center;
 
-  .wrap-headline-keunggulan{
-    text-align:center;
+  h2{
+    margin-top: 0;
+    margin-bottom: 16px;
 
-    h2{
-      margin-top: 0;
-      margin-bottom: 16px;
-
-      @media(min-width: $custom-sm) and (max-width: $custom-lg){
-        margin-bottom: 8px;
-      }
-
-      @media(max-width: $custom-sm){
-        margin-bottom: 8px;
-      }
+    @media(min-width: $custom-sm) and (max-width: $custom-lg){
+      margin-bottom: 8px;
     }
 
-    p{margin-bottom: 0;}
+    @media(max-width: $custom-sm){
+      margin-bottom: 8px;
+    }
   }
 
-  .wrap-semua-keunggulan{
-    margin-top: 40px;
+  p{margin-bottom: 0;}
+}
 
-    .icon-keunggulan{
-      height: 100px;
+.wrap-semua-keunggulan{
+  margin-top: 40px;
 
-      @media(max-width: $custom-sm){
-        height: 75px;
-      }
+  .icon-keunggulan{
+    height: 100px;
+
+    @media(max-width: $custom-sm){
+      height: 75px;
     }
+  }
 
-    h3{
-      margin-top: 32px;
-      margin-bottom: 16px;
-
-      @media (min-width: $custom-sm) and (max-width: $custom-lg){
-        margin-top: 24px;
-        margin-bottom: 8px;
-      }
-
-      @media (max-width: $custom-sm){
-        margin-top: 16px;
-        margin-bottom: 0;
-      }
-    }
+  h3{
+    margin-top: 32px;
+    margin-bottom: 16px;
 
     @media (min-width: $custom-sm) and (max-width: $custom-lg){
-      margin-top: 32px;
+      margin-top: 24px;
+      margin-bottom: 8px;
     }
 
     @media (max-width: $custom-sm){
-      margin-top: 32px;
+      margin-top: 16px;
+      margin-bottom: 0;
     }
+  }
+
+  @media (min-width: $custom-sm) and (max-width: $custom-lg){
+    margin-top: 32px;
+  }
+
+  @media (max-width: $custom-sm){
+    margin-top: 32px;
   }
 }
 
