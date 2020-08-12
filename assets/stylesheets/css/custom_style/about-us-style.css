@@ -171,6 +171,9 @@
   margin: 0 auto;
   margin-bottom: 16px;
 }
+.wrap-newsletter small {
+  color: red;
+}
 .wrap-newsletter .wrap-subscribe-submit .input-subscribe-custom {
   display: inline-block;
   width: 25%;
