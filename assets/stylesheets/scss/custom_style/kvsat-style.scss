@@ -1,23 +1,31 @@
 @import '../variable';
 
-.wrap-banner{
+header{
+  background-color: $kip-blue;
+  background: url('../../../images/our-services-image/banner-kvsat.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 
-  .banner-headline{
-    width: 100%;
-    text-align: center;
+  .wrap-banner{
 
-    h1{
-      color: white;
-      margin-top: 0;
-      margin-bottom: 8px;
-    }
+    .banner-headline{
+      width: 100%;
+      text-align: center;
 
-    p{
-      color: white;
-      margin:0;
+      h1{
+        color: white;
+        margin-top: 0;
+        margin-bottom: 8px;
+        text-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+      }
 
-      @media (max-width: $custom-sm){
-        font-size: 14px;
+      p{
+        color: white;
+        margin:0;
+
+        @media (max-width: $custom-sm){
+          font-size: 14px;
+        }
       }
     }
   }
@@ -171,3 +179,4 @@
 .additional-footer{
   background-color: $section-grey;
 }
+
