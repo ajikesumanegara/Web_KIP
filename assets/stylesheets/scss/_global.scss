@@ -114,69 +114,6 @@ header{
   background-size: cover;
   background-attachment: fixed;
 
-  // nav{
-  //   height: 95px;
-
-  //   .navbar{
-  //     display: flex;
-  //     padding:0;
-  //     flex-grow: 1;
-  //     padding:20px 40px 0 40px;
-
-  //     .wrap-navbar{
-  //       display: flex;
-  //       flex-grow: 1;
-  //       justify-content: space-between;
-
-  //       .nav-logo{
-  //         height: 65px;
-  //         img{height: 100%}
-  //       }
-  //       .nav-menu{
-  //         display: flex;
-  //         align-items:center;
-
-  //         ul {
-  //           display: flex;
-  //           align-items: center;
-  //           padding:0;
-  //           margin:0;
-
-  //           li{
-  //             list-style-type: none;
-
-  //             a{
-  //               text-decoration: none;
-  //               font-size: 16px;
-  //               font-weight: 400;
-  //               color: white;
-  //               margin-left: 40px;
-  //             }
-
-  //             .dropdown-setting{
-  //               background-color:transparent;
-  //               border:0 transparent;
-
-  //               &:focus{
-  //                 background-color:#0053c1;
-  //                 box-shadow: none;
-  //               }
-  //             }
-
-  //             .item-setting{
-
-  //               a{
-  //                 margin-left: 0;
-  //                 color:$kip-black;
-  //               }
-  //             }
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
-
   .navbar-custom{
     padding:20px 30px 0 30px;
   }
@@ -493,4 +430,11 @@ footer{
   width: 100%;
   font-family: nunito,sans-serif;
   font-size: 16px;
+}
+
+.block{
+  background-color:$kip-black;
+  height: 1px;
+  max-width: 50px;
+  margin:0 auto;
 }

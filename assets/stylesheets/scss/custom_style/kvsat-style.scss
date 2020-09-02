@@ -16,7 +16,7 @@ header{
         color: white;
         margin-top: 0;
         margin-bottom: 8px;
-        text-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+        text-shadow: 1px 2px rgba(0, 0, 0, 0.2);
       }
 
       p{
@@ -31,58 +31,14 @@ header{
   }
 }
 
-.wrap-prolog-image{
+section.prolog{
 
-  img{width: 100%;}
-
-  .prolog-image-portrait{
-
-    @media(max-width: $custom-sm){
-      display: none;
-    }
+  .spcs-vsat-paragraph{
+    padding-left: 27px;
   }
 
-  .prolog-image-landscape{
-
-    @media(min-width: $custom-sm){
-      display: none;
-    }
-
-    @media(max-width: $custom-sm){
-      margin-bottom: 24px;
-    }
-  }
-}
-
-.wrap-prolog-content{
-
-  h2{
-    margin-bottom: 16px;
-
-    @media (min-width: $custom-sm) and (max-width: $custom-lg){
-      margin-bottom: 8px;
-    }
-
-    @media (max-width: $custom-sm){
-      margin-bottom: 8px;
-    }
-  }
-
-  ul{
-    padding-left: 20px;
-
-    li{
-      line-height: 24px;
-      margin-bottom: 16px;
-
-      @media (min-width: $custom-sm) and (max-width: $custom-lg){
-        margin-bottom: 8px;
-      }
-
-      @media (max-width: $custom-sm){
-        margin-bottom: 4px;
-      }
-    }
+  .spsc-vsat-image{
+    max-width: 100%;
   }
 }
 

@@ -12,7 +12,7 @@ header .wrap-banner .banner-headline h1 {
   color: white;
   margin-top: 0;
   margin-bottom: 8px;
-  text-shadow: 0px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 2px rgba(0, 0, 0, 0.2);
 }
 header .wrap-banner .banner-headline p {
   color: white;
@@ -24,54 +24,11 @@ header .wrap-banner .banner-headline p {
   }
 }
 
-.wrap-prolog-image img {
-  width: 100%;
+section.prolog .spcs-vsat-paragraph {
+  padding-left: 27px;
 }
-@media (max-width: 576px) {
-  .wrap-prolog-image .prolog-image-portrait {
-    display: none;
-  }
-}
-@media (min-width: 576px) {
-  .wrap-prolog-image .prolog-image-landscape {
-    display: none;
-  }
-}
-@media (max-width: 576px) {
-  .wrap-prolog-image .prolog-image-landscape {
-    margin-bottom: 24px;
-  }
-}
-
-.wrap-prolog-content h2 {
-  margin-bottom: 16px;
-}
-@media (min-width: 576px) and (max-width: 992px) {
-  .wrap-prolog-content h2 {
-    margin-bottom: 8px;
-  }
-}
-@media (max-width: 576px) {
-  .wrap-prolog-content h2 {
-    margin-bottom: 8px;
-  }
-}
-.wrap-prolog-content ul {
-  padding-left: 20px;
-}
-.wrap-prolog-content ul li {
-  line-height: 24px;
-  margin-bottom: 16px;
-}
-@media (min-width: 576px) and (max-width: 992px) {
-  .wrap-prolog-content ul li {
-    margin-bottom: 8px;
-  }
-}
-@media (max-width: 576px) {
-  .wrap-prolog-content ul li {
-    margin-bottom: 4px;
-  }
+section.prolog .spsc-vsat-image {
+  max-width: 100%;
 }
 
 .wrap-headline-keunggulan {

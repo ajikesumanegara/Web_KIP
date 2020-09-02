@@ -10348,3 +10348,10 @@ footer .footer .copyright .wrap-copyright p {
   font-family: nunito, sans-serif;
   font-size: 16px;
 }
+
+.block {
+  background-color: #000d1e;
+  height: 1px;
+  max-width: 50px;
+  margin: 0 auto;
+}
