@@ -1,0 +1,174 @@
+html
+  head
+    title Our Services - KIP Flazbit
+
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+    link rel="stylesheet" href="assets/stylesheets/css/application.css"
+    link rel="stylesheet" href="assets/stylesheets/css/custom_style/it-service-management-style.css"
+    link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;600;700&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet"
+    link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600&display=swap" rel="stylesheet"
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    script src="assets/stylesheets/js/bootstrap.bundle.min.js"
+
+  body
+    header
+      nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom
+        a.navbar-brand.navbar-brand-custom href="index.html"
+          img.nav-logo src="assets/images/company-logo/logo-kip.png"
+        button.navbar-toggler aria-controls="navbarNavDropdown" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNavDropdown" data-toggle="collapse" type="button"
+          span.navbar-toggler-icon.navbar-dark
+        #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
+          ul.navbar-nav
+            li.nav-item.text-center.mr-lg-2
+              a.nav-link.nav-link-custom href="index.html"
+                | Home
+                span.sr-only (current)
+            li.nav-item.text-center.mx-lg-2
+              a.nav-link.nav-link-custom href="about-us.html" About Us
+            li.nav-item.active.dropdown.text-center.mx-lg-2
+              a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#"
+                | Our Services
+              .dropdown-menu.text-center aria-labelledby="navbarDropdownMenuLink"
+                a.dropdown-item href="network-solution.html" Network Solution
+                a.dropdown-item href="software-development.html" Software Development
+                a.dropdown-item href="it-security.html" IT Security
+                a.dropdown-item href="#" IT Service Management
+            li.nav-item.text-center.mx-lg-2
+              a.nav-link.nav-link-custom href="our-experiences.html" Our Experiences
+            li.nav-item.text-center.ml-lg-2
+              a.nav-link.nav-link-custom href="contact-us.html" Contact Us
+      .banner.banner-small
+        .container
+          .wrap-banner
+            .banner-headline
+              .col
+                h1
+                  | KIP Flazbit
+              / .col
+              /   p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+    section.prolog
+      .wrap-section
+        .container
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm.col-lg.order-sm-1.order-lg-1
+              .wrap-prolog-image
+                .col
+                  img.prolog-image-portrait src="assets/images/our-services-image/it-service-management-image.jpg"
+                  img.prolog-image-landscape src="assets/images/our-services-image/it-service-management-image-landscape.jpg"
+            .col-12.col-sm.col-lg.order-sm-2.order-lg-2
+              .wrap-prolog-content
+                .col
+                  .wrap-prolog-headline
+                    h2.heading-prolog IT Service Management
+                    p Manajemen layanan IT / IT Services Management adalah service yang berfokus pada layanan pemenuhan kebutuhan operational IT User. Layanan tersebut mengacu pada pelaksanaan dan pengelolaan kualitas yang memenuhi kebutuhan bisnis dengan batasan batasan yang di sepakati bersama. Dan berikut layanan-layanan yang kami tawarkan:
+                    ul
+                      li Analisa kebutuhan
+                      li Design dan perencanaan
+                      li Implementasi
+                      li Maintenanance
+                      li Troubleshoot dan support (Hal ini mencakup kebutuhan Hardware, Software, IT Security dan Network.)
+    / section.keunggulan
+    /   .wrap-section
+    /     .container
+    /       .wrap-headline-keunggulan
+    /         .col
+    /           h2 Let Us Development Your Project
+    /           p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    /       .wrap-semua-keunggulan
+    /         .col
+    /           .row.text-center
+    /             .col-12.col-sm-4.col-lg-4
+    /               img.icon-keunggulan src="assets/images/provide-solution.png"
+    /               h3 Provide Solution
+    /               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+    /             .col-12.col-sm-4.col-lg-4
+    /               img.icon-keunggulan src="assets/images/full-support.png"
+    /               h3 Full Support
+    /               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+    /             .col-12.col-sm-4.col-lg-4
+    /               img.icon-keunggulan src="assets/images/excellent-service.png"
+    /               h3 Excellent Service
+    /               p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.
+    section.free-consultation.section-grey
+      .wrap-section
+        .container
+          .row.align-items-center.justify-content-between
+            .col-12.col-sm-8.col-lg-7.order-2.order-sm-1.order-lg-1.text-center.text-sm-left
+              .wrap-free-consultation-headline
+                .col
+                  h2 Mari realisasi rencana anda
+                  p Beritahu kami dan biarkan kami membantu anda mengatur tindakan yang paling efektif dan efisien untuk kebutuhan bisnis anda.
+                  button.btn.btn-custom onclick="window.location.href='contact-us.html'"
+                    | Konsultasi Gratis
+            .col-12.col-sm-auto.col-lg-auto.order-1.order-sm-2.order-lg-2.text-center.text-sm-left
+              .wrap-free-consultation-image
+                .col
+                  img.free-consultation-image src="assets/images/color-filled-icon/free-consultation.png"
+    footer
+      .footer
+        .wrap-footer
+          .additional-footer
+            .wrap-left-shape
+              .rectangle
+              / .parallelogram
+              / .wrap-right-shape
+              /   .parallelogram
+              /   .rectangle
+          .content-footer
+            .container
+              .wrap-section
+                .col
+                  .row.justify-content-between
+                    .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5.mb-lg-0
+                      .wrap-footer-profile
+                        img.footer-logo src="assets/images/company-logo/logo-kip.png"
+                        p.footer-profile-paragraph Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi.
+                    .col-auto.col-sm-auto.col-lg-auto.mb-4.mb-sm-0
+                      .wrap-footer-quick-links
+                        h4 Quick Links
+                        ul.quick-link-item
+                          li
+                            a href="about-us.html" About Us
+                          li
+                            a href="#" Our Services
+                          li
+                            a href="our-experiences.html" Our Experiences
+                          li
+                            a href="#" Terms of Service
+                          li
+                            a href="#" FAQ
+                    .col-auto.col-sm-auto.col-lg-auto
+                      .wrap-footer-contact-us
+                        h4 Contact Us
+                        ul.contact-us-item
+                          li
+                            img.contact-us-item-icon src="assets/images/icon/icon-location.png"
+                            | Jl. Pasang No.22, Bandung
+                          li
+                            img.contact-us-item-icon src="assets/images/icon/icon-phone.png"
+                            | (+62) 821-1916-0103
+                          li
+                            img.contact-us-item-icon src="assets/images/icon/icon-email.png"
+                            | admin@ptkip.co.id
+                    .col-12.col-sm-4.col-lg-3
+                        .wrap-footer-social-media
+                          h4 Social Media
+                          p.footer-social-media-paragraph Ikuti sosial media kami untuk mengetahui informasi terbaru tentang kemajuan kami.
+                          .row.justify-content-start
+                            .col-auto
+                              a href="https://instagram.com/helloptkip"
+                                img.social-media-icon src="assets/images/social-media-icon/instagram.png"
+                            .col-auto
+                              a
+                                img.social-media-icon src="assets/images/social-media-icon/facebook.png"
+                            .col-auto
+                              a
+                                img.social-media-icon src="assets/images/social-media-icon/linkedin.png"
+          .copyright
+            .container-fluid
+              .wrap-copyright
+                .line
+                p Copyright 2020 PT Kharisma Indotech Pratama. All Right Reserved.
