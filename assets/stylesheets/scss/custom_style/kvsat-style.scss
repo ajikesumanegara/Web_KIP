@@ -31,69 +31,37 @@ header{
   }
 }
 
-section.prolog{
 
-  .spcs-vsat-paragraph{
-    padding-left: 27px;
-  }
+.spcs-vsat-paragraph, .ip-vsat-paragraph {
+  padding-left: 27px;
+}
 
-  .spsc-vsat-image{
-    max-width: 100%;
+.keunggulan-spsc-vsat, .keunggulan-ip-vsat {
+  padding-left: 27px;
+}
+
+.kvsat-image-portrait{
+  max-width: 100%;
+
+  @media (max-width: $custom-lg){
+    display: none;
   }
 }
 
-.wrap-headline-keunggulan{
-  text-align:center;
+.kvsat-image-landscape{
+  max-width: 100%;
 
-  h2{
-    margin-top: 0;
-    margin-bottom: 16px;
-
-    @media(min-width: $custom-sm) and (max-width: $custom-lg){
-      margin-bottom: 8px;
-    }
-
-    @media(max-width: $custom-sm){
-      margin-bottom: 8px;
-    }
-  }
-
-  p{margin-bottom: 0;}
-}
-
-.wrap-semua-keunggulan{
-  margin-top: 40px;
-
-  .icon-keunggulan{
-    height: 100px;
-
-    @media(max-width: $custom-sm){
-      height: 75px;
-    }
-  }
-
-  h3{
-    margin-top: 32px;
-    margin-bottom: 16px;
-
-    @media (min-width: $custom-sm) and (max-width: $custom-lg){
-      margin-top: 24px;
-      margin-bottom: 8px;
-    }
-
-    @media (max-width: $custom-sm){
-      margin-top: 16px;
-      margin-bottom: 0;
-    }
-  }
-
-  @media (min-width: $custom-sm) and (max-width: $custom-lg){
-    margin-top: 32px;
+  @media (min-width: $custom-lg){
+    display: none;
   }
 
   @media (max-width: $custom-sm){
-    margin-top: 32px;
+    max-height: 300px;
   }
+}
+
+.ul-kvsat-custom{
+  padding-left: 20px;
 }
 
 .free-consultation{

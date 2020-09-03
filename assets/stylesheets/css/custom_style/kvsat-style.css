@@ -24,70 +24,39 @@ header .wrap-banner .banner-headline p {
   }
 }
 
-section.prolog .spcs-vsat-paragraph {
+.spcs-vsat-paragraph, .ip-vsat-paragraph {
   padding-left: 27px;
 }
-section.prolog .spsc-vsat-image {
+
+.keunggulan-spsc-vsat, .keunggulan-ip-vsat {
+  padding-left: 27px;
+}
+
+.kvsat-image-portrait {
   max-width: 100%;
 }
-
-.wrap-headline-keunggulan {
-  text-align: center;
-}
-.wrap-headline-keunggulan h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
-}
-@media (min-width: 576px) and (max-width: 992px) {
-  .wrap-headline-keunggulan h2 {
-    margin-bottom: 8px;
+@media (max-width: 992px) {
+  .kvsat-image-portrait {
+    display: none;
   }
-}
-@media (max-width: 576px) {
-  .wrap-headline-keunggulan h2 {
-    margin-bottom: 8px;
-  }
-}
-.wrap-headline-keunggulan p {
-  margin-bottom: 0;
 }
 
-.wrap-semua-keunggulan {
-  margin-top: 40px;
+.kvsat-image-landscape {
+  max-width: 100%;
 }
-.wrap-semua-keunggulan .icon-keunggulan {
-  height: 100px;
-}
-@media (max-width: 576px) {
-  .wrap-semua-keunggulan .icon-keunggulan {
-    height: 75px;
-  }
-}
-.wrap-semua-keunggulan h3 {
-  margin-top: 32px;
-  margin-bottom: 16px;
-}
-@media (min-width: 576px) and (max-width: 992px) {
-  .wrap-semua-keunggulan h3 {
-    margin-top: 24px;
-    margin-bottom: 8px;
+@media (min-width: 992px) {
+  .kvsat-image-landscape {
+    display: none;
   }
 }
 @media (max-width: 576px) {
-  .wrap-semua-keunggulan h3 {
-    margin-top: 16px;
-    margin-bottom: 0;
+  .kvsat-image-landscape {
+    max-height: 300px;
   }
 }
-@media (min-width: 576px) and (max-width: 992px) {
-  .wrap-semua-keunggulan {
-    margin-top: 32px;
-  }
-}
-@media (max-width: 576px) {
-  .wrap-semua-keunggulan {
-    margin-top: 32px;
-  }
+
+.ul-kvsat-custom {
+  padding-left: 20px;
 }
 
 .free-consultation .wrap-free-consultation-headline h2 {
