@@ -46,7 +46,7 @@
   }
 }
 
-.our-services{
+#our-services{
   background-color:$section-grey;
 
   .card-custom{
@@ -56,6 +56,10 @@
 
   .card-body-custom{
     padding:0.5rem;
+
+    .p-services{
+      margin-bottom: 16px;
+    }
   }
 
   .card-footer-custom{

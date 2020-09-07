@@ -1,0 +1,91 @@
+@import '../variable';
+
+header{
+  background-color: $kip-blue;
+  background: url('../../../images/our-services-image/banner-gilmore.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .wrap-banner{
+
+    .banner-headline{
+      width: 100%;
+      text-align: center;
+
+      h1{
+        color: white;
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+
+      p{
+        color: white;
+        margin:0;
+
+        @media (max-width: $custom-sm){
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.image-gilmore-page{
+  max-width: 100%;
+}
+
+.col-custom{
+  background-color: $kip-blue;
+  padding: 24px 0;
+
+  h3,p{
+    color: white;
+  }
+
+  .nomor-lapisan{
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.free-consultation{
+
+  .wrap-free-consultation-headline{
+
+    h2{
+      margin-top: 0;
+      margin-bottom: 16px;
+
+      @media(max-width: $custom-sm){
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+    }
+
+    p{
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  .wrap-free-consultation-image{
+
+    img{
+      height: 250px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        height: 150px;
+      }
+
+      @media(max-width: $custom-sm){
+        height: 100px;
+      }
+    }
+  }
+}
+
+.additional-footer{
+  background-color: $section-grey;
+}

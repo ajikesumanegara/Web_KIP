@@ -39,36 +39,39 @@
   margin-bottom: 16px;
 }
 
-.our-services {
+#our-services {
   background-color: #f8f8f8;
 }
-.our-services .card-custom {
+#our-services .card-custom {
   border: none;
   background-color: transparent;
 }
-.our-services .card-body-custom {
+#our-services .card-body-custom {
   padding: 0.5rem;
 }
-.our-services .card-footer-custom {
+#our-services .card-body-custom .p-services {
+  margin-bottom: 16px;
+}
+#our-services .card-footer-custom {
   border: none;
   background-color: transparent;
   padding: 0 0.5rem;
 }
-.our-services h3 {
+#our-services h3 {
   margin-top: 24px;
   margin-bottom: 8px;
 }
-.our-services .img-services-custom {
+#our-services .img-services-custom {
   width: 75px;
   margin: 0 0.5rem;
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .our-services .img-services-custom {
+  #our-services .img-services-custom {
     margin: 0 auto;
   }
 }
 @media (max-width: 576px) {
-  .our-services .img-services-custom {
+  #our-services .img-services-custom {
     margin: 0 auto;
   }
 }
