@@ -33,11 +33,34 @@ header{
 
 
 .spcs-vsat-paragraph, .ip-vsat-paragraph {
-  padding-left: 27px;
+  padding-left: 24px;
+
+  @media (min-width: $custom-lg){
+    padding-left: 27px;
+  }
+
+  @media (max-width: $custom-sm){
+    padding-left: 18px;
+  }
 }
 
 .keunggulan-spsc-vsat, .keunggulan-ip-vsat {
-  padding-left: 27px;
+  padding-left: 24px;
+
+  @media (min-width: $custom-lg){
+    padding-left: 27px;
+  }
+
+  @media (max-width: $custom-sm){
+    padding-left: 18px;
+  }
+
+  ol, ul {
+
+    @media (max-width: $custom-sm){
+      padding-left: 24px;
+    }
+  }
 }
 
 .kvsat-image-portrait{

@@ -25,11 +25,36 @@ header .wrap-banner .banner-headline p {
 }
 
 .spcs-vsat-paragraph, .ip-vsat-paragraph {
-  padding-left: 27px;
+  padding-left: 24px;
+}
+@media (min-width: 992px) {
+  .spcs-vsat-paragraph, .ip-vsat-paragraph {
+    padding-left: 27px;
+  }
+}
+@media (max-width: 576px) {
+  .spcs-vsat-paragraph, .ip-vsat-paragraph {
+    padding-left: 18px;
+  }
 }
 
 .keunggulan-spsc-vsat, .keunggulan-ip-vsat {
-  padding-left: 27px;
+  padding-left: 24px;
+}
+@media (min-width: 992px) {
+  .keunggulan-spsc-vsat, .keunggulan-ip-vsat {
+    padding-left: 27px;
+  }
+}
+@media (max-width: 576px) {
+  .keunggulan-spsc-vsat, .keunggulan-ip-vsat {
+    padding-left: 18px;
+  }
+}
+@media (max-width: 576px) {
+  .keunggulan-spsc-vsat ol, .keunggulan-spsc-vsat ul, .keunggulan-ip-vsat ol, .keunggulan-ip-vsat ul {
+    padding-left: 24px;
+  }
 }
 
 .kvsat-image-portrait {
