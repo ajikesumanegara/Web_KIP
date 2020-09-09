@@ -26,6 +26,7 @@ header .wrap-banner .banner-headline p {
 
 .spcs-vsat-paragraph, .ip-vsat-paragraph {
   padding-left: 24px;
+  padding-bottom: 24px;
 }
 @media (min-width: 992px) {
   .spcs-vsat-paragraph, .ip-vsat-paragraph {
