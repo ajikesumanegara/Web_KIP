@@ -1,7 +1,7 @@
 header {
   background-color: #1a73e8;
-  background: url("../../../images/our-services-image/zam-images/banner-zam.jpg") no-repeat;
-  background-size: auto;
+  background: url("../../../images/our-services-image/zam-images/GoogleHangoutsMeeting.jpg") no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 header .wrap-banner .banner-headline {
