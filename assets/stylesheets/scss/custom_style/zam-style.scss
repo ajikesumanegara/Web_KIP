@@ -2,8 +2,8 @@
 
 header{
   background-color: $kip-blue;
-  background: url('../../../images/our-services-image/gilmore-images/banner-gilmore.jpg') no-repeat center center;
-  background-size: cover;
+  background: url('../../../images/our-services-image/zam-images/banner-zam.jpg') no-repeat;
+  background-size: auto;
   background-attachment: fixed;
 
   .wrap-banner{
@@ -31,8 +31,34 @@ header{
 }
 
 .image-zam-brand{
-  max-width: 150px;
+  max-width: 125px;
   max-height: 75px;
+}
+
+.image-solusi-zam{
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.col-custom{
+  max-width: 100%;
+  position: relative;
+
+  .img-target-market-custom{
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .caption-custom{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 0 0 5px 5px;
+    padding: 8px 16px;
+    width: 255px;
+    text-align: center;
+  }
+
 }
 
 .free-consultation{
