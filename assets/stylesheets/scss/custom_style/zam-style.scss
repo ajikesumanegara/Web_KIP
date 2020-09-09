@@ -30,13 +30,25 @@ header{
   }
 }
 
-.image-zam-brand{
-  max-width: 125px;
-  max-height: 75px;
+.row-brand-logo-custom{
+
+  .image-zam-brand{
+    max-width: 125px;
+    max-height: 75px;
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      max-width: 100%;
+    }
+
+    @media (max-width: $custom-sm){
+      max-width: 75px;
+      max-height: 50px;
+    }
+  }
 }
 
 .image-solusi-zam{
-  max-width: 500px;
+  max-width: 100%;
   border-radius: 5px;
 }
 
@@ -57,6 +69,17 @@ header{
     padding: 8px 16px;
     width: 255px;
     text-align: center;
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      width: 150px;
+      font-size: 14px;
+      padding: 8px;
+    }
+
+    @media (max-width: $custom-sm){
+      width: 182.5px;
+      padding: 0;
+    }
   }
 
 }
