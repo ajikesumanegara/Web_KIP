@@ -46,6 +46,39 @@ header{
   }
 }
 
+.kip-flazbit-services{
+
+  .card-custom{
+    border:none;
+    max-width: 100%;
+    padding: 32px 0px 16px 0;
+  }
+
+  .card-header-custom{
+    max-width: 100%;
+
+    .img-services-custom{
+      width: 75px;
+      text-align: center;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        margin:0 auto;
+      }
+
+      @media(max-width: $custom-sm){
+        margin:0 auto;
+      }
+    }
+  }
+
+  .card-body-custom{
+
+    h3{
+      margin: 0;
+    }
+  }
+}
+
 .free-consultation{
 
   .wrap-free-consultation-headline{

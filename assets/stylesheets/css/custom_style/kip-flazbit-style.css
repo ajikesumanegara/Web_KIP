@@ -41,6 +41,32 @@ header .wrap-banner .banner-headline p {
   }
 }
 
+.kip-flazbit-services .card-custom {
+  border: none;
+  max-width: 100%;
+  padding: 32px 0px 16px 0;
+}
+.kip-flazbit-services .card-header-custom {
+  max-width: 100%;
+}
+.kip-flazbit-services .card-header-custom .img-services-custom {
+  width: 75px;
+  text-align: center;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-services .card-header-custom .img-services-custom {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .kip-flazbit-services .card-header-custom .img-services-custom {
+    margin: 0 auto;
+  }
+}
+.kip-flazbit-services .card-body-custom h3 {
+  margin: 0;
+}
+
 .free-consultation .wrap-free-consultation-headline h2 {
   margin-top: 0;
   margin-bottom: 16px;
