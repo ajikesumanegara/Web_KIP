@@ -61,10 +61,33 @@ header .wrap-banner .banner-headline p {
 @media (max-width: 576px) {
   .kip-flazbit-services .card-header-custom .img-services-custom {
     margin: 0 auto;
+    width: 65px;
   }
 }
 .kip-flazbit-services .card-body-custom h3 {
   margin: 0;
+}
+
+.kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+  max-width: 750px;
+}
+@media (max-width: 576px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+    max-width: 500px;
+  }
+}
+.kip-flazbit-partner .kip-flazbit-partner-logo-mobile {
+  max-width: 300px;
+}
+@media (min-width: 576px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-mobile {
+    display: none;
+  }
 }
 
 .free-consultation .wrap-free-consultation-headline h2 {
