@@ -67,17 +67,15 @@ header{
     background-color: rgba(0,0,0,0.7);
     border-radius: 0 0 5px 5px;
     padding: 8px 16px;
-    width: 255px;
+    width: calc(100% - 30px);
     text-align: center;
 
     @media (min-width: $custom-sm) and (max-width: $custom-lg){
-      width: 150px;
       font-size: 14px;
       padding: 8px;
     }
 
     @media (max-width: $custom-sm){
-      width: 182.5px;
       padding: 0;
     }
   }

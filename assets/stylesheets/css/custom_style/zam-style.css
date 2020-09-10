@@ -58,19 +58,17 @@ header .wrap-banner .banner-headline p {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0 0 5px 5px;
   padding: 8px 16px;
-  width: 255px;
+  width: calc(100% - 30px);
   text-align: center;
 }
 @media (min-width: 576px) and (max-width: 992px) {
   .col-custom .caption-custom {
-    width: 150px;
     font-size: 14px;
     padding: 8px;
   }
 }
 @media (max-width: 576px) {
   .col-custom .caption-custom {
-    width: 182.5px;
     padding: 0;
   }
 }
