@@ -1,0 +1,87 @@
+@import '../variable';
+
+header{
+  background-color: $kip-blue;
+  background: url('../../../images/our-services-image/kip-flazbit-images/banner-kip-flazbit.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  .wrap-banner{
+
+    .banner-headline{
+      width: 100%;
+      text-align: center;
+
+      h1{
+        color: white;
+        margin-top: 0;
+        margin-bottom: 8px;
+      }
+
+      p{
+        color: white;
+        margin:0;
+
+        @media (max-width: $custom-sm){
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.kip-flazbit-prolog-image-landscape{
+  max-width: 100%;
+
+  @media (min-width: $custom-sm){
+    display: none;
+  }
+}
+
+.kip-flazbit-prolog-image-portrait{
+  max-width: 100%;
+
+  @media (max-width: $custom-sm){
+    display: none;
+  }
+}
+
+.free-consultation{
+
+  .wrap-free-consultation-headline{
+
+    h2{
+      margin-top: 0;
+      margin-bottom: 16px;
+
+      @media(max-width: $custom-sm){
+        margin-top: 16px;
+        margin-bottom: 8px;
+      }
+    }
+
+    p{
+      margin-top: 0;
+      margin-bottom: 16px;
+    }
+  }
+
+  .wrap-free-consultation-image{
+
+    img{
+      height: 250px;
+
+      @media(min-width: $custom-sm) and (max-width: $custom-lg){
+        height: 150px;
+      }
+
+      @media(max-width: $custom-sm){
+        height: 100px;
+      }
+    }
+  }
+}
+
+.additional-footer{
+  background-color: $section-grey;
+}
