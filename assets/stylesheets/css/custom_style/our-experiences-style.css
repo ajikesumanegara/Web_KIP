@@ -78,13 +78,3 @@
     max-width: 175px;
   }
 }
-@media (max-width: 425px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 150px;
-  }
-}
-@media (max-width: 375px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 125px;
-  }
-}
