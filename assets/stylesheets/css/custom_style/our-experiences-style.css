@@ -77,7 +77,7 @@
 }
 @media (max-width: 576px) {
   .card-body .wrap-card-body .image-documentation {
-    height: 175px;
-    width: 175px;
+    height: 150px;
+    width: 150px;
   }
 }
