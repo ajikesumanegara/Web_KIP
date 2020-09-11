@@ -82,6 +82,18 @@ header{
 
 .kip-flazbit-partner{
 
+  .row-custom-kip-flazbit-partner{
+    padding-bottom: 80px;
+
+    @media (min-width: $custom-sm) and (max-width: $custom-lg){
+      padding-bottom: 56px;
+    }
+
+    @media (max-width: $custom-sm){
+      padding-bottom: 48px;
+    }
+  }
+
   .kip-flazbit-partner-logo-desktop{
 
     max-width: 750px;

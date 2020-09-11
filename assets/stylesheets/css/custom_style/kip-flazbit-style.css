@@ -68,6 +68,19 @@ header .wrap-banner .banner-headline p {
   margin: 0;
 }
 
+.kip-flazbit-partner .row-custom-kip-flazbit-partner {
+  padding-bottom: 80px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-partner .row-custom-kip-flazbit-partner {
+    padding-bottom: 56px;
+  }
+}
+@media (max-width: 576px) {
+  .kip-flazbit-partner .row-custom-kip-flazbit-partner {
+    padding-bottom: 48px;
+  }
+}
 .kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
   max-width: 750px;
 }
