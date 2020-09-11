@@ -84,6 +84,14 @@
           @media(max-width: $custom-sm){
             max-width: 175px;
           }
+
+          @media(max-width: 425px){
+            max-width: 150px
+          }
+
+          @media(max-width: 375px){
+            max-width: 125px;
+          }
         }
       }
     }
