@@ -2,7 +2,7 @@
 
 header{
   background-color: $kip-blue;
-  background: url('../../../images/our-services-image/banner-gilmore.jpg') no-repeat center center;
+  background: url('../../../images/our-services-image/gilmore-images/banner-gilmore.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 
@@ -30,25 +30,41 @@ header{
   }
 }
 
-.image-gilmore-page{
+.image-gilmore-page-portrait{
   max-width: 100%;
+
+  @media (max-width: $custom-sm){
+    display: none;
+  }
 }
 
-.col-custom{
-  background-color: $kip-blue;
+.image-gilmore-page-landscape{
+  max-width: 100%;
+
+  @media (min-width: $custom-sm){
+    display: none;
+  }
+}
+
+.row-custom{
   padding: 24px 0;
 
-  h3,p{
-    color: white;
-  }
+  h3,p{color: white;}
 
-  .nomor-lapisan{
-    border: 2px solid white;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
+  .lapisan-gilmore-icon{
+    max-width: 60px;
+
+    @media (max-width: $custom-sm){
+      max-width: 50px;
+    }
   }
 }
+
+.row-custom-1 {background-color: #023e8a;}
+.row-custom-2 {background-color: $kip-blue;}
+.row-custom-3 {background-color: #0077b6;}
+.row-custom-4 {background-color: #0096c7;}
+.row-custom-5 {background-color: #00b4d8;}
 
 .free-consultation{
 

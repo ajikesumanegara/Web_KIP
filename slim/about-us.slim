@@ -17,7 +17,7 @@ html
     header
       nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom
         a.navbar-brand.navbar-brand-custom href="index.html"
-          img.nav-logo src="assets/images/company-logo/logo-kip.png"
+          img.nav-logo src="assets/images/logo-kip.png"
         button.navbar-toggler aria-controls="navbarNavDropdown" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarNavDropdown" data-toggle="collapse" type="button"
           span.navbar-toggler-icon.navbar-dark
         #navbarNavDropdown.collapse.navbar-collapse.justify-content-end
@@ -27,7 +27,7 @@ html
                 | Home
                 span.sr-only (current)
             li.nav-item.active.text-center.mx-lg-2
-              a.nav-link.nav-link-custom href="about-us.html" About Us
+              a.nav-link.nav-link-custom href="#" About Us
             li.nav-item.dropdown.text-center.mx-lg-2
               a#navbarDropdownMenuLink.nav-link.nav-link-custom.dropdown-toggle aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" href="#"
                 | Our Services
@@ -59,17 +59,17 @@ html
             .col-12.col-sm.col-lg.order-sm-2.order-lg-1
               .wrap-visi-misi-image
                 .col
-                  img.visi-misi-image-portrait src="assets/images/visi-misi-image/visi-misi-image.jpg"
-                  img.visi-misi-image-landscape src="assets/images/visi-misi-image/visi-misi-image-landscape.jpg"
+                  img.visi-misi-image-portrait src="assets/images/about-us-images/visi-misi-image-portrait.jpg"
+                  img.visi-misi-image-landscape src="assets/images/about-us-images/visi-misi-image-landscape.jpg"
             .col-12.col-sm.col-lg.order-sm-1.order-lg-2
               .wrap-visi-misi-content
                 .col-12.col-sm.col-lg-auto
                   .wrap-visi
-                    h2.heading-visi Our Vision
+                    h2.heading-visi.text-center.text-sm-left Our Vision
                     p Perbaikan dalam aktivitas anda adalah sasaran dan tanggungjawab kami. Karena kami memang mendambakan kerjasama yang SALING MENGUNTUNGKAN sesuai dengan motto kami, &quot;Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi&quot;.
                 .col-12.col-sm.col-lg-auto
                   .wrap-misi
-                    h2.heading-misi Our Mission
+                    h2.heading-misi.text-center.text-sm-left Our Mission
                     ul.list-misi
                       li Memberikan solusi kebutuhan customer yang berorientasi memasarkan produknya lebih luas dengan teknologi informasi.
                       li Menjalin kerja saling menguntungkan dengan rekanan bisnis dengan perusahaan lokal maupun asing.
@@ -82,27 +82,27 @@ html
           .wrap-headline-keunggulan
             .col
               h2 Kepuasan Anda Prioritas Kami
-              p Komitmen kami untuk mendukung mobilitas dan konektivitas tanpa batas yang kami yakini akan meningkatkan kepercayaan pelanggan ritel maupun korporasi terhadap kualitas, kecepatan, dan kehandalan layanan serta produk/ saran yang kami tawarkan.
+              p.mb-5.mb-sm-0 Komitmen kami untuk mendukung mobilitas dan konektivitas tanpa batas yang kami yakini akan meningkatkan kepercayaan pelanggan ritel maupun korporasi terhadap kualitas, kecepatan, dan kehandalan layanan serta produk/ saran yang kami tawarkan.
           .wrap-semua-keunggulan
             .col
               .row.text-center
                 .col-12.col-sm-4.col-lg-4
-                  img.icon-keunggulan src="assets/images/color-filled-icon/provide-solution.png"
+                  img.icon-keunggulan src="assets/images/about-us-images/solusi-icon.png"
                   h3 Rekomendasi Solusi
-                  p Kami merekomendasikan solusi yang paling tepat, efektif dan efisien berdasarkan dengan kebutuhan dan tujuan pelanggan.
+                  p.mb-5.mb-sm-0 Kami merekomendasikan solusi yang paling tepat, efektif dan efisien berdasarkan dengan kebutuhan dan tujuan pelanggan.
                 .col-12.col-sm-4.col-lg-4
-                  img.icon-keunggulan src="assets/images/color-filled-icon/excellent-service.png"
+                  img.icon-keunggulan src="assets/images/about-us-images/pengalaman-icon.png"
                   h3 Pengalaman di Bidang IT
-                  p Pengalaman kami meliputi penyelesaian beberapa pekerjaan dalam membangun infrastruktur jaringan data, application system, dan memberi solusi total terpadu untuk kebutuhan pelanggan meliputi network, application, hardware.
+                  p.mb-5.mb-sm-0 Pengalaman kami meliputi penyelesaian beberapa pekerjaan dalam membangun infrastruktur jaringan data, application system, dan memberi solusi total terpadu untuk kebutuhan pelanggan meliputi network, application, hardware.
                 .col-12.col-sm-4.col-lg-4
-                  img.icon-keunggulan src="assets/images/color-filled-icon/full-support.png"
+                  img.icon-keunggulan src="assets/images/about-us-images/full-support-icon.png"
                   h3 Hasil Terpercaya
                   p Konsistensi kami dalam berinovasi memposisikan Perusahaan sebagai salah satu perusahaan yang berdaya saing tinggi dan handal dan terpercaya.
     section.newsletter
       .wrap-section
         .container
           .wrap-newsletter
-            img.newsletter-image src="assets/images/color-filled-icon/newsletter-icon.png"
+            img.newsletter-image src="assets/images/about-us-images/newsletter-icon.png"
             h2 Berlangganan Sekarang!
             p Dapatkan informasi terbaru dan penawaran menarik dengan berlangganan newsletter sekarang.
             .wrap-subscribe-submit
@@ -128,7 +128,8 @@ html
                   .row.justify-content-between
                     .col-12.col-sm-12.col-lg-3.mb-5.mb-sm-5.mb-lg-0
                       .wrap-footer-profile
-                        img.footer-logo src="assets/images/company-logo/logo-kip.png"
+                        a href="index.html"
+                          img.footer-logo src="assets/images/logo-kip.png"
                         p.footer-profile-paragraph Perusahan Terbaik dan Handal di Bidang Layanan Teknologi Informasi.
                     .col-auto.col-sm-auto.col-lg-auto.mb-4.mb-sm-0
                       .wrap-footer-quick-links
@@ -137,7 +138,7 @@ html
                           li
                             a href="about-us.html" About Us
                           li
-                            a href="#" Our Services
+                            a href="#our-services" Our Services
                           li
                             a href="our-experiences.html" Our Experiences
                           li
@@ -149,13 +150,13 @@ html
                         h4 Contact Us
                         ul.contact-us-item
                           li
-                            img.contact-us-item-icon src="assets/images/icon/icon-location.png"
+                            img.contact-us-item-icon src="assets/images/footer-icon/location-icon.png"
                             | Jl. Pasang No.22, Bandung
                           li
-                            img.contact-us-item-icon src="assets/images/icon/icon-phone.png"
+                            img.contact-us-item-icon src="assets/images/footer-icon/phone-icon.png"
                             | (+62) 821-1916-0103
                           li
-                            img.contact-us-item-icon src="assets/images/icon/icon-email.png"
+                            img.contact-us-item-icon src="assets/images/footer-icon/email-icon.png"
                             | admin@ptkip.co.id
                     .col-12.col-sm-4.col-lg-3
                         .wrap-footer-social-media
@@ -164,13 +165,13 @@ html
                           .row.justify-content-start
                             .col-auto
                               a href="https://instagram.com/helloptkip"
-                                img.social-media-icon src="assets/images/social-media-icon/instagram.png"
-                            .col-auto
-                              a
-                                img.social-media-icon src="assets/images/social-media-icon/facebook.png"
-                            .col-auto
-                              a
-                                img.social-media-icon src="assets/images/social-media-icon/linkedin.png"
+                                img.social-media-icon src="assets/images/footer-icon/instagram-logo.png"
+                            / .col-auto
+                            /   a
+                            /     img.social-media-icon src="assets/images/social-media-icon/facebook.png"
+                            / .col-auto
+                            /   a
+                            /     img.social-media-icon src="assets/images/social-media-icon/linkedin.png"
           .copyright
             .container-fluid
               .wrap-copyright

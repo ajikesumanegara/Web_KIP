@@ -2,7 +2,7 @@
 
 header{
   background-color: $kip-blue;
-  background: url('../../../images/our-services-image/banner-kvsat.jpg') no-repeat center center;
+  background: url('../../../images/our-services-image/kvsat-images/banner-kvsat.jpg') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
 
@@ -34,6 +34,7 @@ header{
 
 .spcs-vsat-paragraph, .ip-vsat-paragraph {
   padding-left: 24px;
+  padding-bottom: 24px;
 
   @media (min-width: $custom-lg){
     padding-left: 27px;

@@ -1,0 +1,136 @@
+header {
+  background-color: #1a73e8;
+  background: url("../../../images/our-services-image/kip-flazbit-images/banner-kip-flazbit.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .wrap-banner .banner-headline {
+  width: 100%;
+  text-align: center;
+}
+header .wrap-banner .banner-headline h1 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+header .wrap-banner .banner-headline p {
+  color: white;
+  margin: 0;
+}
+@media (max-width: 576px) {
+  header .wrap-banner .banner-headline p {
+    font-size: 14px;
+  }
+}
+
+.kip-flazbit-prolog-image-landscape {
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .kip-flazbit-prolog-image-landscape {
+    display: none;
+  }
+}
+
+.kip-flazbit-prolog-image-portrait {
+  max-width: 100%;
+}
+@media (max-width: 576px) {
+  .kip-flazbit-prolog-image-portrait {
+    display: none;
+  }
+}
+
+.kip-flazbit-services .card-custom {
+  border: none;
+  max-width: 100%;
+  padding: 32px 0px 16px 0;
+}
+.kip-flazbit-services .card-header-custom {
+  max-width: 100%;
+}
+.kip-flazbit-services .card-header-custom .img-services-custom {
+  width: 75px;
+  text-align: center;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-services .card-header-custom .img-services-custom {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 576px) {
+  .kip-flazbit-services .card-header-custom .img-services-custom {
+    margin: 0 auto;
+    width: 65px;
+  }
+}
+.kip-flazbit-services .card-body-custom h3 {
+  margin: 0;
+}
+
+.kip-flazbit-partner .row-custom-kip-flazbit-partner {
+  padding-bottom: 80px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-partner .row-custom-kip-flazbit-partner {
+    padding-bottom: 56px;
+  }
+}
+@media (max-width: 576px) {
+  .kip-flazbit-partner .row-custom-kip-flazbit-partner {
+    padding-bottom: 48px;
+  }
+}
+.kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+  max-width: 750px;
+}
+@media (max-width: 576px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-desktop {
+    max-width: 500px;
+  }
+}
+.kip-flazbit-partner .kip-flazbit-partner-logo-mobile {
+  max-width: 300px;
+}
+@media (min-width: 576px) {
+  .kip-flazbit-partner .kip-flazbit-partner-logo-mobile {
+    display: none;
+  }
+}
+
+.free-consultation .wrap-free-consultation-headline h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+@media (max-width: 576px) {
+  .free-consultation .wrap-free-consultation-headline h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+}
+.free-consultation .wrap-free-consultation-headline p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.free-consultation .wrap-free-consultation-image img {
+  height: 250px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .free-consultation .wrap-free-consultation-image img {
+    height: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .free-consultation .wrap-free-consultation-image img {
+    height: 100px;
+  }
+}
+
+.additional-footer {
+  background-color: #f8f8f8;
+}

@@ -1,0 +1,106 @@
+header {
+  background-color: #1a73e8;
+  background: url("../../../images/our-services-image/zam-images/GoogleHangoutsMeeting.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+header .wrap-banner .banner-headline {
+  width: 100%;
+  text-align: center;
+}
+header .wrap-banner .banner-headline h1 {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+header .wrap-banner .banner-headline p {
+  color: white;
+  margin: 0;
+}
+@media (max-width: 576px) {
+  header .wrap-banner .banner-headline p {
+    font-size: 14px;
+  }
+}
+
+.row-brand-logo-custom .image-zam-brand {
+  max-width: 125px;
+  max-height: 75px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .row-brand-logo-custom .image-zam-brand {
+    max-width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .row-brand-logo-custom .image-zam-brand {
+    max-width: 75px;
+    max-height: 50px;
+  }
+}
+
+.image-solusi-zam {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.col-custom {
+  max-width: 100%;
+  position: relative;
+}
+.col-custom .img-target-market-custom {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.col-custom .caption-custom {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 0 0 5px 5px;
+  padding: 8px 16px;
+  width: calc(100% - 30px);
+  text-align: center;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .col-custom .caption-custom {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+@media (max-width: 576px) {
+  .col-custom .caption-custom {
+    padding: 0;
+  }
+}
+
+.free-consultation .wrap-free-consultation-headline h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+@media (max-width: 576px) {
+  .free-consultation .wrap-free-consultation-headline h2 {
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+}
+.free-consultation .wrap-free-consultation-headline p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+.free-consultation .wrap-free-consultation-image img {
+  height: 250px;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .free-consultation .wrap-free-consultation-image img {
+    height: 150px;
+  }
+}
+@media (max-width: 576px) {
+  .free-consultation .wrap-free-consultation-image img {
+    height: 100px;
+  }
+}
+
+.additional-footer {
+  background-color: #f8f8f8;
+}
