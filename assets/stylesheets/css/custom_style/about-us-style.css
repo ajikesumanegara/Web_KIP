@@ -49,20 +49,20 @@
     margin-bottom: 8px;
   }
 }
-.wrap-visi-misi-content ul {
+.wrap-visi-misi-content ol {
   padding-left: 16px;
 }
-.wrap-visi-misi-content ul li {
+.wrap-visi-misi-content ol li {
   line-height: 24px;
   margin-bottom: 16px;
 }
 @media (min-width: 576px) and (max-width: 992px) {
-  .wrap-visi-misi-content ul li {
+  .wrap-visi-misi-content ol li {
     margin-bottom: 8px;
   }
 }
 @media (max-width: 576px) {
-  .wrap-visi-misi-content ul li {
+  .wrap-visi-misi-content ol li {
     margin-bottom: 4px;
   }
 }
