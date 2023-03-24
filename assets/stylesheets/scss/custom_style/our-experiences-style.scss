@@ -32,11 +32,22 @@
 
     .wrap-card-header{
 
-      .logo-instansi{
-        height: 65px;
+      .logo-box {
+        width: 64px;
+        height: 64px;
+        background-color: #f9f9f9;
 
         @media(max-width: $custom-sm){
-          height: 50px;
+          width: 48px;
+          height: 48px;
+        }
+      }
+
+      .logo-instansi{
+        width: 48px;
+
+        @media(max-width: $custom-sm){
+          width: 32px;
         }
       }
 
@@ -72,26 +83,6 @@
 
         @media(max-width: $custom-sm){
           margin-bottom: 8px;
-        }
-
-        .image-documentation{
-          max-width: 225px;
-
-          @media(min-width: $custom-sm) and (max-width: $custom-lg){
-            max-width: 150px;
-          }
-
-          @media(max-width: $custom-sm){
-            max-width: 175px;
-          }
-
-          @media(max-width: 425px){
-            max-width: 150px
-          }
-
-          @media(max-width: 375px){
-            max-width: 125px;
-          }
         }
       }
     }

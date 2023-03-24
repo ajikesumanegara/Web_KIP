@@ -23,12 +23,23 @@
 .card-experience .card-header {
   background-color: #fff;
 }
+.card-experience .wrap-card-header .logo-box {
+  width: 64px;
+  height: 64px;
+  background-color: #f9f9f9;
+}
+@media (max-width: 576px) {
+  .card-experience .wrap-card-header .logo-box {
+    width: 64px;
+    height: 64px;
+  }
+}
 .card-experience .wrap-card-header .logo-instansi {
-  height: 65px;
+  width: 48px;
 }
 @media (max-width: 576px) {
   .card-experience .wrap-card-header .logo-instansi {
-    height: 50px;
+    width: 32px;
   }
 }
 .card-experience .wrap-card-header h3 {
@@ -63,28 +74,5 @@
 @media (max-width: 576px) {
   .card-body .wrap-card-body {
     margin-bottom: 8px;
-  }
-}
-.card-body .wrap-card-body .image-documentation {
-  max-width: 225px;
-}
-@media (min-width: 576px) and (max-width: 992px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 150px;
-  }
-}
-@media (max-width: 576px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 175px;
-  }
-}
-@media (max-width: 425px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 150px;
-  }
-}
-@media (max-width: 375px) {
-  .card-body .wrap-card-body .image-documentation {
-    max-width: 125px;
   }
 }
